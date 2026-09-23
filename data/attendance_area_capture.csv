@@ -1,0 +1,14 @@
+school,area_counts,enroll_total,enroll_neighb,current_enrollment,current_twi,current_neighborhood,capture_total_pct,capture_neighborhood_pct
+Foster,502,452,255,361,200,161,72.0,32.0
+Washington,447,441,230,387,195,192,87.0,43.0
+Dewey,442,372,260,315,102,213,71.0,48.0
+Dawes,354,337,186,288,114,174,81.0,49.0
+Oakton,466,403,243,367,75,292,79.0,63.0
+Lincoln,476,328,328,350,0,350,74.0,74.0
+Walker,426,304,304,317,0,317,74.0,74.0
+Nichols (MS),710,656,648,582,0,582,82.0,82.0
+Haven (MS),704,664,652,604,0,604,86.0,86.0
+Willard,303,261,261,273,0,273,90.0,90.0
+Chute (MS),638,551,551,591,0,591,93.0,93.0
+Orrington,259,226,226,251,0,251,97.0,97.0
+Lincolnwood,297,280,280,331,0,331,111.0,111.0

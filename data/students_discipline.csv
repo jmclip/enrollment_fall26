@@ -1,0 +1,309 @@
+school,chart_id,chart_title,series,category,value
+District,students-count-discipline,summary counts,,Incidents,968.0
+District,students-count-discipline,summary counts,,Students,416.0
+District,students-count-discipline,summary counts,,Minor Incidents,768.0
+District,students-count-discipline,summary counts,,Major Incidents,200.0
+District,school,Incidents by School,,Chute Middle School,211.0
+District,school,Incidents by School,,Dawes Elementary School,62.0
+District,school,Incidents by School,,Dewey Elementary School,20.0
+District,school,Incidents by School,,Dr Martin Luther King Jr Literary & Fine Arts School,89.0
+District,school,Incidents by School,,Foster School,26.0
+District,school,Incidents by School,,Haven Middle School,156.0
+District,school,Incidents by School,,Lincoln Elementary School,165.0
+District,school,Incidents by School,,Lincolnwood Elementary School,5.0
+District,school,Incidents by School,,Nichols Middle School,47.0
+District,school,Incidents by School,,Oakton Elementary School,46.0
+District,school,Incidents by School,,Orrington Elementary School,8.0
+District,school,Incidents by School,,Walker Elementary School,17.0
+District,school,Incidents by School,,Washington Elementary School,47.0
+District,school,Incidents by School,,Willard Elementary School,69.0
+District,lvl,Incident Types,,LVL1,507.0
+District,lvl,Incident Types,,LVL2,261.0
+District,lvl,Incident Types,,LVL3,197.0
+District,lvl,Incident Types,,LVL4,3.0
+District,months,Incidents by Month,,August,148.0
+District,months,Incidents by Month,,September,820.0
+District,race,Incidents by Race/Ethnicity,,American Indian or Alaska Native,6.0
+District,race,Incidents by Race/Ethnicity,,Asian,20.0
+District,race,Incidents by Race/Ethnicity,,Black or African American,462.0
+District,race,Incidents by Race/Ethnicity,,Hispanic or Latino,165.0
+District,race,Incidents by Race/Ethnicity,,Middle Eastern or North African,1.0
+District,race,Incidents by Race/Ethnicity,,Multi-racial,88.0
+District,race,Incidents by Race/Ethnicity,,White,226.0
+District,grade,Incidents by Grade,,0,192.0
+District,grade,Incidents by Grade,,1,123.0
+District,grade,Incidents by Grade,,2,54.0
+District,grade,Incidents by Grade,,3,47.0
+District,grade,Incidents by Grade,,4,41.0
+District,grade,Incidents by Grade,,5,51.0
+District,grade,Incidents by Grade,,6,153.0
+District,grade,Incidents by Grade,,7,141.0
+District,grade,Incidents by Grade,,8,166.0
+Chute Middle School,students-count-discipline,summary counts,,Incidents,211.0
+Chute Middle School,students-count-discipline,summary counts,,Students,95.0
+Chute Middle School,students-count-discipline,summary counts,,Minor Incidents,185.0
+Chute Middle School,students-count-discipline,summary counts,,Major Incidents,26.0
+Chute Middle School,school,Incidents by School,,Chute Middle School,211.0
+Chute Middle School,lvl,Incident Types,,LVL1,134.0
+Chute Middle School,lvl,Incident Types,,LVL2,51.0
+Chute Middle School,lvl,Incident Types,,LVL3,26.0
+Chute Middle School,months,Incidents by Month,,August,40.0
+Chute Middle School,months,Incidents by Month,,September,171.0
+Chute Middle School,race,Incidents by Race/Ethnicity,,American Indian or Alaska Native,2.0
+Chute Middle School,race,Incidents by Race/Ethnicity,,Asian,6.0
+Chute Middle School,race,Incidents by Race/Ethnicity,,Black or African American,128.0
+Chute Middle School,race,Incidents by Race/Ethnicity,,Hispanic or Latino,51.0
+Chute Middle School,race,Incidents by Race/Ethnicity,,Middle Eastern or North African,1.0
+Chute Middle School,race,Incidents by Race/Ethnicity,,White,23.0
+Chute Middle School,grade,Incidents by Grade,,6,58.0
+Chute Middle School,grade,Incidents by Grade,,7,50.0
+Chute Middle School,grade,Incidents by Grade,,8,103.0
+Dawes Elementary School,students-count-discipline,summary counts,,Incidents,62.0
+Dawes Elementary School,students-count-discipline,summary counts,,Students,25.0
+Dawes Elementary School,students-count-discipline,summary counts,,Minor Incidents,38.0
+Dawes Elementary School,students-count-discipline,summary counts,,Major Incidents,24.0
+Dawes Elementary School,school,Incidents by School,,Dawes Elementary School,62.0
+Dawes Elementary School,lvl,Incident Types,,LVL1,30.0
+Dawes Elementary School,lvl,Incident Types,,LVL2,8.0
+Dawes Elementary School,lvl,Incident Types,,LVL3,24.0
+Dawes Elementary School,months,Incidents by Month,,August,2.0
+Dawes Elementary School,months,Incidents by Month,,September,60.0
+Dawes Elementary School,race,Incidents by Race/Ethnicity,,Asian,1.0
+Dawes Elementary School,race,Incidents by Race/Ethnicity,,Black or African American,42.0
+Dawes Elementary School,race,Incidents by Race/Ethnicity,,Hispanic or Latino,4.0
+Dawes Elementary School,race,Incidents by Race/Ethnicity,,Multi-racial,4.0
+Dawes Elementary School,race,Incidents by Race/Ethnicity,,White,11.0
+Dawes Elementary School,grade,Incidents by Grade,,0,34.0
+Dawes Elementary School,grade,Incidents by Grade,,1,2.0
+Dawes Elementary School,grade,Incidents by Grade,,2,3.0
+Dawes Elementary School,grade,Incidents by Grade,,3,10.0
+Dawes Elementary School,grade,Incidents by Grade,,4,12.0
+Dawes Elementary School,grade,Incidents by Grade,,5,1.0
+Dewey Elementary School,students-count-discipline,summary counts,,Incidents,20.0
+Dewey Elementary School,students-count-discipline,summary counts,,Students,8.0
+Dewey Elementary School,students-count-discipline,summary counts,,Minor Incidents,8.0
+Dewey Elementary School,students-count-discipline,summary counts,,Major Incidents,12.0
+Dewey Elementary School,school,Incidents by School,,Dewey Elementary School,20.0
+Dewey Elementary School,lvl,Incident Types,,LVL1,5.0
+Dewey Elementary School,lvl,Incident Types,,LVL2,3.0
+Dewey Elementary School,lvl,Incident Types,,LVL3,12.0
+Dewey Elementary School,months,Incidents by Month,,August,5.0
+Dewey Elementary School,months,Incidents by Month,,September,15.0
+Dewey Elementary School,race,Incidents by Race/Ethnicity,,American Indian or Alaska Native,4.0
+Dewey Elementary School,race,Incidents by Race/Ethnicity,,Black or African American,10.0
+Dewey Elementary School,race,Incidents by Race/Ethnicity,,Hispanic or Latino,2.0
+Dewey Elementary School,race,Incidents by Race/Ethnicity,,White,4.0
+Dewey Elementary School,grade,Incidents by Grade,,0,9.0
+Dewey Elementary School,grade,Incidents by Grade,,1,1.0
+Dewey Elementary School,grade,Incidents by Grade,,2,3.0
+Dewey Elementary School,grade,Incidents by Grade,,3,3.0
+Dewey Elementary School,grade,Incidents by Grade,,4,4.0
+Dr Martin Luther King Jr Literary & Fine Arts School,students-count-discipline,summary counts,,Incidents,89.0
+Dr Martin Luther King Jr Literary & Fine Arts School,students-count-discipline,summary counts,,Students,49.0
+Dr Martin Luther King Jr Literary & Fine Arts School,students-count-discipline,summary counts,,Minor Incidents,77.0
+Dr Martin Luther King Jr Literary & Fine Arts School,students-count-discipline,summary counts,,Major Incidents,12.0
+Dr Martin Luther King Jr Literary & Fine Arts School,school,Incidents by School,,Dr Martin Luther King Jr Literary & Fine Arts School,89.0
+Dr Martin Luther King Jr Literary & Fine Arts School,lvl,Incident Types,,LVL1,46.0
+Dr Martin Luther King Jr Literary & Fine Arts School,lvl,Incident Types,,LVL2,31.0
+Dr Martin Luther King Jr Literary & Fine Arts School,lvl,Incident Types,,LVL3,12.0
+Dr Martin Luther King Jr Literary & Fine Arts School,months,Incidents by Month,,August,11.0
+Dr Martin Luther King Jr Literary & Fine Arts School,months,Incidents by Month,,September,78.0
+Dr Martin Luther King Jr Literary & Fine Arts School,race,Incidents by Race/Ethnicity,,Asian,2.0
+Dr Martin Luther King Jr Literary & Fine Arts School,race,Incidents by Race/Ethnicity,,Black or African American,58.0
+Dr Martin Luther King Jr Literary & Fine Arts School,race,Incidents by Race/Ethnicity,,Hispanic or Latino,9.0
+Dr Martin Luther King Jr Literary & Fine Arts School,race,Incidents by Race/Ethnicity,,Multi-racial,6.0
+Dr Martin Luther King Jr Literary & Fine Arts School,race,Incidents by Race/Ethnicity,,White,14.0
+Dr Martin Luther King Jr Literary & Fine Arts School,grade,Incidents by Grade,,0,9.0
+Dr Martin Luther King Jr Literary & Fine Arts School,grade,Incidents by Grade,,1,4.0
+Dr Martin Luther King Jr Literary & Fine Arts School,grade,Incidents by Grade,,2,21.0
+Dr Martin Luther King Jr Literary & Fine Arts School,grade,Incidents by Grade,,3,1.0
+Dr Martin Luther King Jr Literary & Fine Arts School,grade,Incidents by Grade,,4,5.0
+Dr Martin Luther King Jr Literary & Fine Arts School,grade,Incidents by Grade,,5,3.0
+Dr Martin Luther King Jr Literary & Fine Arts School,grade,Incidents by Grade,,6,14.0
+Dr Martin Luther King Jr Literary & Fine Arts School,grade,Incidents by Grade,,7,16.0
+Dr Martin Luther King Jr Literary & Fine Arts School,grade,Incidents by Grade,,8,16.0
+Foster School,students-count-discipline,summary counts,,Incidents,26.0
+Foster School,students-count-discipline,summary counts,,Students,19.0
+Foster School,students-count-discipline,summary counts,,Minor Incidents,14.0
+Foster School,students-count-discipline,summary counts,,Major Incidents,12.0
+Foster School,school,Incidents by School,,Foster School,26.0
+Foster School,lvl,Incident Types,,LVL1,11.0
+Foster School,lvl,Incident Types,,LVL2,3.0
+Foster School,lvl,Incident Types,,LVL3,12.0
+Foster School,months,Incidents by Month,,August,2.0
+Foster School,months,Incidents by Month,,September,24.0
+Foster School,race,Incidents by Race/Ethnicity,,Black or African American,20.0
+Foster School,race,Incidents by Race/Ethnicity,,Hispanic or Latino,3.0
+Foster School,race,Incidents by Race/Ethnicity,,Multi-racial,2.0
+Foster School,race,Incidents by Race/Ethnicity,,White,1.0
+Foster School,grade,Incidents by Grade,,0,2.0
+Foster School,grade,Incidents by Grade,,3,8.0
+Foster School,grade,Incidents by Grade,,4,4.0
+Foster School,grade,Incidents by Grade,,5,12.0
+Haven Middle School,students-count-discipline,summary counts,,Incidents,156.0
+Haven Middle School,students-count-discipline,summary counts,,Students,73.0
+Haven Middle School,students-count-discipline,summary counts,,Minor Incidents,143.0
+Haven Middle School,students-count-discipline,summary counts,,Major Incidents,13.0
+Haven Middle School,school,Incidents by School,,Haven Middle School,156.0
+Haven Middle School,lvl,Incident Types,,LVL1,99.0
+Haven Middle School,lvl,Incident Types,,LVL2,44.0
+Haven Middle School,lvl,Incident Types,,LVL3,13.0
+Haven Middle School,months,Incidents by Month,,August,35.0
+Haven Middle School,months,Incidents by Month,,September,121.0
+Haven Middle School,race,Incidents by Race/Ethnicity,,Asian,1.0
+Haven Middle School,race,Incidents by Race/Ethnicity,,Black or African American,73.0
+Haven Middle School,race,Incidents by Race/Ethnicity,,Hispanic or Latino,11.0
+Haven Middle School,race,Incidents by Race/Ethnicity,,Multi-racial,31.0
+Haven Middle School,race,Incidents by Race/Ethnicity,,White,40.0
+Haven Middle School,grade,Incidents by Grade,,6,54.0
+Haven Middle School,grade,Incidents by Grade,,7,60.0
+Haven Middle School,grade,Incidents by Grade,,8,42.0
+Lincoln Elementary School,students-count-discipline,summary counts,,Incidents,165.0
+Lincoln Elementary School,students-count-discipline,summary counts,,Students,35.0
+Lincoln Elementary School,students-count-discipline,summary counts,,Minor Incidents,109.0
+Lincoln Elementary School,students-count-discipline,summary counts,,Major Incidents,56.0
+Lincoln Elementary School,school,Incidents by School,,Lincoln Elementary School,165.0
+Lincoln Elementary School,lvl,Incident Types,,LVL1,49.0
+Lincoln Elementary School,lvl,Incident Types,,LVL2,60.0
+Lincoln Elementary School,lvl,Incident Types,,LVL3,55.0
+Lincoln Elementary School,lvl,Incident Types,,LVL4,1.0
+Lincoln Elementary School,months,Incidents by Month,,August,31.0
+Lincoln Elementary School,months,Incidents by Month,,September,134.0
+Lincoln Elementary School,race,Incidents by Race/Ethnicity,,Black or African American,65.0
+Lincoln Elementary School,race,Incidents by Race/Ethnicity,,Hispanic or Latino,62.0
+Lincoln Elementary School,race,Incidents by Race/Ethnicity,,Multi-racial,7.0
+Lincoln Elementary School,race,Incidents by Race/Ethnicity,,White,31.0
+Lincoln Elementary School,grade,Incidents by Grade,,0,77.0
+Lincoln Elementary School,grade,Incidents by Grade,,1,44.0
+Lincoln Elementary School,grade,Incidents by Grade,,2,8.0
+Lincoln Elementary School,grade,Incidents by Grade,,3,9.0
+Lincoln Elementary School,grade,Incidents by Grade,,4,8.0
+Lincoln Elementary School,grade,Incidents by Grade,,5,19.0
+Lincolnwood Elementary School,students-count-discipline,summary counts,,Incidents,5.0
+Lincolnwood Elementary School,students-count-discipline,summary counts,,Students,4.0
+Lincolnwood Elementary School,students-count-discipline,summary counts,,Minor Incidents,0.0
+Lincolnwood Elementary School,students-count-discipline,summary counts,,Major Incidents,5.0
+Lincolnwood Elementary School,school,Incidents by School,,Lincolnwood Elementary School,5.0
+Lincolnwood Elementary School,lvl,Incident Types,,LVL3,5.0
+Lincolnwood Elementary School,months,Incidents by Month,,August,2.0
+Lincolnwood Elementary School,months,Incidents by Month,,September,3.0
+Lincolnwood Elementary School,race,Incidents by Race/Ethnicity,,Asian,1.0
+Lincolnwood Elementary School,race,Incidents by Race/Ethnicity,,Black or African American,3.0
+Lincolnwood Elementary School,race,Incidents by Race/Ethnicity,,Multi-racial,1.0
+Lincolnwood Elementary School,grade,Incidents by Grade,,0,4.0
+Lincolnwood Elementary School,grade,Incidents by Grade,,5,1.0
+Nichols Middle School,students-count-discipline,summary counts,,Incidents,47.0
+Nichols Middle School,students-count-discipline,summary counts,,Students,30.0
+Nichols Middle School,students-count-discipline,summary counts,,Minor Incidents,34.0
+Nichols Middle School,students-count-discipline,summary counts,,Major Incidents,13.0
+Nichols Middle School,school,Incidents by School,,Nichols Middle School,47.0
+Nichols Middle School,lvl,Incident Types,,LVL1,20.0
+Nichols Middle School,lvl,Incident Types,,LVL2,14.0
+Nichols Middle School,lvl,Incident Types,,LVL3,12.0
+Nichols Middle School,lvl,Incident Types,,LVL4,1.0
+Nichols Middle School,months,Incidents by Month,,August,2.0
+Nichols Middle School,months,Incidents by Month,,September,45.0
+Nichols Middle School,race,Incidents by Race/Ethnicity,,Asian,3.0
+Nichols Middle School,race,Incidents by Race/Ethnicity,,Black or African American,9.0
+Nichols Middle School,race,Incidents by Race/Ethnicity,,Hispanic or Latino,5.0
+Nichols Middle School,race,Incidents by Race/Ethnicity,,Multi-racial,4.0
+Nichols Middle School,race,Incidents by Race/Ethnicity,,White,26.0
+Nichols Middle School,grade,Incidents by Grade,,6,27.0
+Nichols Middle School,grade,Incidents by Grade,,7,15.0
+Nichols Middle School,grade,Incidents by Grade,,8,5.0
+Oakton Elementary School,students-count-discipline,summary counts,,Incidents,46.0
+Oakton Elementary School,students-count-discipline,summary counts,,Students,25.0
+Oakton Elementary School,students-count-discipline,summary counts,,Minor Incidents,39.0
+Oakton Elementary School,students-count-discipline,summary counts,,Major Incidents,7.0
+Oakton Elementary School,school,Incidents by School,,Oakton Elementary School,46.0
+Oakton Elementary School,lvl,Incident Types,,LVL1,23.0
+Oakton Elementary School,lvl,Incident Types,,LVL2,16.0
+Oakton Elementary School,lvl,Incident Types,,LVL3,7.0
+Oakton Elementary School,months,Incidents by Month,,August,5.0
+Oakton Elementary School,months,Incidents by Month,,September,41.0
+Oakton Elementary School,race,Incidents by Race/Ethnicity,,Black or African American,19.0
+Oakton Elementary School,race,Incidents by Race/Ethnicity,,Hispanic or Latino,2.0
+Oakton Elementary School,race,Incidents by Race/Ethnicity,,Multi-racial,9.0
+Oakton Elementary School,race,Incidents by Race/Ethnicity,,White,16.0
+Oakton Elementary School,grade,Incidents by Grade,,0,13.0
+Oakton Elementary School,grade,Incidents by Grade,,1,16.0
+Oakton Elementary School,grade,Incidents by Grade,,2,8.0
+Oakton Elementary School,grade,Incidents by Grade,,3,5.0
+Oakton Elementary School,grade,Incidents by Grade,,4,2.0
+Oakton Elementary School,grade,Incidents by Grade,,5,2.0
+Orrington Elementary School,students-count-discipline,summary counts,,Incidents,8.0
+Orrington Elementary School,students-count-discipline,summary counts,,Students,7.0
+Orrington Elementary School,students-count-discipline,summary counts,,Minor Incidents,7.0
+Orrington Elementary School,students-count-discipline,summary counts,,Major Incidents,1.0
+Orrington Elementary School,school,Incidents by School,,Orrington Elementary School,8.0
+Orrington Elementary School,lvl,Incident Types,,LVL1,5.0
+Orrington Elementary School,lvl,Incident Types,,LVL2,2.0
+Orrington Elementary School,lvl,Incident Types,,LVL3,1.0
+Orrington Elementary School,months,Incidents by Month,,September,8.0
+Orrington Elementary School,race,Incidents by Race/Ethnicity,,Black or African American,1.0
+Orrington Elementary School,race,Incidents by Race/Ethnicity,,Multi-racial,3.0
+Orrington Elementary School,race,Incidents by Race/Ethnicity,,White,4.0
+Orrington Elementary School,grade,Incidents by Grade,,1,1.0
+Orrington Elementary School,grade,Incidents by Grade,,3,2.0
+Orrington Elementary School,grade,Incidents by Grade,,4,1.0
+Orrington Elementary School,grade,Incidents by Grade,,5,4.0
+Walker Elementary School,students-count-discipline,summary counts,,Incidents,17.0
+Walker Elementary School,students-count-discipline,summary counts,,Students,12.0
+Walker Elementary School,students-count-discipline,summary counts,,Minor Incidents,13.0
+Walker Elementary School,students-count-discipline,summary counts,,Major Incidents,4.0
+Walker Elementary School,school,Incidents by School,,Walker Elementary School,17.0
+Walker Elementary School,lvl,Incident Types,,LVL1,12.0
+Walker Elementary School,lvl,Incident Types,,LVL2,1.0
+Walker Elementary School,lvl,Incident Types,,LVL3,3.0
+Walker Elementary School,lvl,Incident Types,,LVL4,1.0
+Walker Elementary School,months,Incidents by Month,,August,4.0
+Walker Elementary School,months,Incidents by Month,,September,13.0
+Walker Elementary School,race,Incidents by Race/Ethnicity,,Asian,2.0
+Walker Elementary School,race,Incidents by Race/Ethnicity,,Black or African American,4.0
+Walker Elementary School,race,Incidents by Race/Ethnicity,,Hispanic or Latino,2.0
+Walker Elementary School,race,Incidents by Race/Ethnicity,,Multi-racial,2.0
+Walker Elementary School,race,Incidents by Race/Ethnicity,,White,7.0
+Walker Elementary School,grade,Incidents by Grade,,1,4.0
+Walker Elementary School,grade,Incidents by Grade,,2,4.0
+Walker Elementary School,grade,Incidents by Grade,,3,1.0
+Walker Elementary School,grade,Incidents by Grade,,4,5.0
+Walker Elementary School,grade,Incidents by Grade,,5,3.0
+Washington Elementary School,students-count-discipline,summary counts,,Incidents,47.0
+Washington Elementary School,students-count-discipline,summary counts,,Students,22.0
+Washington Elementary School,students-count-discipline,summary counts,,Minor Incidents,45.0
+Washington Elementary School,students-count-discipline,summary counts,,Major Incidents,2.0
+Washington Elementary School,school,Incidents by School,,Washington Elementary School,47.0
+Washington Elementary School,lvl,Incident Types,,LVL1,24.0
+Washington Elementary School,lvl,Incident Types,,LVL2,21.0
+Washington Elementary School,lvl,Incident Types,,LVL3,2.0
+Washington Elementary School,months,Incidents by Month,,August,1.0
+Washington Elementary School,months,Incidents by Month,,September,46.0
+Washington Elementary School,race,Incidents by Race/Ethnicity,,Asian,3.0
+Washington Elementary School,race,Incidents by Race/Ethnicity,,Black or African American,26.0
+Washington Elementary School,race,Incidents by Race/Ethnicity,,Hispanic or Latino,6.0
+Washington Elementary School,race,Incidents by Race/Ethnicity,,Multi-racial,3.0
+Washington Elementary School,race,Incidents by Race/Ethnicity,,White,9.0
+Washington Elementary School,grade,Incidents by Grade,,0,28.0
+Washington Elementary School,grade,Incidents by Grade,,1,11.0
+Washington Elementary School,grade,Incidents by Grade,,2,4.0
+Washington Elementary School,grade,Incidents by Grade,,5,4.0
+Willard Elementary School,students-count-discipline,summary counts,,Incidents,69.0
+Willard Elementary School,students-count-discipline,summary counts,,Students,12.0
+Willard Elementary School,students-count-discipline,summary counts,,Minor Incidents,56.0
+Willard Elementary School,students-count-discipline,summary counts,,Major Incidents,13.0
+Willard Elementary School,school,Incidents by School,,Willard Elementary School,69.0
+Willard Elementary School,lvl,Incident Types,,LVL1,49.0
+Willard Elementary School,lvl,Incident Types,,LVL2,7.0
+Willard Elementary School,lvl,Incident Types,,LVL3,13.0
+Willard Elementary School,months,Incidents by Month,,August,8.0
+Willard Elementary School,months,Incidents by Month,,September,61.0
+Willard Elementary School,race,Incidents by Race/Ethnicity,,Asian,1.0
+Willard Elementary School,race,Incidents by Race/Ethnicity,,Black or African American,4.0
+Willard Elementary School,race,Incidents by Race/Ethnicity,,Hispanic or Latino,8.0
+Willard Elementary School,race,Incidents by Race/Ethnicity,,Multi-racial,16.0
+Willard Elementary School,race,Incidents by Race/Ethnicity,,White,40.0
+Willard Elementary School,grade,Incidents by Grade,,0,16.0
+Willard Elementary School,grade,Incidents by Grade,,1,40.0
+Willard Elementary School,grade,Incidents by Grade,,2,3.0
+Willard Elementary School,grade,Incidents by Grade,,3,8.0
+Willard Elementary School,grade,Incidents by Grade,,5,2.0

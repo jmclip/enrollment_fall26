@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+jinja2        # table styling in the notebook
+requests      # d65_scrape.py only
+jupyter
