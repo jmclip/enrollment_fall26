@@ -7,7 +7,8 @@ How it works: the dashboard keeps its raw data on the server. Each chart is buil
 by a POST to /_dash-update-component. This script makes the same calls the browser
 makes, decodes the Plotly figures, and writes tidy CSVs.
 
-Usage:   python3 d65_scrape.py            (writes/refreshes the dashboard CSVs in ./data/)
+Usage:   python3 scraping/d65_scrape.py   (from the project folder; writes/refreshes the dashboard CSVs in data/)
+Details: scraping/README.md
 Needs:   pip install requests pandas
 
 Note: the site's "filtered" datasets are cached server-side under one shared key,
@@ -205,7 +206,7 @@ def main():
         time.sleep(0.5)
 
     df = pd.DataFrame(all_rows)
-    out = pathlib.Path(__file__).parent / "data"   # overwrites the dashboard CSVs the notebook reads
+    out = pathlib.Path(__file__).resolve().parent.parent / "data"   # project data/ folder; overwrites the dashboard CSVs
     out.mkdir(exist_ok=True)
     df.to_csv(out / "d65_dashboard_all_long.csv", index=False)
     st = df[df.dataset == "students"].drop(columns="dataset").rename(columns={"scope": "school"})

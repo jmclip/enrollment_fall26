@@ -2,9 +2,57 @@
 
 An analysis of how Evanston/Skokie School District 65 buildings are used: enrollment against projections, utilization and capacity, class sizes, dual-language (TWI) strands, attendance-area capture, building space and utility cost.
 
-- **Current data:** the district's public dashboard, https://data.district65.net, pulled 2026-09-23 (fall of school year 2026–27, "SY27").
+- **Current data:** the district's public dashboard, [data.district65.net](https://data.district65.net), pulled 2026-09-23 (fall of school year 2026–27, "SY27").
 - **Planning data:** two district utilization/capacity tables, transcribed from screenshots, and Cordogan Clark's February 2022 capacity report (PDF), which verifies the screenshots. See `sources/`.
 - **Everything is in one notebook:** `d65_enrollment_by_building.ipynb`. Run it top to bottom to rebuild every table in `data/` and every chart in `images/`.
+
+> **AI assistance:** This analysis was built with help from Claude, Anthropic's AI assistant. Claude can make mistakes, including in transcribing data, in calculations and in interpretation. Please verify figures against the original sources in `sources/` before relying on them.
+
+## Key findings
+
+### 1. Enrollment compared with projections
+
+![Current minus projected enrollment by school](images/chart_enrollment_difference.png)
+
+Each bar is a school's fall SY27 enrollment minus the district's projection. Schools are sorted by the size of the gap. Blue means more students than projected; red means fewer.
+
+- **Seven schools came in below projection.** Foster (−91), Nichols (−74), Haven (−60), Dewey (−57), Washington (−54), Dawes (−49) and Oakton (−36). Five of the seven host dual-language (TWI) programs.
+- **Seven came in above.** Lincolnwood (+150), Willard (+80), Chute (+40), King Arts (+30), Orrington (+25), Lincoln (+22) and Walker (+13).
+- **Across all 14 schools**, enrollment is 5,462 against 5,523 projected (−61, about 1%). The gaps mostly offset each other, so the issue is where students are, not how many.
+- **Two projections come from a scenario that kept Kingsley open.** Lincolnwood's and Willard's projections (181 and 193) are from the Cordogan Clark capacity table. The 1A table projects 280 and 261, which would shrink their gaps to +51 and +12.
+
+### 2. Building utilization
+
+![Current building utilization by school](images/chart_utilization_current.png)
+
+Utilization = fall SY27 enrollment ÷ capacity. Capacity is the smaller of the district's Cap Total (1A table) and Cordogan Clark's capacity (verified against their February 2022 report). Each bar shows the capacity used and the school's classroom count; middle schools show teaching stations instead.
+
+- **Utilization ranges from 51% (Willard) to 83% (Nichols).**
+- **STEP (\*)** program use affects capacity at Lincoln, Lincolnwood and Washington.
+
+### 3. Average class size by elementary school
+
+![Estimated average class size by elementary school](images/chart_class_size_by_school_overall.png)
+
+The estimated average class size for each elementary school (King Arts K–5 only), averaged across K–5 with every grade weighted equally. Class counts are **estimated** because the dashboard reports enrollment by grade, not by class:
+
+- **Monolingual/mainstream classes:** the fewest classes that keep each class at 24 or fewer students.
+- **Dual-language schools:** one class per strand at each grade.
+- **Oakton:** one ACC special-education class per grade.
+
+The grade-by-grade math is in the table at the end of this README.
+
+- **Estimated averages run from 21.3 (Willard) down to 15.3 (Oakton).**
+- **Willard, Walker and Lincolnwood have the largest classes**, averaging about 21.
+
+## How the data was collected
+
+- **Current data** comes from the district's public dashboard, [data.district65.net](https://data.district65.net), a Plotly Dash app. Its charts come from requests to `/_dash-update-component`.
+- **The pull (2026-09-23):** those same requests were made for the district as a whole and for each of the 14 schools (Home, Attendance, Discipline, and all five assessments), plus every building's utility data. The chart data was decoded into the tidy CSVs in `data/`.
+- **Checks:** every school had to add up to the district totals. The dashboard's filter is shared between visitors, so each school was also checked for internal consistency.
+- **Planning data** comes from two district tables (typed in from screenshots) and Cordogan Clark's February 2022 capacity report (PDF). See `sources/sources.md`.
+
+Full replication details, the endpoints and the scraper are in **[`scraping/README.md`](scraping/README.md)**.
 
 ## Folder layout
 
@@ -12,7 +60,7 @@ An analysis of how Evanston/Skokie School District 65 buildings are used: enroll
 d65-dashboard-data/
 ├── README.md                     this file
 ├── d65_enrollment_by_building.ipynb  analysis notebook (reads data/, writes data/ and images/)
-├── d65_scrape.py                 re-pulls the dashboard into data/
+├── scraping/                     d65_scrape.py (re-pulls the dashboard into data/) and replication notes
 ├── requirements.txt              Python packages needed
 ├── data/                         all CSVs: inputs and the tables the notebook writes
 ├── images/                       all charts (PNG)
@@ -22,7 +70,7 @@ d65-dashboard-data/
 ## How to refresh
 
 1. `pip install -r requirements.txt`
-2. `python3 d65_scrape.py` pulls the dashboard again and overwrites the dashboard CSVs in `data/` (the first six input files below).
+2. `python3 scraping/d65_scrape.py` pulls the dashboard again and overwrites the dashboard CSVs in `data/` (the first seven input files below). See `scraping/README.md`.
 3. Re-run the notebook top to bottom. It needs only four inputs (`students_home_demographics.csv`, `sustainability_utility.csv`, `utilization_1A_website.csv`, `capacity_cordogan_clark.csv`) and rebuilds every other table and chart. The two transcribed tables don't change unless you edit them.
 
 The dashboard stores filtered results in one shared spot on its server, so another visitor filtering at the same moment can mix up numbers. The script re-runs any school whose totals don't add up, and checks that schools sum to the district.
@@ -67,7 +115,7 @@ Dashboard files are long/tidy: `school` (or `account`), `chart_id`, `chart_title
 
 | File | Contents |
 |---|---|
-| `class_size_detail_by_school.csv` | **Main class-size file.** Every input and step per school and grade: students, cap, estimated TWI and ACC students and classes, regular students and classes, class sizes |
+| `class_size_detail_by_school.csv` | **Main class-size file.** Every input and step per school and grade: students, cap, estimated TWI and ACC students and classes, monolingual/mainstream students and classes, class sizes |
 | `table_students_by_school_grade.csv` | Supporting table 1: students by school and grade (integers, with totals) |
 | `table_classes_by_school_grade.csv` | Supporting table 2: estimated classes by school and grade (integers, with totals) |
 | `class_size_by_school_overall.csv` | Elementary only (King Arts K–5): average of K–5 grade averages, and the student-weighted average |
@@ -97,7 +145,7 @@ Dashboard files are long/tidy: `school` (or `account`), `chart_id`, `chart_title
 | `chart_class_size_heatmap.png` | Estimated class size, every school and grade K–8 |
 | `chart_class_size_by_grade.png` | District average class size by grade, K–8 |
 | `chart_class_size_by_school.png` | One panel per school: class size by grade, with students ÷ classes |
-| `chart_class_size_elementary_by_grade.png` | Elementary schools, one panel each: class size in each K–5 grade, with students ÷ classes and the TWI/ACC/regular class mix written in each bar |
+| `chart_class_size_elementary_by_grade.png` | Elementary schools, one panel each: class size in each K–5 grade, with students ÷ classes and the TWI/ACC/monolingual-mainstream class mix written in each bar |
 | `chart_class_size_by_school_overall.png` | Elementary schools, one average class size each |
 | `table_enrollment_twi_by_school_grade.png` | Table: elementary enrollment by grade with TWI/ACC breakouts and strands |
 
@@ -138,10 +186,10 @@ Dashboard files are long/tidy: `school` (or `account`), `chart_id`, `chart_title
 
 The dashboard has enrollment by grade, not how many classes each grade has, so classes are **estimated**:
 
-- **Regular classes:** the fewest classes that keep each class at or under the cap, `ceil(students ÷ 24)`. This gives the fewest classrooms and largest average class a grade could have. Real schools may run more, smaller classes.
+- **Monolingual/mainstream classes:** the fewest classes that keep each class at or under the cap, `ceil(students ÷ 24)`. This gives the fewest classrooms and largest average class a grade could have. Real schools may run more, smaller classes.
 - **Cap = 24:** the district's capacity standard, not the teacher-contract limit. Change `CAP` in the notebook to use grade-level limits.
 - **TWI schools (Dawes, Dewey, Foster, Oakton, Washington), K–5:** one class per strand per grade. TWI students are assumed spread evenly across K–5.
-- **Oakton ACC:** one ACC (special-education) class per grade K–5. The dashboard doesn't identify ACC students, so the 1A table's projected 73 are spread evenly (~12 per grade) and taken out of Oakton's regular classes. Change `acc_total` in the notebook if you have the actual count.
+- **Oakton ACC:** one ACC (special-education) class per grade K–5. The dashboard doesn't identify ACC students, so the 1A table's projected 73 are spread evenly (~12 per grade) and taken out of Oakton's monolingual/mainstream classes. Change `acc_total` in the notebook if you have the actual count.
 - **Middle schools:** sections of up to 24 students, since there are no homerooms. They're excluded from the elementary summaries, and King Arts counts K–5 only there.
 
 ## Checks
@@ -161,6 +209,26 @@ The dashboard has enrollment by grade, not how many classes each grade has, so c
 - **Foster:** has no utility account on the dashboard, so there's no square footage or cost for it.
 - **Classroom counts** may include art, music or library rooms, so spare-room figures are upper bounds.
 - **The dashboard's shared filter** can cross results between visitors; see How to refresh.
-- **`d65_scrape.py` hasn't been run end to end against the live site.** The first pull went through a browser, and the script's chart-decoding code was tested against real responses. Expect small fixes on its first run.
+- **`scraping/d65_scrape.py` hasn't been run end to end against the live site.** The first pull went through a browser, and the script's chart-decoding code was tested against real responses. Expect small fixes on its first run.
 
 See `sources/sources.md` for where each number comes from.
+
+## Class-size math by school
+
+Students in the grade ÷ estimated classes = average class size (fall SY27, elementary, King Arts K–5 only).
+
+| School | K | 1 | 2 | 3 | 4 | 5 | Avg | Program classes per grade |
+|---|---:|---:|---:|---:|---:|---:|---:|---|
+| Willard | 40 ÷ 2 = **20.0** | 43 ÷ 2 = **21.5** | 44 ÷ 2 = **22.0** | 53 ÷ 3 = **17.7** | 46 ÷ 2 = **23.0** | 47 ÷ 2 = **23.5** | **21.3** | – |
+| Walker | 45 ÷ 2 = **22.5** | 57 ÷ 3 = **19.0** | 42 ÷ 2 = **21.0** | 63 ÷ 3 = **21.0** | 66 ÷ 3 = **22.0** | 44 ÷ 2 = **22.0** | **21.2** | – |
+| Lincolnwood | 48 ÷ 2 = **24.0** | 60 ÷ 3 = **20.0** | 54 ÷ 3 = **18.0** | 42 ÷ 2 = **21.0** | 48 ÷ 2 = **24.0** | 79 ÷ 4 = **19.8** | **21.1** | – |
+| King Arts | 41 ÷ 2 = **20.5** | 40 ÷ 2 = **20.0** | 37 ÷ 2 = **18.5** | 56 ÷ 3 = **18.7** | 54 ÷ 3 = **18.0** | 46 ÷ 2 = **23.0** | **19.8** | – |
+| Lincoln | 57 ÷ 3 = **19.0** | 73 ÷ 4 = **18.2** | 53 ÷ 3 = **17.7** | 43 ÷ 2 = **21.5** | 68 ÷ 3 = **22.7** | 56 ÷ 3 = **18.7** | **19.6** | – |
+| Dawes | 43 ÷ 2 = **21.5** | 45 ÷ 3 = **15.0** | 42 ÷ 2 = **21.0** | 48 ÷ 3 = **16.0** | 59 ÷ 3 = **19.7** | 51 ÷ 3 = **17.0** | **18.4** | 1 TWI |
+| Orrington | 40 ÷ 2 = **20.0** | 35 ÷ 2 = **17.5** | 42 ÷ 2 = **21.0** | 52 ÷ 3 = **17.3** | 27 ÷ 2 = **13.5** | 55 ÷ 3 = **18.3** | **17.9** | – |
+| Dewey | 48 ÷ 3 = **16.0** | 55 ÷ 3 = **18.3** | 45 ÷ 3 = **15.0** | 52 ÷ 3 = **17.3** | 64 ÷ 3 = **21.3** | 51 ÷ 3 = **17.0** | **17.5** | 1 TWI |
+| Foster | 46 ÷ 3 = **15.3** | 42 ÷ 3 = **14.0** | 65 ÷ 4 = **16.2** | 79 ÷ 4 = **19.8** | 57 ÷ 3 = **19.0** | 72 ÷ 4 = **18.0** | **17.0** | 2 TWI |
+| Washington | 58 ÷ 4 = **14.5** | 59 ÷ 4 = **14.8** | 63 ÷ 4 = **15.8** | 64 ÷ 4 = **16.0** | 62 ÷ 4 = **15.5** | 81 ÷ 5 = **16.2** | **15.5** | 2 TWI |
+| Oakton | 68 ÷ 4 = **17.0** | 55 ÷ 4 = **13.8** | 58 ÷ 4 = **14.5** | 54 ÷ 4 = **13.5** | 69 ÷ 4 = **17.2** | 63 ÷ 4 = **15.8** | **15.3** | 1 TWI + 1 ACC |
+
+*Each cell shows students in that grade ÷ estimated classes = average class size. "Avg" is the average of the six grade averages. "Program classes per grade" lists the dual-language (TWI) and ACC classes included in each grade's count. The rest are monolingual/mainstream classes. For example, Foster kindergarten = 2 TWI + 1 monolingual/mainstream = 3 classes. Monolingual/mainstream classes are the fewest that keep each class at 24 or fewer students. TWI and ACC students are assumed evenly spread across K–5, and Oakton ACC uses the 73 projected students. These are estimates, not reported class counts. Full detail: `data/class_size_detail_by_school.csv`.*

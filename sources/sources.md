@@ -3,11 +3,11 @@
 Data behind the files and charts in this project, and how each piece was obtained. CSVs are in `../data/`, charts in `../images/`, screenshots in this folder. Compiled 2026-09-23.
 
 ## 1. D65 Data Dashboard — current enrollment, attendance, discipline, assessments, utilities
-- **Where:** https://data.district65.net (Evanston/Skokie School District 65 public dashboard)
+- **Where:** [data.district65.net](https://data.district65.net) (Evanston/Skokie School District 65 public dashboard)
 - **Pulled:** 2026-09-23, fall of school year 2026–27 (SY27)
 - **How:** The dashboard is a Plotly Dash app. Its charts come from `POST /_dash-update-component`; the numbers were read from those chart responses, once district-wide and once per school (the school filter). Raw student-level records stay on the district's server and aren't exposed.
 - **Files:** `d65_dashboard_all_long.csv`, `students_home_demographics.csv`, `students_attendance.csv`, `students_discipline.csv`, `students_assessments.csv`, `sustainability_utility.csv`, `school_summary.csv`
-- **Refresh:** `python3 d65_scrape.py`
+- **Refresh:** `python3 scraping/d65_scrape.py` (details in `scraping/README.md`)
 - **Notes:** Groups under 10 students appear as "Other*". Score and attendance distributions are grouped into 10-point bins. 2026 utility figures cover January–August only. Checks: school enrollments, IEP counts and incidents add up to the district totals (5,462 / 953 / 968).
 
 ## 2. District utilization table ("1A_Utilization_website")

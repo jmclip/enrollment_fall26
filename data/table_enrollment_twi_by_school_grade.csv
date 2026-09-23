@@ -1,25 +1,25 @@
 school,row,K,1,2,3,4,5,Total,strands
 Dawes,Total,43,45,42,48,59,51,288,
 Dawes,TWI (est.),19,19,19,19,19,19,114,1
-Dawes,Non-TWI,24,26,23,29,40,32,174,
+Dawes,Mono/mainstream,24,26,23,29,40,32,174,
 Dewey,Total,48,55,45,52,64,51,315,
 Dewey,TWI (est.),17,17,17,17,17,17,102,1
-Dewey,Non-TWI,31,38,28,35,47,34,213,
+Dewey,Mono/mainstream,31,38,28,35,47,34,213,
 Foster,Total,46,42,65,79,57,72,361,
 Foster,TWI (est.),34,34,33,33,33,33,200,2
-Foster,Non-TWI,12,8,32,46,24,39,161,
+Foster,Mono/mainstream,12,8,32,46,24,39,161,
 King Arts,Total,41,40,37,56,54,46,274,
 Lincoln,Total,57,73,53,43,68,56,350,
 Lincolnwood,Total,48,60,54,42,48,79,331,
 Oakton,Total,68,55,58,54,69,63,367,
 Oakton,TWI (est.),13,13,13,12,12,12,75,1
 Oakton,ACC (est.),13,12,12,12,12,12,73,
-Oakton,Regular,42,30,33,30,45,39,219,
+Oakton,Mono/mainstream,42,30,33,30,45,39,219,
 Orrington,Total,40,35,42,52,27,55,251,
 Walker,Total,45,57,42,63,66,44,317,
 Washington,Total,58,59,63,64,62,81,387,
 Washington,TWI (est.),33,33,33,32,32,32,195,2
-Washington,Non-TWI,25,26,30,32,30,49,192,
+Washington,Mono/mainstream,25,26,30,32,30,49,192,
 Willard,Total,40,43,44,53,46,47,273,
 All elementary,Total,534,564,545,606,620,645,3514,
 All elementary,TWI (est.),116,116,115,113,113,113,686,7

@@ -1,4 +1,4 @@
-school,grade,grade_label,students,cap,twi_students_est,twi_sections,twi_class_size,acc_students_est,acc_sections,acc_class_size,regular_students,regular_sections,regular_class_size,sections,avg_class_size,note
+school,grade,grade_label,students,cap,twi_students_est,twi_sections,twi_class_size,acc_students_est,acc_sections,acc_class_size,mainstream_students,mainstream_sections,mainstream_class_size,sections,avg_class_size,note
 Chute (MS),6,6,184.0,24,0.0,0.0,,0.0,0.0,,184.0,8.0,23.0,8.0,23.0,
 Chute (MS),7,7,209.0,24,0.0,0.0,,0.0,0.0,,209.0,9.0,23.2,9.0,23.2,
 Chute (MS),8,8,198.0,24,0.0,0.0,,0.0,0.0,,198.0,9.0,22.0,9.0,22.0,
