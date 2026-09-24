@@ -360,7 +360,12 @@ sizes, dual-language (TWI) strands, attendance-area capture, building
 space and utility cost.</p>
 <ul>
 <li><strong>Current data:</strong> the district’s public dashboard, <a href="https://data.district65.net">data.district65.net</a>, pulled
-2026-09-23 (fall of school year 2026–27, “SY27”).</li>
+2026-09-23 (fall of school year 2026–27, “SY27”).
+<ul>
+<li><strong>HELP WITH ACCURACY</strong> <a href="https://docs.google.com/forms/d/e/1FAIpQLSepZPKRXOA8HTbEoWf8sUmXK_UlhWkK4_6y4cl9NQLNEYL1Bw/viewform?usp=dialog">crowdsourcing-file
+here</a> Complete this form if you have data on schools and class
+sizes</li>
+</ul></li>
 <li><strong>Planning data:</strong> two district utilization/capacity
 tables, transcribed from screenshots, and Cordogan Clark’s February 2022
 capacity report (PDF), which verifies the screenshots. See
@@ -368,15 +373,12 @@ capacity report (PDF), which verifies the screenshots. See
 <li><strong>Everything is in one notebook:</strong>
 <code>d65_enrollment_by_building.ipynb</code>. Run it top to bottom to
 rebuild every table in <code>data/</code> and every chart in
-<code>images/</code>.</li>
+<code>images/</code>. &gt; <strong>AI assistance:</strong> This analysis
+was built with help from Claude, Anthropic’s AI assistant. Claude can
+make mistakes, including in transcribing data, in calculations and in
+interpretation. Please verify figures against the original sources in
+<code>sources/</code> before relying on them.</li>
 </ul>
-<blockquote>
-<p><strong>AI assistance:</strong> This analysis was built with help
-from Claude, Anthropic’s AI assistant. Claude can make mistakes,
-including in transcribing data, in calculations and in interpretation.
-Please verify figures against the original sources in
-<code>sources/</code> before relying on them.</p>
-</blockquote>
 <div id="key-findings" class="section level2">
 <h2>Key findings</h2>
 <div id="enrollment-compared-with-projections" class="section level3">
@@ -436,22 +438,182 @@ Arts K–5 only), averaged across K–5 with every grade weighted equally.
 Class counts are <strong>estimated</strong> because the dashboard
 reports enrollment by grade, not by class:</p>
 <ul>
-<li><strong>Monolingual/mainstream classes:</strong> the fewest classes
-that keep each class at 24 or fewer students.</li>
-<li><strong>Dual-language schools:</strong> one class per strand at each
-grade.</li>
-<li><strong>Oakton:</strong> one ACC special-education class per
-grade.</li>
-</ul>
-<p>The grade-by-grade math is in the table at the end of this
-README.</p>
-<ul>
-<li><strong>Estimated averages run from 21.3 (Willard) down to 15.3
-(Oakton).</strong></li>
-<li><strong>Willard, Walker and Lincolnwood have the largest
-classes</strong>, averaging about 21.</li>
+<li><p><strong>Monolingual/mainstream classes:</strong> the fewest
+classes that keep each class at 24 or fewer students.</p></li>
+<li><p><strong>Dual-language schools:</strong> one class per strand at
+each grade.</p></li>
+<li><p><strong>Oakton:</strong> one ACC special-education class per
+grade.</p></li>
+<li><p><strong>Estimated averages run from 21.3 (Willard) down to 15.3
+(Oakton).</strong></p></li>
+<li><p><strong>Willard, Walker and Lincolnwood have the largest
+classes</strong>, averaging about 21.</p></li>
 </ul>
 </div>
+</div>
+<div id="class-size-math-by-school" class="section level2">
+<h2>Class-size math by school</h2>
+<p>Students in the grade ÷ estimated classes = average class size (fall
+SY27, elementary, King Arts K–5 only).</p>
+<table>
+<colgroup>
+<col width="8%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="8%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>School</th>
+<th align="right">K</th>
+<th align="right">1</th>
+<th align="right">2</th>
+<th align="right">3</th>
+<th align="right">4</th>
+<th align="right">5</th>
+<th align="right">Avg</th>
+<th>Program classes per grade</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Willard</td>
+<td align="right">40 ÷ 2 = <strong>20.0</strong></td>
+<td align="right">43 ÷ 2 = <strong>21.5</strong></td>
+<td align="right">44 ÷ 2 = <strong>22.0</strong></td>
+<td align="right">53 ÷ 3 = <strong>17.7</strong></td>
+<td align="right">46 ÷ 2 = <strong>23.0</strong></td>
+<td align="right">47 ÷ 2 = <strong>23.5</strong></td>
+<td align="right"><strong>21.3</strong></td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>Walker</td>
+<td align="right">45 ÷ 2 = <strong>22.5</strong></td>
+<td align="right">57 ÷ 3 = <strong>19.0</strong></td>
+<td align="right">42 ÷ 2 = <strong>21.0</strong></td>
+<td align="right">63 ÷ 3 = <strong>21.0</strong></td>
+<td align="right">66 ÷ 3 = <strong>22.0</strong></td>
+<td align="right">44 ÷ 2 = <strong>22.0</strong></td>
+<td align="right"><strong>21.2</strong></td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td>Lincolnwood</td>
+<td align="right">48 ÷ 2 = <strong>24.0</strong></td>
+<td align="right">60 ÷ 3 = <strong>20.0</strong></td>
+<td align="right">54 ÷ 3 = <strong>18.0</strong></td>
+<td align="right">42 ÷ 2 = <strong>21.0</strong></td>
+<td align="right">48 ÷ 2 = <strong>24.0</strong></td>
+<td align="right">79 ÷ 4 = <strong>19.8</strong></td>
+<td align="right"><strong>21.1</strong></td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>King Arts</td>
+<td align="right">41 ÷ 2 = <strong>20.5</strong></td>
+<td align="right">40 ÷ 2 = <strong>20.0</strong></td>
+<td align="right">37 ÷ 2 = <strong>18.5</strong></td>
+<td align="right">56 ÷ 3 = <strong>18.7</strong></td>
+<td align="right">54 ÷ 3 = <strong>18.0</strong></td>
+<td align="right">46 ÷ 2 = <strong>23.0</strong></td>
+<td align="right"><strong>19.8</strong></td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td>Lincoln</td>
+<td align="right">57 ÷ 3 = <strong>19.0</strong></td>
+<td align="right">73 ÷ 4 = <strong>18.2</strong></td>
+<td align="right">53 ÷ 3 = <strong>17.7</strong></td>
+<td align="right">43 ÷ 2 = <strong>21.5</strong></td>
+<td align="right">68 ÷ 3 = <strong>22.7</strong></td>
+<td align="right">56 ÷ 3 = <strong>18.7</strong></td>
+<td align="right"><strong>19.6</strong></td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>Dawes</td>
+<td align="right">43 ÷ 2 = <strong>21.5</strong></td>
+<td align="right">45 ÷ 3 = <strong>15.0</strong></td>
+<td align="right">42 ÷ 2 = <strong>21.0</strong></td>
+<td align="right">48 ÷ 3 = <strong>16.0</strong></td>
+<td align="right">59 ÷ 3 = <strong>19.7</strong></td>
+<td align="right">51 ÷ 3 = <strong>17.0</strong></td>
+<td align="right"><strong>18.4</strong></td>
+<td>1 TWI</td>
+</tr>
+<tr class="odd">
+<td>Orrington</td>
+<td align="right">40 ÷ 2 = <strong>20.0</strong></td>
+<td align="right">35 ÷ 2 = <strong>17.5</strong></td>
+<td align="right">42 ÷ 2 = <strong>21.0</strong></td>
+<td align="right">52 ÷ 3 = <strong>17.3</strong></td>
+<td align="right">27 ÷ 2 = <strong>13.5</strong></td>
+<td align="right">55 ÷ 3 = <strong>18.3</strong></td>
+<td align="right"><strong>17.9</strong></td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>Dewey</td>
+<td align="right">48 ÷ 3 = <strong>16.0</strong></td>
+<td align="right">55 ÷ 3 = <strong>18.3</strong></td>
+<td align="right">45 ÷ 3 = <strong>15.0</strong></td>
+<td align="right">52 ÷ 3 = <strong>17.3</strong></td>
+<td align="right">64 ÷ 3 = <strong>21.3</strong></td>
+<td align="right">51 ÷ 3 = <strong>17.0</strong></td>
+<td align="right"><strong>17.5</strong></td>
+<td>1 TWI</td>
+</tr>
+<tr class="odd">
+<td>Foster</td>
+<td align="right">46 ÷ 3 = <strong>15.3</strong></td>
+<td align="right">42 ÷ 3 = <strong>14.0</strong></td>
+<td align="right">65 ÷ 4 = <strong>16.2</strong></td>
+<td align="right">79 ÷ 4 = <strong>19.8</strong></td>
+<td align="right">57 ÷ 3 = <strong>19.0</strong></td>
+<td align="right">72 ÷ 4 = <strong>18.0</strong></td>
+<td align="right"><strong>17.0</strong></td>
+<td>2 TWI</td>
+</tr>
+<tr class="even">
+<td>Washington</td>
+<td align="right">58 ÷ 4 = <strong>14.5</strong></td>
+<td align="right">59 ÷ 4 = <strong>14.8</strong></td>
+<td align="right">63 ÷ 4 = <strong>15.8</strong></td>
+<td align="right">64 ÷ 4 = <strong>16.0</strong></td>
+<td align="right">62 ÷ 4 = <strong>15.5</strong></td>
+<td align="right">81 ÷ 5 = <strong>16.2</strong></td>
+<td align="right"><strong>15.5</strong></td>
+<td>2 TWI</td>
+</tr>
+<tr class="odd">
+<td>Oakton</td>
+<td align="right">68 ÷ 4 = <strong>17.0</strong></td>
+<td align="right">55 ÷ 4 = <strong>13.8</strong></td>
+<td align="right">58 ÷ 4 = <strong>14.5</strong></td>
+<td align="right">54 ÷ 4 = <strong>13.5</strong></td>
+<td align="right">69 ÷ 4 = <strong>17.2</strong></td>
+<td align="right">63 ÷ 4 = <strong>15.8</strong></td>
+<td align="right"><strong>15.3</strong></td>
+<td>1 TWI + 1 ACC</td>
+</tr>
+</tbody>
+</table>
+<p><em>Each cell shows students in that grade ÷ estimated classes =
+average class size. “Avg” is the average of the six grade averages.
+“Program classes per grade” lists the dual-language (TWI) and ACC
+classes included in each grade’s count. The rest are
+monolingual/mainstream classes. For example, Foster kindergarten = 2 TWI
++ 1 monolingual/mainstream = 3 classes. Monolingual/mainstream classes
+are the fewest that keep each class at 24 or fewer students. TWI and ACC
+students are assumed evenly spread across K–5, and Oakton ACC uses the
+73 projected students. These are estimates, not reported class counts.
+Full detail: <code>data/class_size_detail_by_school.csv</code>.</em></p>
 </div>
 <div id="how-the-data-was-collected" class="section level2">
 <h2>How the data was collected</h2>
@@ -983,170 +1145,6 @@ responses. Expect small fixes on its first run.</li>
 </ul>
 <p>See <code>sources/sources.md</code> for where each number comes
 from.</p>
-</div>
-<div id="class-size-math-by-school" class="section level2">
-<h2>Class-size math by school</h2>
-<p>Students in the grade ÷ estimated classes = average class size (fall
-SY27, elementary, King Arts K–5 only).</p>
-<table>
-<colgroup>
-<col width="8%" />
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-<col width="8%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>School</th>
-<th align="right">K</th>
-<th align="right">1</th>
-<th align="right">2</th>
-<th align="right">3</th>
-<th align="right">4</th>
-<th align="right">5</th>
-<th align="right">Avg</th>
-<th>Program classes per grade</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Willard</td>
-<td align="right">40 ÷ 2 = <strong>20.0</strong></td>
-<td align="right">43 ÷ 2 = <strong>21.5</strong></td>
-<td align="right">44 ÷ 2 = <strong>22.0</strong></td>
-<td align="right">53 ÷ 3 = <strong>17.7</strong></td>
-<td align="right">46 ÷ 2 = <strong>23.0</strong></td>
-<td align="right">47 ÷ 2 = <strong>23.5</strong></td>
-<td align="right"><strong>21.3</strong></td>
-<td>–</td>
-</tr>
-<tr class="even">
-<td>Walker</td>
-<td align="right">45 ÷ 2 = <strong>22.5</strong></td>
-<td align="right">57 ÷ 3 = <strong>19.0</strong></td>
-<td align="right">42 ÷ 2 = <strong>21.0</strong></td>
-<td align="right">63 ÷ 3 = <strong>21.0</strong></td>
-<td align="right">66 ÷ 3 = <strong>22.0</strong></td>
-<td align="right">44 ÷ 2 = <strong>22.0</strong></td>
-<td align="right"><strong>21.2</strong></td>
-<td>–</td>
-</tr>
-<tr class="odd">
-<td>Lincolnwood</td>
-<td align="right">48 ÷ 2 = <strong>24.0</strong></td>
-<td align="right">60 ÷ 3 = <strong>20.0</strong></td>
-<td align="right">54 ÷ 3 = <strong>18.0</strong></td>
-<td align="right">42 ÷ 2 = <strong>21.0</strong></td>
-<td align="right">48 ÷ 2 = <strong>24.0</strong></td>
-<td align="right">79 ÷ 4 = <strong>19.8</strong></td>
-<td align="right"><strong>21.1</strong></td>
-<td>–</td>
-</tr>
-<tr class="even">
-<td>King Arts</td>
-<td align="right">41 ÷ 2 = <strong>20.5</strong></td>
-<td align="right">40 ÷ 2 = <strong>20.0</strong></td>
-<td align="right">37 ÷ 2 = <strong>18.5</strong></td>
-<td align="right">56 ÷ 3 = <strong>18.7</strong></td>
-<td align="right">54 ÷ 3 = <strong>18.0</strong></td>
-<td align="right">46 ÷ 2 = <strong>23.0</strong></td>
-<td align="right"><strong>19.8</strong></td>
-<td>–</td>
-</tr>
-<tr class="odd">
-<td>Lincoln</td>
-<td align="right">57 ÷ 3 = <strong>19.0</strong></td>
-<td align="right">73 ÷ 4 = <strong>18.2</strong></td>
-<td align="right">53 ÷ 3 = <strong>17.7</strong></td>
-<td align="right">43 ÷ 2 = <strong>21.5</strong></td>
-<td align="right">68 ÷ 3 = <strong>22.7</strong></td>
-<td align="right">56 ÷ 3 = <strong>18.7</strong></td>
-<td align="right"><strong>19.6</strong></td>
-<td>–</td>
-</tr>
-<tr class="even">
-<td>Dawes</td>
-<td align="right">43 ÷ 2 = <strong>21.5</strong></td>
-<td align="right">45 ÷ 3 = <strong>15.0</strong></td>
-<td align="right">42 ÷ 2 = <strong>21.0</strong></td>
-<td align="right">48 ÷ 3 = <strong>16.0</strong></td>
-<td align="right">59 ÷ 3 = <strong>19.7</strong></td>
-<td align="right">51 ÷ 3 = <strong>17.0</strong></td>
-<td align="right"><strong>18.4</strong></td>
-<td>1 TWI</td>
-</tr>
-<tr class="odd">
-<td>Orrington</td>
-<td align="right">40 ÷ 2 = <strong>20.0</strong></td>
-<td align="right">35 ÷ 2 = <strong>17.5</strong></td>
-<td align="right">42 ÷ 2 = <strong>21.0</strong></td>
-<td align="right">52 ÷ 3 = <strong>17.3</strong></td>
-<td align="right">27 ÷ 2 = <strong>13.5</strong></td>
-<td align="right">55 ÷ 3 = <strong>18.3</strong></td>
-<td align="right"><strong>17.9</strong></td>
-<td>–</td>
-</tr>
-<tr class="even">
-<td>Dewey</td>
-<td align="right">48 ÷ 3 = <strong>16.0</strong></td>
-<td align="right">55 ÷ 3 = <strong>18.3</strong></td>
-<td align="right">45 ÷ 3 = <strong>15.0</strong></td>
-<td align="right">52 ÷ 3 = <strong>17.3</strong></td>
-<td align="right">64 ÷ 3 = <strong>21.3</strong></td>
-<td align="right">51 ÷ 3 = <strong>17.0</strong></td>
-<td align="right"><strong>17.5</strong></td>
-<td>1 TWI</td>
-</tr>
-<tr class="odd">
-<td>Foster</td>
-<td align="right">46 ÷ 3 = <strong>15.3</strong></td>
-<td align="right">42 ÷ 3 = <strong>14.0</strong></td>
-<td align="right">65 ÷ 4 = <strong>16.2</strong></td>
-<td align="right">79 ÷ 4 = <strong>19.8</strong></td>
-<td align="right">57 ÷ 3 = <strong>19.0</strong></td>
-<td align="right">72 ÷ 4 = <strong>18.0</strong></td>
-<td align="right"><strong>17.0</strong></td>
-<td>2 TWI</td>
-</tr>
-<tr class="even">
-<td>Washington</td>
-<td align="right">58 ÷ 4 = <strong>14.5</strong></td>
-<td align="right">59 ÷ 4 = <strong>14.8</strong></td>
-<td align="right">63 ÷ 4 = <strong>15.8</strong></td>
-<td align="right">64 ÷ 4 = <strong>16.0</strong></td>
-<td align="right">62 ÷ 4 = <strong>15.5</strong></td>
-<td align="right">81 ÷ 5 = <strong>16.2</strong></td>
-<td align="right"><strong>15.5</strong></td>
-<td>2 TWI</td>
-</tr>
-<tr class="odd">
-<td>Oakton</td>
-<td align="right">68 ÷ 4 = <strong>17.0</strong></td>
-<td align="right">55 ÷ 4 = <strong>13.8</strong></td>
-<td align="right">58 ÷ 4 = <strong>14.5</strong></td>
-<td align="right">54 ÷ 4 = <strong>13.5</strong></td>
-<td align="right">69 ÷ 4 = <strong>17.2</strong></td>
-<td align="right">63 ÷ 4 = <strong>15.8</strong></td>
-<td align="right"><strong>15.3</strong></td>
-<td>1 TWI + 1 ACC</td>
-</tr>
-</tbody>
-</table>
-<p><em>Each cell shows students in that grade ÷ estimated classes =
-average class size. “Avg” is the average of the six grade averages.
-“Program classes per grade” lists the dual-language (TWI) and ACC
-classes included in each grade’s count. The rest are
-monolingual/mainstream classes. For example, Foster kindergarten = 2 TWI
-+ 1 monolingual/mainstream = 3 classes. Monolingual/mainstream classes
-are the fewest that keep each class at 24 or fewer students. TWI and ACC
-students are assumed evenly spread across K–5, and Oakton ACC uses the
-73 projected students. These are estimates, not reported class counts.
-Full detail: <code>data/class_size_detail_by_school.csv</code>.</em></p>
 </div>
 </div>
 
