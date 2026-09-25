@@ -44,7 +44,7 @@ The estimated average class size for each elementary school (King Arts K–5 onl
 - **Estimated averages run from 21.3 (Willard) down to 15.3 (Oakton).**
 - **Willard, Walker and Lincolnwood have the largest classes**, averaging about 21. Washington (20.4) is close behind now that it uses the parent-reported class structure.
 
-**Class size by school and grade.** The same estimates grade by grade: red cells are the smallest classes, purple is about 18 students, and blue is the largest (up to the 24-student cap). The small number in each cell is the estimated number of classes.
+**Class size by school and grade.** The same estimates grade by grade: red cells are the smallest classes, purple is about 18 students, and blue is the largest (up to the 24-student cap). The small number in each cell is the estimated number of classes. The last column is each school's average (the average of its six grade averages, matching the chart above), with its total K–5 classes.
 
 ![Estimated class size by school and grade, K–5](images/chart_class_size_heatmap.png)
 
