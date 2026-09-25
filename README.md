@@ -10,7 +10,7 @@ An analysis of how Evanston/Skokie School District 65 buildings are used: enroll
 
 ## Key findings
 
-### 1. Enrollment compared with projections
+### 1. Enrollment compared with projections: big gaps in how schools enrolled relative to predictions from last year
 
 ![Current minus projected enrollment by school](images/chart_enrollment_difference.png)
 
@@ -21,7 +21,7 @@ Each bar is a school's fall SY27 enrollment minus the district's projection. Sch
 - **Across all 14 schools**, enrollment is 5,462 against 5,523 projected (−61, about 1%). The gaps mostly offset each other, so the issue is where students are, not how many.
 - **Two projections come from a scenario that kept Kingsley open.** Lincolnwood's and Willard's projections (181 and 193) are from the Cordogan Clark capacity table. The 1A table projects 280 and 261, which would shrink their gaps to +51 and +12.
 
-### 2. Building utilization
+### 2. Building utilization only shows one piece of the puzzle
 
 ![Current building utilization by school](images/chart_utilization_current.png)
 
@@ -30,7 +30,7 @@ Utilization = fall SY27 enrollment ÷ capacity. Capacity is the smaller of the d
 - **Utilization ranges from 51% (Willard) to 83% (Nichols).**
 - **STEP (\*)** program use affects capacity at Lincoln, Lincolnwood and Washington.
 
-### 3. Average class size by elementary school
+### 3. Average class size by elementary school does not necessarily correlate with utilization
 
 ![Estimated average class size by elementary school](images/chart_class_size_by_school_overall.png)
 
