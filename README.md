@@ -44,6 +44,14 @@ The estimated average class size for each elementary school (King Arts K–5 onl
 - **Estimated averages run from 21.3 (Willard) down to 15.3 (Oakton).**
 - **Willard, Walker and Lincolnwood have the largest classes**, averaging about 21. Washington (20.4) is close behind now that it uses the parent-reported class structure.
 
+**Class size by school and grade.** The same estimates grade by grade: red cells are the smallest classes, purple is about 18 students, and blue is the largest (up to the 24-student cap). The small number in each cell is the estimated number of classes.
+
+![Estimated class size by school and grade, K–5](images/chart_class_size_heatmap.png)
+
+- **Oakton** is red in every grade (13.5–17.2), partly because its ACC and TWI classes are counted separately.
+- **Dewey, Dawes, Foster and Orrington** each have three or four grades under 18.
+- **Walker, Washington, Willard and Lincolnwood** are mostly 20 or more.
+
 ## Class-size math by school
 
 Students in the grade ÷ estimated classes = average class size (fall SY27, elementary, King Arts K–5 only).
@@ -174,7 +182,7 @@ Dashboard files are long/tidy: `school` (or `account`), `chart_id`, `chart_title
 | `chart_attendance_area_capture.png` | Students living in each area vs. enrolled |
 | `chart_utility_cost_per_student.png` | 2025 utility cost per enrolled student |
 | `chart_utility_cost_per_seat.png` | 2025 utility cost per seat of capacity |
-| `chart_class_size_heatmap.png` | Estimated class size, every school and grade K–8 |
+| `chart_class_size_heatmap.png` | Estimated class size, every elementary school and grade K–5 (King Arts K–5 only) |
 | `chart_class_size_by_grade.png` | District average class size by grade, K–8 |
 | `chart_class_size_by_school.png` | One panel per school: class size by grade, with students ÷ classes |
 | `chart_class_size_elementary_by_grade.png` | Elementary schools, one panel each: class size in each K–5 grade, with students ÷ classes and the TWI/ACC/monolingual-mainstream class mix written in each bar |
