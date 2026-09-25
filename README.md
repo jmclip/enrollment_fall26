@@ -38,7 +38,7 @@ The estimated average class size for each elementary school (King Arts K–5 onl
 
 - **Monolingual/mainstream classes:** the fewest classes that keep each class at 24 or fewer students.
 - **Dual-language schools:** one class per strand at each grade.
-- **Oakton:** one ACC special-education class per grade.
+- **Oakton:** one African-Centered Curriculum (ACC) class per grade.
 - **Washington:** parents report one monolingual/mainstream class alongside the two TWI classes, so Washington's TWI and monolingual/mainstream students share the 24-student cap (2 TWI + 1 monolingual/mainstream class per grade, 4 classes in 5th grade). See the parent check below.
 
 - **Estimated averages run from 21.3 (Willard) down to 15.3 (Oakton).**
@@ -223,7 +223,7 @@ The dashboard has enrollment by grade, not how many classes each grade has, so c
 - **Cap = 24:** the district's capacity standard, not the teacher-contract limit. Change `CAP` in the notebook to use grade-level limits.
 - **TWI schools (Dawes, Dewey, Foster, Oakton, Washington), K–5:** one class per strand per grade. TWI students are assumed spread evenly across K–5.
 - **Washington (parent-verified):** TWI and monolingual/mainstream students share the cap: the fewest classes at 24 or fewer, with at least 2 TWI + 1 monolingual/mainstream. Students are spread evenly across the classes.
-- **Oakton ACC:** one ACC (special-education) class per grade K–5. The dashboard doesn't identify ACC students, so the 1A table's projected 73 are spread evenly (~12 per grade) and taken out of Oakton's monolingual/mainstream classes. Change `acc_total` in the notebook if you have the actual count.
+- **Oakton ACC:** one ACC (African-Centered Curriculum) class per grade K–5. The dashboard doesn't identify ACC students, so the 1A table's projected 73 are spread evenly (~12 per grade) and taken out of Oakton's monolingual/mainstream classes. Change `acc_total` in the notebook if you have the actual count.
 - **Middle schools:** sections of up to 24 students, since there are no homerooms. They're excluded from the elementary summaries, and King Arts counts K–5 only there.
 
 ## Checks

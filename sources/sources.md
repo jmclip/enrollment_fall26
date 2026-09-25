@@ -33,7 +33,7 @@ Data behind the files and charts in this project, and how each piece was obtaine
 - **Differences from the other sources:**
   - Haven: report capacity 937 vs. the 1A table's Cap Total 936. The analysis uses the smaller, so nothing changes.
   - JEH: report capacity 464 vs. the 1A table's 404. JEH isn't part of the analysis.
-  - Oakton: the report counts 2 special-education classrooms (13 seats) in 2021–22. The class-size model's one ACC class per grade (6 classes) follows the 1A table's 144 ACC seats instead, which appear to reflect a later program placement.
+  - Oakton: the report counts 2 special-education classrooms (13 seats) in 2021–22. These are separate from ACC (African-Centered Curriculum, a general-education program), which the report doesn't break out. The class-size model's one ACC class per grade (6 classes) follows the 1A table's 144 ACC seats.
   - The report's enrollment and utilization columns are for 2021–22 and aren't used.
 
 ## 4. Building square footage (derived)
