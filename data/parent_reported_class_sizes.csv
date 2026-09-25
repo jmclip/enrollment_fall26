@@ -1,0 +1,15 @@
+timestamp,school,grade,program,teacher,reported_class_size,reported_grade_total,confidence_1to5,source_note
+2026-09-23 11:43,Willard,2,,Chau,22,,5,Teacher
+2026-09-23 11:45,Willard,2,,Fowler,21,,5,Asked our teacher at parent conferences
+2026-09-23 11:49,Willard,K,,Davis,20,,5,Teacher
+2026-09-23 11:58,Willard,2,,Fowler,21,42,5,
+2026-09-23 11:59,Willard,5,,Jean-Pierre,25,,4,Teacher mentioned class size and daughter confirms
+2026-09-23 12:01,Willard,2,,Fowler,21,,4,Teacher mentioned and daughter confirms
+2026-09-23 12:02,Willard,1,,Zuravel,22,43,,
+2026-09-23 12:02,Willard,1,,Trafman,21,43,5,
+2026-09-23 15:28,Willard,1,,Trafman,21,,4,Teacher initial email for Seesaw signup cross-checked with parent email list
+2026-09-23 18:53,Washington,2,Monolingual/mainstream,Kincaid-McGehee,23,,5,Kid in class
+2026-09-23 18:54,Washington,2,TWI,Salaiza,19,,5,Kid in class
+2026-09-23 18:55,Washington,5,Departmental (gen ed and TWI),Del / Howard,23,,5,Kid in class; grades 4-5 are departmental at Washington for gen ed and TWI
+2026-09-24 14:02,Willard,3,,Collins,19,,4,PTA
+2026-09-24 23:52,Willard,4,,Johnston,23,,5,Teacher

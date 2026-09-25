@@ -1,0 +1,12 @@
+school,grade,program,teacher,reported_class_size,n_reports,reports_agree,max_confidence,reported_grade_total,sources,parent_verified,estimated_class_size,estimated_classes,compared_with,difference,status
+Washington,2,Monolingual/mainstream,Kincaid-McGehee,23.0,1,True,5.0,,Kid in class,True,21.0,1.0,monolingual/mainstream,2.0,Consistent
+Washington,2,TWI,Salaiza,19.0,1,True,5.0,,Kid in class,True,21.0,2.0,TWI,-2.0,Consistent
+Washington,5,Departmental (gen ed and TWI),Del / Howard,23.0,1,True,5.0,,Kid in class; grades 4-5 are departmental at Washington for gen ed and TWI,True,20.2,4.0,all classes (departmental),2.8,Differs
+Willard,K,Monolingual/mainstream,Davis,20.0,1,True,5.0,,Teacher,True,20.0,2.0,monolingual/mainstream,0.0,Consistent
+Willard,1,Monolingual/mainstream,Trafman,21.0,2,True,5.0,43.0,Teacher initial email for Seesaw signup cross-checked with parent email list,True,21.5,2.0,monolingual/mainstream,-0.5,Consistent
+Willard,1,Monolingual/mainstream,Zuravel,22.0,1,True,,43.0,,False,21.5,2.0,monolingual/mainstream,0.5,Consistent
+Willard,2,Monolingual/mainstream,Chau,22.0,1,True,5.0,,Teacher,True,22.0,2.0,monolingual/mainstream,0.0,Consistent
+Willard,2,Monolingual/mainstream,Fowler,21.0,3,True,5.0,42.0,Asked our teacher at parent conferences; Teacher mentioned and daughter confirms,True,22.0,2.0,monolingual/mainstream,-1.0,Consistent
+Willard,3,Monolingual/mainstream,Collins,19.0,1,True,4.0,,PTA,True,17.7,3.0,monolingual/mainstream,1.3,Consistent
+Willard,4,Monolingual/mainstream,Johnston,23.0,1,True,5.0,,Teacher,True,23.0,2.0,monolingual/mainstream,0.0,Consistent
+Willard,5,Monolingual/mainstream,Jean-Pierre,25.0,1,True,4.0,,Teacher mentioned class size and daughter confirms,True,23.5,2.0,monolingual/mainstream,1.5,Consistent

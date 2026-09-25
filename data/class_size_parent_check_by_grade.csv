@@ -1,0 +1,9 @@
+school,grade,classes_reported,sum_of_reported_sizes,parent_grade_total,dashboard_students,estimated_classes,estimated_avg_class_size,all_classes_reported
+Washington,2,2,42.0,,63.0,3.0,21.0,False
+Washington,5,1,23.0,,81.0,4.0,20.2,False
+Willard,K,1,20.0,,40.0,2.0,20.0,False
+Willard,1,2,43.0,43.0,43.0,2.0,21.5,True
+Willard,2,2,43.0,42.0,44.0,2.0,22.0,True
+Willard,3,1,19.0,,53.0,3.0,17.7,False
+Willard,4,1,23.0,,46.0,2.0,23.0,False
+Willard,5,1,25.0,,47.0,2.0,23.5,False
