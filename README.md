@@ -39,18 +39,18 @@ The estimated average class size for each elementary school (King Arts K–5 onl
 - **Monolingual/mainstream classes:** the fewest classes that keep each class at 24 or fewer students.
 - **Dual-language schools:** one class per strand at each grade.
 - **Oakton:** one African-Centered Curriculum (ACC) class per grade.
-- **Washington:** parents report one monolingual/mainstream class alongside the two TWI classes, so Washington's TWI and monolingual/mainstream students share the 24-student cap (2 TWI + 1 monolingual/mainstream class per grade, 4 classes in 5th grade). See the parent check below.
+- **Washington:** uses its reported class counts instead of the estimate: 4 classes per grade (2 TWI + 2 monolingual/mainstream), except 1st and 2nd grade, which have 3 (2 TWI + 1). See the parent check below.
 
 - **Estimated averages run from 21.3 (Willard) down to 15.3 (Oakton).**
-- **Willard, Walker and Lincolnwood have the largest classes**, averaging about 21. Washington (20.4) is close behind now that it uses the parent-reported class structure.
+- **Willard, Walker and Lincolnwood have the largest classes**, averaging about 21.
 
 **Class size by school and grade.** The same estimates grade by grade: red cells are the smallest classes, purple is about 18 students, and blue is the largest (up to the 24-student cap). The small number in each cell is the estimated number of classes. The last column is each school's average (the average of its six grade averages, matching the chart above), with its total K–5 classes.
 
 ![Estimated class size by school and grade, K–5](images/chart_class_size_heatmap.png)
 
 - **Oakton** is red in every grade (13.5–17.2), partly because its ACC and TWI classes are counted separately.
-- **Dewey, Dawes, Foster and Orrington** each have three or four grades under 18.
-- **Walker, Washington, Willard and Lincolnwood** are mostly 20 or more.
+- **Dewey, Dawes, Foster, Orrington and Washington** each have three or four grades under 18.
+- **Walker, Willard and Lincolnwood** are mostly 20 or more.
 
 ## Class-size math by school
 
@@ -61,11 +61,11 @@ Students in the grade ÷ estimated classes = average class size (fall SY27, elem
 | Willard | 40 ÷ 2 = **20.0** | 43 ÷ 2 = **21.5** | 44 ÷ 2 = **22.0** | 53 ÷ 3 = **17.7** | 46 ÷ 2 = **23.0** | 47 ÷ 2 = **23.5** | **21.3** | – |
 | Walker | 45 ÷ 2 = **22.5** | 57 ÷ 3 = **19.0** | 42 ÷ 2 = **21.0** | 63 ÷ 3 = **21.0** | 66 ÷ 3 = **22.0** | 44 ÷ 2 = **22.0** | **21.2** | – |
 | Lincolnwood | 48 ÷ 2 = **24.0** | 60 ÷ 3 = **20.0** | 54 ÷ 3 = **18.0** | 42 ÷ 2 = **21.0** | 48 ÷ 2 = **24.0** | 79 ÷ 4 = **19.8** | **21.1** | – |
-| Washington | 58 ÷ 3 = **19.3** | 59 ÷ 3 = **19.7** | 63 ÷ 3 = **21.0** | 64 ÷ 3 = **21.3** | 62 ÷ 3 = **20.7** | 81 ÷ 4 = **20.2** | **20.4** | 2 TWI (+1 mono, parent-verified) |
 | King Arts | 41 ÷ 2 = **20.5** | 40 ÷ 2 = **20.0** | 37 ÷ 2 = **18.5** | 56 ÷ 3 = **18.7** | 54 ÷ 3 = **18.0** | 46 ÷ 2 = **23.0** | **19.8** | – |
 | Lincoln | 57 ÷ 3 = **19.0** | 73 ÷ 4 = **18.2** | 53 ÷ 3 = **17.7** | 43 ÷ 2 = **21.5** | 68 ÷ 3 = **22.7** | 56 ÷ 3 = **18.7** | **19.6** | – |
 | Dawes | 43 ÷ 2 = **21.5** | 45 ÷ 3 = **15.0** | 42 ÷ 2 = **21.0** | 48 ÷ 3 = **16.0** | 59 ÷ 3 = **19.7** | 51 ÷ 3 = **17.0** | **18.4** | 1 TWI |
 | Orrington | 40 ÷ 2 = **20.0** | 35 ÷ 2 = **17.5** | 42 ÷ 2 = **21.0** | 52 ÷ 3 = **17.3** | 27 ÷ 2 = **13.5** | 55 ÷ 3 = **18.3** | **17.9** | – |
+| Washington | 58 ÷ 4 = **14.5** | 59 ÷ 3 = **19.7** | 63 ÷ 3 = **21.0** | 64 ÷ 4 = **16.0** | 62 ÷ 4 = **15.5** | 81 ÷ 4 = **20.2** | **17.8** | 2 TWI (class counts reported) |
 | Dewey | 48 ÷ 3 = **16.0** | 55 ÷ 3 = **18.3** | 45 ÷ 3 = **15.0** | 52 ÷ 3 = **17.3** | 64 ÷ 3 = **21.3** | 51 ÷ 3 = **17.0** | **17.5** | 1 TWI |
 | Foster | 46 ÷ 3 = **15.3** | 42 ÷ 3 = **14.0** | 65 ÷ 4 = **16.2** | 79 ÷ 4 = **19.8** | 57 ÷ 3 = **19.0** | 72 ÷ 4 = **18.0** | **17.0** | 2 TWI |
 | Oakton | 68 ÷ 4 = **17.0** | 55 ÷ 4 = **13.8** | 58 ÷ 4 = **14.5** | 54 ÷ 4 = **13.5** | 69 ÷ 4 = **17.2** | 63 ÷ 4 = **15.8** | **15.3** | 1 TWI + 1 ACC |
@@ -77,9 +77,9 @@ Students in the grade ÷ estimated classes = average class size (fall SY27, elem
 | School | Grades reported | Classes reported | Result |
 |---|---|---:|---|
 | Willard | K, 1, 2, 3, 4, 5 | 8 | **All 8 match the estimate within 2 students.** In grades 1 and 2 every class was reported: 1st grade 22 + 21 = 43, the same as the dashboard's 43. 2nd grade 22 + 21 = 43, against 44 on the dashboard (one parent gave a grade total of 42). |
-| Washington | 2, 5 | 3 | **2nd grade now matches; 5th grade is 3 above.** 2nd grade: a monolingual/mainstream class of 23 and a TWI class of 19. The original estimate was about 15 and 16, because it assumed 2 monolingual/mainstream classes per grade. Parents report only one, so the estimates now use **2 TWI + 1 monolingual/mainstream class per grade** at Washington (21.0 per class in 2nd grade, within 2 of both reports). 5th grade (81 students) is departmental, with reported classes of 23 against our estimate of 20.2 (4 classes). |
+| Washington | 2, 5 | 3 | **2nd grade matches; 5th grade is 3 above.** 2nd grade: a monolingual/mainstream class of 23 and a TWI class of 19, against an estimate of 21.0 (63 students in 3 classes). The notebook now uses Washington's reported class counts: 4 per grade, 3 in 1st and 2nd. 5th grade (81 students, 4 classes) is departmental, with reported classes of 23 against our 20.2. |
 
-**Still unverified:** every other school, and Washington's K, 1, 3 and 4. Treat those class sizes as estimates. Washington's structure (2 TWI + 1 monolingual/mainstream) is applied to all of its K–5 grades on the strength of the 2nd-grade reports. **Foster** also has two TWI strands and may be organized the same way; if so, its classes are larger than estimated here. It stays on the separate-classes estimate until parents report. Files: `data/parent_reported_class_sizes.csv` (every form response), `data/class_size_parent_check.csv` (one row per class, compared with the estimate) and `data/class_size_parent_check_by_grade.csv` (reported classes against dashboard enrollment by grade).
+**Still unverified:** every other school's class counts, and class sizes at Washington outside 2nd and 5th grade. Washington's class counts per grade are reported, but its class sizes are still enrollment ÷ classes. **Foster** also has two TWI strands and stays on the estimate until parents report. Files: `data/parent_reported_class_sizes.csv` (every form response), `data/class_size_parent_check.csv` (one row per class, compared with the estimate) and `data/class_size_parent_check_by_grade.csv` (reported classes against dashboard enrollment by grade).
 
 
 ## How the data was collected
@@ -230,7 +230,7 @@ The dashboard has enrollment by grade, not how many classes each grade has, so c
 - **Monolingual/mainstream classes:** the fewest classes that keep each class at or under the cap, `ceil(students ÷ 24)`. This gives the fewest classrooms and largest average class a grade could have. Real schools may run more, smaller classes.
 - **Cap = 24:** the district's capacity standard, not the teacher-contract limit. Change `CAP` in the notebook to use grade-level limits.
 - **TWI schools (Dawes, Dewey, Foster, Oakton, Washington), K–5:** one class per strand per grade. TWI students are assumed spread evenly across K–5.
-- **Washington (parent-verified):** TWI and monolingual/mainstream students share the cap: the fewest classes at 24 or fewer, with at least 2 TWI + 1 monolingual/mainstream. Students are spread evenly across the classes.
+- **Washington (reported class counts):** 4 classes per grade (2 TWI + 2 monolingual/mainstream), except 1st and 2nd grade with 3 (2 TWI + 1). Students are spread evenly across a grade's classes. Set in `KNOWN_CLASSES` in the notebook.
 - **Oakton ACC:** one ACC (African-Centered Curriculum) class per grade K–5. The dashboard doesn't identify ACC students, so the 1A table's projected 73 are spread evenly (~12 per grade) and taken out of Oakton's monolingual/mainstream classes. Change `acc_total` in the notebook if you have the actual count.
 - **Middle schools:** sections of up to 24 students, since there are no homerooms. They're excluded from the elementary summaries, and King Arts counts K–5 only there.
 

@@ -65,12 +65,12 @@ Walker,2,2,42.0,24,0.0,0.0,,0.0,0.0,,42.0,2.0,21.0,2.0,21.0,
 Walker,3,3,63.0,24,0.0,0.0,,0.0,0.0,,63.0,3.0,21.0,3.0,21.0,
 Walker,4,4,66.0,24,0.0,0.0,,0.0,0.0,,66.0,3.0,22.0,3.0,22.0,
 Walker,5,5,44.0,24,0.0,0.0,,0.0,0.0,,44.0,2.0,22.0,2.0,22.0,
-Washington,0,K,58.0,24,38.7,2.0,19.3,0.0,0.0,,19.3,1.0,19.3,3.0,19.3,Parent-verified structure: 2 TWI + 1 monolingual/mainstream class per grade (more if needed to stay at 24); students spread evenly across classes
-Washington,1,1,59.0,24,39.3,2.0,19.7,0.0,0.0,,19.7,1.0,19.7,3.0,19.7,Parent-verified structure: 2 TWI + 1 monolingual/mainstream class per grade (more if needed to stay at 24); students spread evenly across classes
-Washington,2,2,63.0,24,42.0,2.0,21.0,0.0,0.0,,21.0,1.0,21.0,3.0,21.0,Parent-verified structure: 2 TWI + 1 monolingual/mainstream class per grade (more if needed to stay at 24); students spread evenly across classes
-Washington,3,3,64.0,24,42.7,2.0,21.3,0.0,0.0,,21.3,1.0,21.3,3.0,21.3,Parent-verified structure: 2 TWI + 1 monolingual/mainstream class per grade (more if needed to stay at 24); students spread evenly across classes
-Washington,4,4,62.0,24,41.3,2.0,20.7,0.0,0.0,,20.7,1.0,20.7,3.0,20.7,Parent-verified structure: 2 TWI + 1 monolingual/mainstream class per grade (more if needed to stay at 24); students spread evenly across classes
-Washington,5,5,81.0,24,40.5,2.0,20.2,0.0,0.0,,40.5,2.0,20.2,4.0,20.2,Parent-verified structure: 2 TWI + 1 monolingual/mainstream class per grade (more if needed to stay at 24); students spread evenly across classes
+Washington,0,K,58.0,24,29.0,2.0,14.5,0.0,0.0,,29.0,2.0,14.5,4.0,14.5,"Reported class counts: 4 per grade (2 TWI + 2 monolingual/mainstream), 3 in 1st and 2nd (2 TWI + 1); students spread evenly across classes"
+Washington,1,1,59.0,24,39.3,2.0,19.7,0.0,0.0,,19.7,1.0,19.7,3.0,19.7,"Reported class counts: 4 per grade (2 TWI + 2 monolingual/mainstream), 3 in 1st and 2nd (2 TWI + 1); students spread evenly across classes"
+Washington,2,2,63.0,24,42.0,2.0,21.0,0.0,0.0,,21.0,1.0,21.0,3.0,21.0,"Reported class counts: 4 per grade (2 TWI + 2 monolingual/mainstream), 3 in 1st and 2nd (2 TWI + 1); students spread evenly across classes"
+Washington,3,3,64.0,24,32.0,2.0,16.0,0.0,0.0,,32.0,2.0,16.0,4.0,16.0,"Reported class counts: 4 per grade (2 TWI + 2 monolingual/mainstream), 3 in 1st and 2nd (2 TWI + 1); students spread evenly across classes"
+Washington,4,4,62.0,24,31.0,2.0,15.5,0.0,0.0,,31.0,2.0,15.5,4.0,15.5,"Reported class counts: 4 per grade (2 TWI + 2 monolingual/mainstream), 3 in 1st and 2nd (2 TWI + 1); students spread evenly across classes"
+Washington,5,5,81.0,24,40.5,2.0,20.2,0.0,0.0,,40.5,2.0,20.2,4.0,20.2,"Reported class counts: 4 per grade (2 TWI + 2 monolingual/mainstream), 3 in 1st and 2nd (2 TWI + 1); students spread evenly across classes"
 Willard,0,K,40.0,24,0.0,0.0,,0.0,0.0,,40.0,2.0,20.0,2.0,20.0,
 Willard,1,1,43.0,24,0.0,0.0,,0.0,0.0,,43.0,2.0,21.5,2.0,21.5,
 Willard,2,2,44.0,24,0.0,0.0,,0.0,0.0,,44.0,2.0,22.0,2.0,22.0,
