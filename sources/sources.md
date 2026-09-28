@@ -42,6 +42,15 @@ Data behind the files and charts in this project, and how each piece was obtaine
 - **File:** `building_square_feet.csv`
 - **Notes:** Estimates, good to about ±a few hundred sq ft because EUI is rounded. Foster has no utility account on the dashboard. This is the whole building; the square feet in sources 3 and 3b cover only core classrooms plus SPED (and science labs at middle schools).
 
+## 5. District transportation tables and costs
+
+- **What:** Three district tables of students by transportation category for each school. The categories are bus (lives more than 1.5 miles away), hazard, walk, special education, and program placements (ACC, STEP, TWE/TWS/TWX). Transcribed from screenshots:
+  - `projections/data/transportation_0_baseline.csv` ("0_Transportation_website"): last year's schools, with Kingsley open.
+  - `projections/data/transportation_1A_revised_IDOT_only.csv` ("1A-Revised_Transportation_IDOT only_website"): current schools. Hazard counts only IDOT-approved hazards, and walkers are split at 0.75 miles.
+  - `projections/data/transportation_3D_revised_10_9.csv` ("3D-Revised 10/9_Transportation_website"): Scenario 3D, which closes Kingsley, Lincolnwood and Washington.
+- **Costs:** Transportation Memo to the School Board, Feb 9, 2026. About $4.2M a year for 176 days: 20 double routes (~$1.8M), 7 single routes (~$0.6M), 12 special-education routes (~$1.0M) and ~$0.8M fixed. About $80K per added single route. Pre-K transportation at JEH is ~$1.5M on top.
+- **Used for:** the README section on transportation and closures.
+
 ## Derived files
 | File | Built from |
 |---|---|

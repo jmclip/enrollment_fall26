@@ -10,47 +10,45 @@ An analysis of how Evanston/Skokie School District 65 buildings are used: enroll
 
 ## Key findings
 
-### 1. Enrollment compared with projections: big gaps in how schools enrolled relative to predictions from last year
+### 1. Fuller buildings don't have bigger classes: utilization and class size are unrelated
 
-![Current minus projected enrollment by school](images/chart_enrollment_difference.png)
+![Class size vs. utilization, elementary schools](images/chart_class_size_vs_utilization.png)
 
-Each bar is a school's fall SY27 enrollment minus the district's projection. Schools are sorted by the size of the gap. Blue means more students than projected; red means fewer.
+Each dot is an elementary school: current utilization against estimated average class size. The red line is a least-squares fit.
 
-- **Seven schools came in below projection.** Foster (−91), Nichols (−74), Haven (−60), Dewey (−57), Washington (−54), Dawes (−49) and Oakton (−36). Five of the seven host dual-language (TWI) programs.
-- **Seven came in above.** Lincolnwood (+150), Willard (+80), Chute (+40), King Arts (+30), Orrington (+25), Lincoln (+22) and Walker (+13).
-- **Across all 14 schools**, enrollment is 5,462 against 5,523 projected (−61, about 1%). The gaps mostly offset each other, so the issue is where students are, not how many.
-- **Two projections come from a scenario that kept Kingsley open.** Lincolnwood's and Willard's projections (181 and 193) are from the Cordogan Clark capacity table. The 1A table projects 280 and 261, which would shrink their gaps to +51 and +12.
+- **The line is flat.** Class size changes by about 0.02 students per point of utilization (r = −0.11, R² = 0.01, p = 0.75, 11 schools). Utilization explains about 1% of the difference in class size between schools.
+- **The two extremes point opposite ways.** Oakton is the fullest building (79%) and has the smallest classes (16.2). Willard is the emptiest (51%) and has the largest (21.3).
+- **What drives class size instead:** how each grade divides into classes, and programs (TWI, ACC) that add classes. A half-empty building can still have full classrooms, and a full building can have small ones.
 
-### 2. Building utilization only shows one piece of the puzzle
+### 2. Utilization runs from 51% to 83%
 
 ![Current building utilization by school](images/chart_utilization_current.png)
 
-Utilization = fall SY27 enrollment ÷ capacity. Capacity is the smaller of the district's Cap Total (1A table) and Cordogan Clark's capacity (verified against their February 2022 report). Each bar shows the capacity used and the school's classroom count; middle schools show teaching stations instead.
+Utilization = fall SY27 enrollment ÷ capacity (the smaller of the district's Cap Total and Cordogan Clark's capacity).
 
-- **Utilization ranges from 51% (Willard) to 83% (Nichols).**
-- **STEP (\*)** program use affects capacity at Lincoln, Lincolnwood and Washington.
+- **STEP (\*)** program use reduces usable capacity at Lincoln, Lincolnwood and Washington.
 
-### 3. Average class size by elementary school does not necessarily correlate with utilization
+### 3. The smallest classes are at the dual-language schools
 
 ![Estimated average class size by elementary school](images/chart_class_size_by_school_overall.png)
 
-The estimated average class size for each elementary school (King Arts K–5 only), averaged across K–5 with every grade weighted equally. Class counts are **estimated** because the dashboard reports enrollment by grade, not by class:
+Estimated average class size per school (average of its K–5 grades; King Arts K–5 only).
 
-- **Monolingual/mainstream classes:** the fewest classes that keep each class at 24 or fewer students.
-- **Dual-language schools:** one class per strand at each grade.
-- **Oakton:** one African-Centered Curriculum (ACC) class per grade.
-- **Washington:** uses its reported class counts instead of the estimate: 4 classes per grade (2 TWI + 2 monolingual/mainstream), except 1st and 2nd grade, which have 3 (2 TWI + 1). See the parent check below.
+- **Five of the six smallest averages are TWI schools:** Oakton 16.2, Foster 17.0, Dewey 17.5, Washington 17.8 and Dawes 18.4. The sixth is Orrington, at 17.9.
+- **TWI schools average 17.2 students per class; the other schools average 20.0.** Each strand adds its own class at every grade, whether or not it's full.
+- **The largest classes are at schools with no programs:** Willard (21.3), Walker (21.2) and Lincolnwood (21.1).
 
-- **Estimated averages run from 21.3 (Willard) down to 15.3 (Oakton).**
-- **Willard, Walker and Lincolnwood have the largest classes**, averaging about 21.
+*Class counts are estimated, because the dashboard reports enrollment by grade, not by class: the fewest monolingual/mainstream classes that keep each class at 24 or fewer, plus one class per TWI strand and one ACC class per grade at Oakton. Washington and Oakton's 5th grade use reported class counts. The full math is in the table below.*
 
-**Class size by school and grade.** The same estimates grade by grade: red cells are the smallest classes, purple is about 18 students, and blue is the largest (up to the 24-student cap). The small number in each cell is the estimated number of classes. The last column is each school's average (the average of its six grade averages, matching the chart above), with its total K–5 classes.
+### 4. A third of elementary grades average under 18 students per class
 
 ![Estimated class size by school and grade, K–5](images/chart_class_size_heatmap.png)
 
-- **Oakton** is red in every grade (13.5–17.2), partly because its ACC and TWI classes are counted separately.
-- **Dewey, Dawes, Foster, Orrington and Washington** each have three or four grades under 18.
-- **Walker, Willard and Lincolnwood** are mostly 20 or more.
+Red is small classes, purple is about 18, and blue is large (up to the 24 cap). The last column is each school's average.
+
+- **23 of the 66 school-grades are under 18.** They are concentrated at Oakton (5 of 6 grades), Dewey (4), and Dawes, Foster, Orrington and Washington (3 each).
+- **Small grades split awkwardly.** Orrington's 4th grade has 27 students in 2 classes (13.5 each). A 25th student forces a second class.
+- **Walker, Willard and Lincolnwood are blue almost everywhere.**
 
 ## Class-size math by school
 
@@ -68,9 +66,11 @@ Students in the grade ÷ estimated classes = average class size (fall SY27, elem
 | Washington | 58 ÷ 4 = **14.5** | 59 ÷ 3 = **19.7** | 63 ÷ 3 = **21.0** | 64 ÷ 4 = **16.0** | 62 ÷ 4 = **15.5** | 81 ÷ 4 = **20.2** | **17.8** | 2 TWI (class counts reported) |
 | Dewey | 48 ÷ 3 = **16.0** | 55 ÷ 3 = **18.3** | 45 ÷ 3 = **15.0** | 52 ÷ 3 = **17.3** | 64 ÷ 3 = **21.3** | 51 ÷ 3 = **17.0** | **17.5** | 1 TWI |
 | Foster | 46 ÷ 3 = **15.3** | 42 ÷ 3 = **14.0** | 65 ÷ 4 = **16.2** | 79 ÷ 4 = **19.8** | 57 ÷ 3 = **19.0** | 72 ÷ 4 = **18.0** | **17.0** | 2 TWI |
-| Oakton | 68 ÷ 4 = **17.0** | 55 ÷ 4 = **13.8** | 58 ÷ 4 = **14.5** | 54 ÷ 4 = **13.5** | 69 ÷ 4 = **17.2** | 63 ÷ 4 = **15.8** | **15.3** | 1 TWI + 1 ACC |
+| Oakton | 68 ÷ 4 = **17.0** | 55 ÷ 4 = **13.8** | 58 ÷ 4 = **14.5** | 54 ÷ 4 = **13.5** | 69 ÷ 4 = **17.2** | 63 ÷ 3 = **21.0** | **16.2** | 1 TWI + 1 ACC (5th: 3 classes, reported) |
 
 *Each cell shows students in that grade ÷ estimated classes = average class size. "Avg" is the average of the six grade averages. "Program classes per grade" lists the dual-language (TWI) and ACC classes included in each grade's count. The rest are monolingual/mainstream classes. For example, Foster kindergarten = 2 TWI + 1 monolingual/mainstream = 3 classes. Monolingual/mainstream classes are the fewest that keep each class at 24 or fewer students. TWI and ACC students are assumed evenly spread across K–5, and Oakton ACC uses the 73 projected students. These are estimates, not reported class counts. Full detail: `data/class_size_detail_by_school.csv`.*
+
+**Note on Oakton.** Oakton's TWI class sizes use the school's total TWI enrollment from the dashboard (75 students), averaged evenly across K–5 (about 12–13 per grade). The dashboard has no ACC enrollment data, so ACC is handled the same way: the 1A table's projected 73 ACC students, averaged across K–5 (about 12 per grade). Unless combined ACC + TWI enrollment in a grade is substantially larger than 25, the results hold: Oakton still needs one TWI class and one ACC class per grade, and the class counts and averages above don't change. We contacted the district on 2026-09-25 about Oakton's strands per grade and will update this when they respond.
 
 **Checked against parent reports (as of 2026-09-24).** Parents reported 11 actual classes through the [crowdsourcing form](https://docs.google.com/forms/d/e/1FAIpQLSepZPKRXOA8HTbEoWf8sUmXK_UlhWkK4_6y4cl9NQLNEYL1Bw/viewform?usp=dialog). Ten were reported with confidence 4–5 out of 5 and a named source (the teacher, a conference, a class email list, the PTA or a child in the class). These are still second-hand reports, not district data. Notebook section 12 compares each report with the estimate above.
 
@@ -81,6 +81,52 @@ Students in the grade ÷ estimated classes = average class size (fall SY27, elem
 
 **Still unverified:** every other school's class counts, and class sizes at Washington outside 2nd and 5th grade. Washington's class counts per grade are reported, but its class sizes are still enrollment ÷ classes. **Foster** also has two TWI strands and stays on the estimate until parents report. Files: `data/parent_reported_class_sizes.csv` (every form response), `data/class_size_parent_check.csv` (one row per class, compared with the estimate) and `data/class_size_parent_check_by_grade.csv` (reported classes against dashboard enrollment by grade).
 
+
+## Closing schools: transportation is an important factor in savings
+
+Closing a building saves money, but some students then need a bus. Transportation costs take back a meaningful share of the savings, so any closure estimate should net them out. Example: closing **Lincolnwood and Washington**, which is the district's Scenario 3D (it also closed Kingsley, which has since happened).
+
+**Extra bus riders.** We compared the district's transportation tables for today's schools and for Scenario 3D. Both are counted the same way: the current table counts only IDOT-approved hazards, so we added back the district-designated hazard riders it leaves out, 190 at Foster and 34 at Dewey.
+
+| School | Riders now | Riders in 3D | Change |
+|---|---:|---:|---:|
+| Dewey | 48 | 218 | **+170** |
+| Orrington | 0 | 88 | **+88** |
+| Oakton | 43 | 63 | +20 |
+| Foster | 270 | 275 | +5 |
+| Chute, King Arts, Nichols, Willard | 478 | 493 | +15 |
+| Haven, Lincoln, Lincolnwood | 17 | 1 | −16 |
+| Dawes | 18 | 9 | −9 |
+| Washington | 70 | 0 (closed) | −70 |
+| Walker | 83 | 83 | 0 |
+| **General-education riders** | **1,027** | **1,230** | **+203** |
+
+Most of the new riders are **hazard riders**, students whose new walk crosses an unsafe route, not students who live more than 1.5 miles away. They are concentrated at Dewey (Washington's students) and Orrington (Lincolnwood's students).
+
+**Yearly savings vs. added transportation** (without any savings from combining classes)
+
+| Item | Low | High | Basis |
+|---|---:|---:|---|
+| Principals (2) | $362K | $362K | FY26 salary disclosure: $180.8K each with benefits |
+| Assistant principal | $0 | $160K | only if either school has one |
+| Office staff (2–3) | $120K | $180K | one secretary per school, plus a health clerk if either school has one; **assumed** $60K each |
+| Custodians (~5) | $325K | $325K | **assumed** $65K each; about 4 per building district-wide |
+| Utilities | $140K | $140K | 2025 utility data: Lincolnwood $50K + Washington $90K |
+| Librarians | $0 | $266K | $133K each, only if the positions are cut rather than moved |
+| **Building savings** | **$0.95M** | **$1.43M** | |
+| Added transportation (+203 riders) | −$0.5M | −$0.2M | about 4 routes at ~$80K each (district memo, Feb 9, 2026) = $0.2–0.3M; ~$2,400 per rider (average cost) as a ceiling |
+| **Net savings per year** | **$0.4M** | **$1.2M** | low savings with high transport cost; high savings with low transport cost |
+
+- **Transportation takes back roughly 15–50% of the building savings, most likely about a quarter.**
+- **Hazard designations drive the cost.** Whether a walk counts as hazardous (IDOT-approved or district-designated), and whether crossing guards could make it safe, can change the number of routes needed.
+- **Not included:**
+  - savings from combining classes, which means fuller classes
+  - one-time costs: moving, and renovating receiving schools for TWI and STEP
+  - avoided capital and maintenance at closed buildings
+  - families who leave the district
+  - changes in state funding
+- **Assumed pay:** custodian and office pay are placeholders; the uploaded salary reports cover only licensed staff and administrators.
+- **Files:** the district's three transportation tables are in `projections/data/`: `transportation_0_baseline.csv` (last year, Kingsley open), `transportation_1A_revised_IDOT_only.csv` (current) and `transportation_3D_revised_10_9.csv` (Scenario 3D). District-wide transportation costs come from the Transportation Memo to the Board (Feb 9, 2026): about $4.2M a year, and about $80K per added single route.
 
 ## How the data was collected
 
@@ -156,6 +202,7 @@ Dashboard files are long/tidy: `school` (or `account`), `chart_id`, `chart_title
 | `table_students_by_school_grade.csv` | Supporting table 1: students by school and grade (integers, with totals) |
 | `table_classes_by_school_grade.csv` | Supporting table 2: estimated classes by school and grade (integers, with totals) |
 | `class_size_by_school_overall.csv` | Elementary only (King Arts K–5): average of K–5 grade averages, and the student-weighted average |
+| `class_size_vs_utilization.csv` | Per elementary school: estimated average class size and current utilization (the data behind the regression chart) |
 | `parent_reported_class_sizes.csv` | Class sizes reported by parents through the crowdsourcing form, one row per response (timestamp, school, grade, program, teacher, class size, grade total if given, confidence 1–5, source) |
 | `class_size_parent_check.csv` | One row per reported class (duplicate reports combined), with our estimate for the same school, grade and program, the difference, and Consistent (within 2) or Differs |
 | `class_size_parent_check_by_grade.csv` | By school and grade: classes reported, sum of reported sizes, dashboard enrollment, estimated classes |
@@ -183,6 +230,7 @@ Dashboard files are long/tidy: `school` (or `account`), `chart_id`, `chart_title
 | `chart_utility_cost_per_student.png` | 2025 utility cost per enrolled student |
 | `chart_utility_cost_per_seat.png` | 2025 utility cost per seat of capacity |
 | `chart_class_size_heatmap.png` | Estimated class size, every elementary school and grade K–5 (King Arts K–5 only) |
+| `chart_class_size_vs_utilization.png` | Scatter with regression line: estimated average class size vs. current utilization, elementary schools |
 | `chart_class_size_by_grade.png` | District average class size by grade, K–8 |
 | `chart_class_size_by_school.png` | One panel per school: class size by grade, with students ÷ classes |
 | `chart_class_size_elementary_by_grade.png` | Elementary schools, one panel each: class size in each K–5 grade, with students ÷ classes and the TWI/ACC/monolingual-mainstream class mix written in each bar |
@@ -231,6 +279,7 @@ The dashboard has enrollment by grade, not how many classes each grade has, so c
 - **Cap = 24:** the district's capacity standard, not the teacher-contract limit. Change `CAP` in the notebook to use grade-level limits.
 - **TWI schools (Dawes, Dewey, Foster, Oakton, Washington), K–5:** one class per strand per grade. TWI students are assumed spread evenly across K–5.
 - **Washington (reported class counts):** 4 classes per grade (2 TWI + 2 monolingual/mainstream), except 1st and 2nd grade with 3 (2 TWI + 1). Students are spread evenly across a grade's classes. Set in `KNOWN_CLASSES` in the notebook.
+- **Oakton 5th grade (reported class count):** 3 classes instead of 4, assumed to be 1 TWI + 1 ACC + 1 monolingual/mainstream, with students spread evenly. Also set in `KNOWN_CLASSES`.
 - **Oakton ACC:** one ACC (African-Centered Curriculum) class per grade K–5. The dashboard doesn't identify ACC students, so the 1A table's projected 73 are spread evenly (~12 per grade) and taken out of Oakton's monolingual/mainstream classes. Change `acc_total` in the notebook if you have the actual count.
 - **Middle schools:** sections of up to 24 students, since there are no homerooms. They're excluded from the elementary summaries, and King Arts counts K–5 only there.
 

@@ -1,6 +1,7 @@
 pandas
 numpy
 matplotlib
+scipy         # regression (class size vs. utilization)
 jinja2        # table styling in the notebook
 requests      # d65_scrape.py only
 jupyter
