@@ -52,6 +52,9 @@ Red is small classes, purple is about 18, and blue is large (up to the 24 cap). 
 
 ## Class-size math by school
 
+<details>
+<summary><b>Show the class-size math</b>: students ÷ classes for every school and grade, the Oakton note, and the parent-report check</summary>
+
 Students in the grade ÷ estimated classes = average class size (fall SY27, elementary, King Arts K–5 only).
 
 | School | K | 1 | 2 | 3 | 4 | 5 | Avg | Program classes per grade |
@@ -81,6 +84,7 @@ Students in the grade ÷ estimated classes = average class size (fall SY27, elem
 
 **Still unverified:** every other school's class counts, and class sizes at Washington outside 2nd and 5th grade. Washington's class counts per grade are reported, but its class sizes are still enrollment ÷ classes. **Foster** also has two TWI strands and stays on the estimate until parents report. Files: `data/parent_reported_class_sizes.csv` (every form response), `data/class_size_parent_check.csv` (one row per class, compared with the estimate) and `data/class_size_parent_check_by_grade.csv` (reported classes against dashboard enrollment by grade).
 
+</details>
 
 ## Closing schools: transportation is an important factor in savings
 
@@ -128,7 +132,12 @@ Most of the new riders are **hazard riders**, students whose new walk crosses an
 - **Assumed pay:** custodian and office pay are placeholders; the uploaded salary reports cover only licensed staff and administrators.
 - **Files:** the district's three transportation tables are in `projections/data/`: `transportation_0_baseline.csv` (last year, Kingsley open), `transportation_1A_revised_IDOT_only.csv` (current) and `transportation_3D_revised_10_9.csv` (Scenario 3D). District-wide transportation costs come from the Transportation Memo to the Board (Feb 9, 2026): about $4.2M a year, and about $80K per added single route.
 
-## How the data was collected
+## Replication and technical details
+
+<details>
+<summary><b>Show replication and technical details</b>: how the data was collected, folder layout, how to refresh, data and chart files, notebook outline, methods and definitions, checks, and known limitations</summary>
+
+### How the data was collected
 
 - **Current data** comes from the district's public dashboard, [data.district65.net](https://data.district65.net), a Plotly Dash app. Its charts come from requests to `/_dash-update-component`.
 - **The pull (2026-09-23):** those same requests were made for the district as a whole and for each of the 14 schools (Home, Attendance, Discipline, and all five assessments), plus every building's utility data. The chart data was decoded into the tidy CSVs in `data/`.
@@ -137,7 +146,7 @@ Most of the new riders are **hazard riders**, students whose new walk crosses an
 
 Full replication details, the endpoints and the scraper are in **[`scraping/README.md`](scraping/README.md)**.
 
-## Folder layout
+### Folder layout
 
 ```
 d65-dashboard-data/
@@ -150,7 +159,7 @@ d65-dashboard-data/
 └── sources/                      sources.md, the Cordogan Clark report (PDF) and the original screenshots
 ```
 
-## How to refresh
+### How to refresh
 
 1. `pip install -r requirements.txt`
 2. `python3 scraping/d65_scrape.py` pulls the dashboard again and overwrites the dashboard CSVs in `data/` (the first seven input files below). See `scraping/README.md`.
@@ -158,9 +167,9 @@ d65-dashboard-data/
 
 The dashboard stores filtered results in one shared spot on its server, so another visitor filtering at the same moment can mix up numbers. The script re-runs any school whose totals don't add up, and checks that schools sum to the district.
 
-## Data files (`data/`)
+### Data files (`data/`)
 
-### Inputs
+#### Inputs
 
 | File | Source | Contents |
 |---|---|---|
@@ -177,7 +186,7 @@ The dashboard stores filtered results in one shared spot on its server, so anoth
 
 Dashboard files are long/tidy: `school` (or `account`), `chart_id`, `chart_title`, `series`, `category`, `value`.
 
-### Outputs written by the notebook
+#### Outputs written by the notebook
 
 **Enrollment**
 
@@ -217,7 +226,7 @@ Dashboard files are long/tidy: `school` (or `account`), `chart_id`, `chart_title
 | `attendance_area_capture.csv` | Students living in each attendance area vs. enrolled, total and neighborhood-only capture % |
 | `utility_cost_per_student.csv` | 2025 utility cost per building, enrollment, capacity, empty seats, cost per student, cost per seat, cost matching empty seats |
 
-## Charts (`images/`)
+### Charts (`images/`)
 
 | Chart | Shows |
 |---|---|
@@ -237,7 +246,7 @@ Dashboard files are long/tidy: `school` (or `account`), `chart_id`, `chart_title
 | `chart_class_size_by_school_overall.png` | Elementary schools, one average class size each |
 | `table_enrollment_twi_by_school_grade.png` | Table: elementary enrollment by grade with TWI/ACC breakouts and strands |
 
-## Notebook outline
+### Notebook outline
 
 0. Setup (libraries, chart style, helpers)
 1. Enrollment by school and grade, checked against district totals
@@ -253,7 +262,7 @@ Dashboard files are long/tidy: `school` (or `account`), `chart_id`, `chart_title
 11. Enrollment table with TWI breakouts
 12. Parent-reported class sizes compared with the estimates
 
-## Methods and definitions
+### Methods and definitions
 
 | Term | Definition |
 |---|---|
@@ -271,7 +280,7 @@ Dashboard files are long/tidy: `school` (or `account`), `chart_id`, `chart_title
 | **Utility cost** | Electric, gas and water, calendar 2025, the last full year. Cost per student uses fall SY27 enrollment |
 | **TWI strand** | One dual-language class per grade K–5 (6 rooms, 144 seats). TWE/TWS = English/Spanish-dominant; TWX as labeled by the district (meaning not confirmed) |
 
-### Class-size estimate
+#### Class-size estimate
 
 The dashboard has enrollment by grade, not how many classes each grade has, so classes are **estimated**:
 
@@ -283,7 +292,7 @@ The dashboard has enrollment by grade, not how many classes each grade has, so c
 - **Oakton ACC:** one ACC (African-Centered Curriculum) class per grade K–5. The dashboard doesn't identify ACC students, so the 1A table's projected 73 are spread evenly (~12 per grade) and taken out of Oakton's monolingual/mainstream classes. Change `acc_total` in the notebook if you have the actual count.
 - **Middle schools:** sections of up to 24 students, since there are no homerooms. They're excluded from the elementary summaries, and King Arts counts K–5 only there.
 
-## Checks
+### Checks
 
 - School enrollments, IEP counts and incidents add up to district totals (5,462 / 953 / 968).
 - Every grade's school enrollments add up to the district total for that grade.
@@ -291,7 +300,7 @@ The dashboard has enrollment by grade, not how many classes each grade has, so c
 - The capacity screenshot's Cordogan figures (square feet, teaching stations, capacity) match Cordogan Clark's February 2022 report for all 11 schools it covers. The notebook asserts this on every run.
 - Transcriptions were checked byte for byte (checksums) when moving the dashboard data.
 
-## Known limitations and data to request
+### Known limitations and data to request
 
 - **Class counts are estimates.** Actual sections by school and grade would replace them.
 - **TWI by grade:** needed to model the dual-language scenarios room by room.
@@ -304,3 +313,4 @@ The dashboard has enrollment by grade, not how many classes each grade has, so c
 
 See `sources/sources.md` for where each number comes from.
 
+</details>
