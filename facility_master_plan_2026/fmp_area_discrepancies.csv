@@ -1,0 +1,9 @@
+school,room_number,schedule_room_name,schedule_department,schedule_area_sf,plan_tag_room_names,plan_tag_area_sf,area_diff_sf,plan_tag_occupant_load,room_number_count_in_schedule,schedule_pdf_page,plan_pdf_pages,likely_cause
+Chute Middle School,114 D,JC,Building Support,11,STORAGE,144,133,1,2,31,"380, 381",Room number used twice in schedule; plan tag belongs to the other room
+Dr. Martin Luther King Jr. Literary and Fine Arts School,141B,STAIR,Circulation,228,RECEIVING ROOM,318,90,2,2,101,481,Room number used twice in schedule; plan tag belongs to the other room
+Dr. Martin Luther King Jr. Literary and Fine Arts School,116A,STOR,Building Support,8,OFFICE,225,217,3,2,102,480,Room number used twice in schedule; plan tag belongs to the other room
+Haven Middle School,311,GYM BALCONY,Shared Instructional Spaces/Specials,1610,GYM BALCONY | OFFICE,258 | 1615 | 1663,5,288 | 3,3,122,421,Same room; small area difference between plan tag and schedule (>2 SF)
+Oakton Elementary School,200,READING,Shared Instructional Spaces/Specials,873,CLASSROOM,732,-141,37,2,227,517,Room number used twice in schedule; plan tag belongs to the other room
+Oakton Elementary School,119,STORAGE,Building Support,31,OFFICE,319,288,4,2,227,515,Room number used twice in schedule; plan tag belongs to the other room
+Oakton Elementary School,302A,JC,Building Support,76,SPEECH,280,204,14,2,227,520,Room number used twice in schedule; plan tag belongs to the other room
+Orrington Elementary School,115,KITCHEN/PREP,Building Support,113,ART | KITCHEN / PREP,163 | 659,546,14 | 11,3,243,532,Room number used twice in schedule; plan tag belongs to the other room
