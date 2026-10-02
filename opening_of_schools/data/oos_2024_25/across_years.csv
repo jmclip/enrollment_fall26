@@ -1,0 +1,52 @@
+metric,school_year,value_text,from_previous_report,count,pct
+Total Enrollment,2022-23,6505,False,6505.0,
+JEH / Family Center,2022-23,298,False,298.0,
+"Kindergarten students (excluding Park, Rice, SEES)",2022-23,593,False,593.0,
+"K-5 (excluding Park, Rice, SEES)",2022-23,3958,False,3958.0,
+"6-8 (excluding Park, Rice, SEES)",2022-23,2104,False,2104.0,
+Park students,2022-23,59,False,59.0,
+Rice students,2022-23,17,False,17.0,
+SEES (Outplaced),2022-23,44,False,44.0,
+SEES (Eval / Services Only),2022-23,25,False,25.0,
+Low income students,2022-23,2626 (40%),False,2626.0,40.0
+McKinney-Vento students,2022-23,236 (4%),False,236.0,4.0
+K-5 TWI students,2022-23,687 (11%),False,687.0,11.0
+IEP students,2022-23,1111 (17%),False,1111.0,17.0
+ELL students,2022-23,1004 (15%),False,1004.0,15.0
+School-Age child care,2022-23,N/A*,True,,
+Immunization compliance,2022-23,98.7%*,True,,
+Transportation,2022-23,2277*,True,2277.0,
+Total Enrollment,2023-24,6367,False,6367.0,
+JEH / Family Center,2023-24,256,False,256.0,
+"Kindergarten students (excluding Park, Rice, SEES)",2023-24,588,False,588.0,
+"K-5 (excluding Park, Rice, SEES)",2023-24,3879,False,3879.0,
+"6-8 (excluding Park, Rice, SEES)",2023-24,2073,False,2073.0,
+Park students,2023-24,57,False,57.0,
+Rice students,2023-24,20,False,20.0,
+SEES (Outplaced),2023-24,57,False,57.0,
+SEES (Eval / Services Only),2023-24,25,False,25.0,
+Low income students,2023-24,2623 (41%),False,2623.0,41.0
+McKinney-Vento students,2023-24,263 (4%),False,263.0,4.0
+K-5 TWI students,2023-24,744 (12%),False,744.0,12.0
+IEP students,2023-24,1175 (18%),False,1175.0,18.0
+ELL students,2023-24,961 (15%),False,961.0,15.0
+School-Age child care,2023-24,442*,True,442.0,
+Immunization compliance,2023-24,99.6%*,True,,
+Transportation,2023-24,1674*,True,1674.0,
+Total Enrollment,2024-25,6241,False,6241.0,
+JEH / Family Center,2024-25,270,False,270.0,
+"Kindergarten students (excluding Park, Rice, SEES)",2024-25,534,False,534.0,
+"K-5 (excluding Park, Rice, SEES)",2024-25,3728,False,3728.0,
+"6-8 (excluding Park, Rice, SEES)",2024-25,2032,False,2032.0,
+Park students,2024-25,58,False,58.0,
+Rice students,2024-25,20,False,20.0,
+SEES (Outplaced),2024-25,73,False,73.0,
+SEES (Eval / Services Only),2024-25,60,False,60.0,
+Low income students,2024-25,2483 (40%),False,2483.0,40.0
+McKinney-Vento students,2024-25,215 (3%),False,215.0,3.0
+K-5 TWI students,2024-25,775 (12%),False,775.0,12.0
+IEP students,2024-25,1213 (19%),False,1213.0,19.0
+ELL students,2024-25,1020 (16%),False,1020.0,16.0
+School-Age child care,2024-25,464,False,464.0,
+Immunization compliance,2024-25,96.5%,False,,96.5
+Transportation,2024-25,1574,False,1574.0,

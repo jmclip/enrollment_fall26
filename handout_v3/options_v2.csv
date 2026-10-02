@@ -1,0 +1,14 @@
+option,label,category,savings_low_m,savings_high_m,cost_score,savings_basis
+Close 1 school,Close 1 school,Buildings,0.2,0.7,7.0,Building-use analysis: building savings minus added busing (net per closure)
+Close 2 schools,Close 2 schools,Buildings,0.4,1.4,9.0,Two times the per-closure net; relocation and renovation costs not included
+Lease or share empty space,Lease empty space,Buildings,0.1,0.4,2.0,ASSUMED: preschool or community partner leases in underused wings
+Consolidate small classes,Consolidate small classes,Classes & staff,1.1,2.2,6.0,10–20 fewer sections × ~$111K average teacher pay (EBF analysis)
+Consolidate TWI strands in grades 4–5,Consolidate TWI grades 4–5,Classes & staff,0.2,0.4,5.0,2–4 fewer upper-grade TWI sections × ~$111K
+Specialist teachers to EBF level,Specialists to EBF level,Classes & staff,1.7,2.6,7.0,15–22 FTE above EBF × ~$115K (EBF Table 3)
+Pupil support to EBF level,Pupil support to EBF level,Classes & staff,1.1,2.2,9.0,Half to all of the 21 social work/psych/FACE FTE above EBF × ~$103K
+Voluntary retirement incentive,Retirement incentive,Classes & staff,0.5,1.5,2.0,ASSUMED: 25–40 retirements replaced at lower step pay net of incentive
+Central office admin cuts,Central office cuts,Administration,0.9,1.8,3.0,ASSUMED: 5–10 central office positions × ~$180K total comp
+Share admin services with City,Share admin with City,Administration,0.1,0.5,1.5,ASSUMED: shared office space and personnel (creative ideas menu)
+TWI tuition seats,TWI tuition seats,Revenue & partners,0.3,0.6,2.0,ASSUMED: 20–40 tuition students × ~$15K
+City shared services,City shared services,Revenue & partners,0.2,0.6,1.0,ASSUMED: crossing guards maintenance purchasing (creative ideas menu)
+"Cell tower, solar and sponsorship revenue",Leases & sponsorships,Revenue & partners,0.1,0.4,0.5,"ASSUMED: cell tower, solar panel and facility sponsorship revenue (creative ideas menu)"

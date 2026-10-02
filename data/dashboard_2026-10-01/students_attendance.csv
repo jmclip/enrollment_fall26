@@ -1,0 +1,181 @@
+school,chart_id,chart_title,series,category,value
+District,students-count-att,summary counts,,Students,5415.0
+District,students-count-att,summary counts,,IEP,943.0
+District,students-count-att,summary counts,,EL,761.0
+District,att-ada,ADA,,value,95.56
+District,att-cron-abs,Chronic Absenteeism (%),,value,13.31
+District,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,0-9,13.0
+District,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,10-19,1.0
+District,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,20-29,3.0
+District,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,30-39,7.0
+District,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,40-49,15.0
+District,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,50-59,16.0
+District,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,35.0
+District,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,93.0
+District,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,520.0
+District,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,1880.0
+District,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,2832.0
+Chute Middle School,students-count-att,summary counts,,Students,588.0
+Chute Middle School,students-count-att,summary counts,,IEP,94.0
+Chute Middle School,students-count-att,summary counts,,EL,83.0
+Chute Middle School,att-ada,ADA,,value,94.57
+Chute Middle School,att-cron-abs,Chronic Absenteeism (%),,value,16.67
+Chute Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,0-9,1.0
+Chute Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,20-29,2.0
+Chute Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,30-39,1.0
+Chute Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,40-49,1.0
+Chute Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,6.0
+Chute Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,20.0
+Chute Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,65.0
+Chute Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,251.0
+Chute Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,241.0
+Dawes Elementary School,students-count-att,summary counts,,Students,284.0
+Dawes Elementary School,students-count-att,summary counts,,IEP,53.0
+Dawes Elementary School,students-count-att,summary counts,,EL,65.0
+Dawes Elementary School,att-ada,ADA,,value,96.74
+Dawes Elementary School,att-cron-abs,Chronic Absenteeism (%),,value,8.1
+Dawes Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,1.0
+Dawes Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,7.0
+Dawes Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,15.0
+Dawes Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,88.0
+Dawes Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,173.0
+Dewey Elementary School,students-count-att,summary counts,,Students,314.0
+Dewey Elementary School,students-count-att,summary counts,,IEP,50.0
+Dewey Elementary School,students-count-att,summary counts,,EL,42.0
+Dewey Elementary School,att-ada,ADA,,value,95.62
+Dewey Elementary School,att-cron-abs,Chronic Absenteeism (%),,value,11.46
+Dewey Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,0-9,3.0
+Dewey Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,40-49,1.0
+Dewey Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,1.0
+Dewey Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,1.0
+Dewey Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,30.0
+Dewey Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,98.0
+Dewey Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,180.0
+Dr Martin Luther King Jr Literary & Fine Arts School,students-count-att,summary counts,,Students,445.0
+Dr Martin Luther King Jr Literary & Fine Arts School,students-count-att,summary counts,,IEP,123.0
+Dr Martin Luther King Jr Literary & Fine Arts School,students-count-att,summary counts,,EL,48.0
+Dr Martin Luther King Jr Literary & Fine Arts School,att-ada,ADA,,value,93.97
+Dr Martin Luther King Jr Literary & Fine Arts School,att-cron-abs,Chronic Absenteeism (%),,value,18.43
+Dr Martin Luther King Jr Literary & Fine Arts School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,0-9,1.0
+Dr Martin Luther King Jr Literary & Fine Arts School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,30-39,2.0
+Dr Martin Luther King Jr Literary & Fine Arts School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,40-49,7.0
+Dr Martin Luther King Jr Literary & Fine Arts School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,50-59,7.0
+Dr Martin Luther King Jr Literary & Fine Arts School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,2.0
+Dr Martin Luther King Jr Literary & Fine Arts School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,7.0
+Dr Martin Luther King Jr Literary & Fine Arts School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,56.0
+Dr Martin Luther King Jr Literary & Fine Arts School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,142.0
+Dr Martin Luther King Jr Literary & Fine Arts School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,221.0
+Foster School,students-count-att,summary counts,,Students,357.0
+Foster School,students-count-att,summary counts,,IEP,72.0
+Foster School,students-count-att,summary counts,,EL,104.0
+Foster School,att-ada,ADA,,value,92.93
+Foster School,att-cron-abs,Chronic Absenteeism (%),,value,21.85
+Foster School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,0-9,4.0
+Foster School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,10-19,1.0
+Foster School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,50-59,4.0
+Foster School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,7.0
+Foster School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,16.0
+Foster School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,46.0
+Foster School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,108.0
+Foster School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,171.0
+Haven Middle School,students-count-att,summary counts,,Students,601.0
+Haven Middle School,students-count-att,summary counts,,IEP,105.0
+Haven Middle School,students-count-att,summary counts,,EL,56.0
+Haven Middle School,att-ada,ADA,,value,95.59
+Haven Middle School,att-cron-abs,Chronic Absenteeism (%),,value,14.98
+Haven Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,0-9,1.0
+Haven Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,40-49,1.0
+Haven Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,50-59,2.0
+Haven Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,2.0
+Haven Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,10.0
+Haven Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,64.0
+Haven Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,248.0
+Haven Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,273.0
+Lincoln Elementary School,students-count-att,summary counts,,Students,340.0
+Lincoln Elementary School,students-count-att,summary counts,,IEP,71.0
+Lincoln Elementary School,students-count-att,summary counts,,EL,54.0
+Lincoln Elementary School,att-ada,ADA,,value,95.79
+Lincoln Elementary School,att-cron-abs,Chronic Absenteeism (%),,value,13.53
+Lincoln Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,30-39,1.0
+Lincoln Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,2.0
+Lincoln Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,10.0
+Lincoln Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,33.0
+Lincoln Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,105.0
+Lincoln Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,189.0
+Lincolnwood Elementary School,students-count-att,summary counts,,Students,331.0
+Lincolnwood Elementary School,students-count-att,summary counts,,IEP,62.0
+Lincolnwood Elementary School,students-count-att,summary counts,,EL,12.0
+Lincolnwood Elementary School,att-ada,ADA,,value,97.32
+Lincolnwood Elementary School,att-cron-abs,Chronic Absenteeism (%),,value,5.74
+Lincolnwood Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,40-49,1.0
+Lincolnwood Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,1.0
+Lincolnwood Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,17.0
+Lincolnwood Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,108.0
+Lincolnwood Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,204.0
+Nichols Middle School,students-count-att,summary counts,,Students,571.0
+Nichols Middle School,students-count-att,summary counts,,IEP,72.0
+Nichols Middle School,students-count-att,summary counts,,EL,67.0
+Nichols Middle School,att-ada,ADA,,value,95.01
+Nichols Middle School,att-cron-abs,Chronic Absenteeism (%),,value,15.24
+Nichols Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,0-9,3.0
+Nichols Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,20-29,1.0
+Nichols Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,30-39,2.0
+Nichols Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,40-49,3.0
+Nichols Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,4.0
+Nichols Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,12.0
+Nichols Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,56.0
+Nichols Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,204.0
+Nichols Middle School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,286.0
+Oakton Elementary School,students-count-att,summary counts,,Students,366.0
+Oakton Elementary School,students-count-att,summary counts,,IEP,48.0
+Oakton Elementary School,students-count-att,summary counts,,EL,62.0
+Oakton Elementary School,att-ada,ADA,,value,95.48
+Oakton Elementary School,att-cron-abs,Chronic Absenteeism (%),,value,15.85
+Oakton Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,30-39,1.0
+Oakton Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,40-49,1.0
+Oakton Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,2.0
+Oakton Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,2.0
+Oakton Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,52.0
+Oakton Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,130.0
+Oakton Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,178.0
+Orrington Elementary School,students-count-att,summary counts,,Students,248.0
+Orrington Elementary School,students-count-att,summary counts,,IEP,30.0
+Orrington Elementary School,students-count-att,summary counts,,EL,21.0
+Orrington Elementary School,att-ada,ADA,,value,97.0
+Orrington Elementary School,att-cron-abs,Chronic Absenteeism (%),,value,8.47
+Orrington Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,50-59,1.0
+Orrington Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,2.0
+Orrington Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,18.0
+Orrington Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,79.0
+Orrington Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,148.0
+Walker Elementary School,students-count-att,summary counts,,Students,318.0
+Walker Elementary School,students-count-att,summary counts,,IEP,55.0
+Walker Elementary School,students-count-att,summary counts,,EL,42.0
+Walker Elementary School,att-ada,ADA,,value,97.27
+Walker Elementary School,att-cron-abs,Chronic Absenteeism (%),,value,5.97
+Walker Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,1.0
+Walker Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,1.0
+Walker Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,17.0
+Walker Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,117.0
+Walker Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,182.0
+Washington Elementary School,students-count-att,summary counts,,Students,380.0
+Washington Elementary School,students-count-att,summary counts,,IEP,78.0
+Washington Elementary School,students-count-att,summary counts,,EL,93.0
+Washington Elementary School,att-ada,ADA,,value,96.21
+Washington Elementary School,att-cron-abs,Chronic Absenteeism (%),,value,10.79
+Washington Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,50-59,2.0
+Washington Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,4.0
+Washington Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,3.0
+Washington Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,32.0
+Washington Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,124.0
+Washington Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,215.0
+Willard Elementary School,students-count-att,summary counts,,Students,272.0
+Willard Elementary School,students-count-att,summary counts,,IEP,30.0
+Willard Elementary School,students-count-att,summary counts,,EL,12.0
+Willard Elementary School,att-ada,ADA,,value,97.03
+Willard Elementary School,att-cron-abs,Chronic Absenteeism (%),,value,8.46
+Willard Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,60-69,2.0
+Willard Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,70-79,2.0
+Willard Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,80-89,19.0
+Willard Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,90-99,78.0
+Willard Elementary School,att-distribution,"Attendance Rate Distribution (counts, 10-pt bins)",,100+,171.0

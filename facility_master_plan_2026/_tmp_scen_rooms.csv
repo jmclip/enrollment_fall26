@@ -1,0 +1,64 @@
+scenario,receiver,students_90,util_90,classes_90,classrooms_handout
+1. Close Dewey,Foster,437,76,21,24
+1. Close Dewey,Lincoln,446,78,20,28
+1. Close Dewey,Orrington,319,74,17,19
+2. Close Orrington,Willard,478,90,24,24
+3a. Close Lincolnwood (kept together),Orrington,506,117,23,19
+3b. Close Lincolnwood (split),Orrington,350,81,17,19
+3b. Close Lincolnwood (split),Willard,422,79,20,24
+3c. Close Lincolnwood (kept together),Willard,536,101,25,24
+4. Close Oakton,Dawes,374,87,19,20
+4. Close Oakton,Dewey,451,84,22,24
+4. Close Oakton,Washington,466,88,24,24
+5. Close Dawes,Dewey,429,80,20,24
+5. Close Dawes,Oakton,421,90,21,25
+5. Close Dawes,Washington,450,85,22,24
+Dewey + Willard,Foster,437,76,21,24
+Dewey + Willard,Lincoln,446,78,20,28
+Dewey + Willard,Lincolnwood,396,92,19,19
+Dewey + Willard,Orrington,462,107,23,19
+Dewey + Lincolnwood,Foster,437,76,21,24
+Dewey + Lincolnwood,Lincoln,446,78,20,28
+Dewey + Lincolnwood,Orrington,589,136,27,19
+Dewey + Orrington,Foster,427,74,21,24
+Dewey + Orrington,Lincoln,437,76,20,28
+Dewey + Orrington,Willard,581,109,26,24
+Washington + Willard,Dawes,385,89,19,20
+Washington + Willard,Lincoln,507,88,24,28
+Washington + Willard,Lincolnwood,396,92,19,19
+Washington + Willard,Oakton,438,94,21,25
+Washington + Willard,Orrington,379,88,19,19
+Washington + Lincolnwood,Dawes,385,89,19,20
+Washington + Lincolnwood,Lincoln,507,88,24,28
+Washington + Lincolnwood,Oakton,438,94,21,25
+Washington + Lincolnwood,Orrington,506,117,23,19
+Washington + Orrington,Dawes,385,89,19,20
+Washington + Orrington,Lincoln,507,88,24,28
+Washington + Orrington,Oakton,438,94,21,25
+Washington + Orrington,Willard,478,90,24,24
+Oakton + Willard,Dawes,374,87,19,20
+Oakton + Willard,Dewey,451,84,22,24
+Oakton + Willard,Lincolnwood,396,92,19,19
+Oakton + Willard,Orrington,379,88,19,19
+Oakton + Willard,Washington,466,88,24,24
+Oakton + Lincolnwood,Dawes,374,87,19,20
+Oakton + Lincolnwood,Dewey,451,84,22,24
+Oakton + Lincolnwood,Orrington,506,117,23,19
+Oakton + Lincolnwood,Washington,466,88,24,24
+Oakton + Orrington,Dawes,374,87,19,20
+Oakton + Orrington,Dewey,451,84,22,24
+Oakton + Orrington,Washington,466,88,24,24
+Oakton + Orrington,Willard,478,90,24,24
+Dawes + Willard,Dewey,429,80,20,24
+Dawes + Willard,Lincolnwood,396,92,19,19
+Dawes + Willard,Oakton,421,90,21,25
+Dawes + Willard,Orrington,379,88,19,19
+Dawes + Willard,Washington,450,85,22,24
+Dawes + Lincolnwood,Dewey,429,80,20,24
+Dawes + Lincolnwood,Oakton,421,90,21,25
+Dawes + Lincolnwood,Orrington,506,117,23,19
+Dawes + Lincolnwood,Washington,450,85,22,24
+Dawes + Orrington,Dewey,429,80,20,24
+Dawes + Orrington,Oakton,421,90,21,25
+Dawes + Orrington,Washington,450,85,22,24
+Dawes + Orrington,Willard,478,90,24,24

@@ -1,0 +1,974 @@
+account,chart_id,chart_title,series,category,value
+All,global-use,Annual Utility Usage,Electric,2018,17046.0
+All,global-use,Annual Utility Usage,Electric,2019,17065.0
+All,global-use,Annual Utility Usage,Electric,2020,12688.0
+All,global-use,Annual Utility Usage,Electric,2021,16421.0
+All,global-use,Annual Utility Usage,Electric,2022,16754.0
+All,global-use,Annual Utility Usage,Electric,2023,14020.0
+All,global-use,Annual Utility Usage,Electric,2024,13167.0
+All,global-use,Annual Utility Usage,Electric,2025,12991.0
+All,global-use,Annual Utility Usage,Electric,2026,7699.0
+All,global-use,Annual Utility Usage,Natural Gas,2018,48493.0
+All,global-use,Annual Utility Usage,Natural Gas,2019,50329.0
+All,global-use,Annual Utility Usage,Natural Gas,2020,42191.0
+All,global-use,Annual Utility Usage,Natural Gas,2021,45943.0
+All,global-use,Annual Utility Usage,Natural Gas,2022,52811.0
+All,global-use,Annual Utility Usage,Natural Gas,2023,42560.0
+All,global-use,Annual Utility Usage,Natural Gas,2024,40302.0
+All,global-use,Annual Utility Usage,Natural Gas,2025,48245.0
+All,global-use,Annual Utility Usage,Natural Gas,2026,28996.0
+All,ghg,Annual Carbon Emissions,Scope 1,2018,3098.0
+All,ghg,Annual Carbon Emissions,Scope 1,2019,3477.0
+All,ghg,Annual Carbon Emissions,Scope 1,2020,2874.0
+All,ghg,Annual Carbon Emissions,Scope 1,2021,3120.0
+All,ghg,Annual Carbon Emissions,Scope 1,2022,3618.0
+All,ghg,Annual Carbon Emissions,Scope 1,2023,2912.0
+All,ghg,Annual Carbon Emissions,Scope 1,2024,2779.0
+All,ghg,Annual Carbon Emissions,Scope 1,2025,3288.0
+All,ghg,Annual Carbon Emissions,Scope 1,2026,1945.0
+All,ghg,Annual Carbon Emissions,Scope 2,2018,3911.0
+All,ghg,Annual Carbon Emissions,Scope 2,2019,3694.0
+All,ghg,Annual Carbon Emissions,Scope 2,2020,2559.0
+All,ghg,Annual Carbon Emissions,Scope 2,2021,3411.0
+All,ghg,Annual Carbon Emissions,Scope 2,2022,3365.0
+All,ghg,Annual Carbon Emissions,Scope 2,2023,2565.0
+All,ghg,Annual Carbon Emissions,Scope 2,2024,2457.0
+All,ghg,Annual Carbon Emissions,Scope 2,2025,2424.0
+All,ghg,Annual Carbon Emissions,Scope 2,2026,1454.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Chute,42.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Dawes,57.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Dewey,55.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Haven,37.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Kingsley,51.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Lincoln,50.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Lincolnwood,47.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Nichols,43.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Oakton,39.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Orrington,48.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Park,51.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Walker,56.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Warehouse,85.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Washington,69.0
+All,global-use-school,Building Energy Use Intensity (EUI),2024,Willard,57.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Chute,48.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Dawes,64.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Dewey,62.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Haven,45.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Kingsley,61.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Lincoln,55.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Lincolnwood,53.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Nichols,48.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Oakton,46.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Orrington,55.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Park,60.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Walker,63.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Warehouse,100.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Washington,78.0
+All,global-use-school,Building Energy Use Intensity (EUI),2025,Willard,60.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Chute,30.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Dawes,37.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Dewey,40.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Haven,25.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Kingsley,37.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Lincoln,32.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Lincolnwood,32.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Nichols,27.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Oakton,27.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Orrington,34.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Park,35.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Walker,38.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Warehouse,56.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Washington,50.0
+All,global-use-school,Building Energy Use Intensity (EUI),2026,Willard,37.0
+All,ghg-school,Building Carbon Emissions,2024,Chute,252.0
+All,ghg-school,Building Carbon Emissions,2024,Dawes,228.0
+All,ghg-school,Building Carbon Emissions,2024,Dewey,257.0
+All,ghg-school,Building Carbon Emissions,2024,Haven,379.0
+All,ghg-school,Building Carbon Emissions,2024,Kingsley,212.0
+All,ghg-school,Building Carbon Emissions,2024,Lincoln,268.0
+All,ghg-school,Building Carbon Emissions,2024,Lincolnwood,197.0
+All,ghg-school,Building Carbon Emissions,2024,Nichols,317.0
+All,ghg-school,Building Carbon Emissions,2024,Oakton,266.0
+All,ghg-school,Building Carbon Emissions,2024,Orrington,165.0
+All,ghg-school,Building Carbon Emissions,2024,Park,138.0
+All,ghg-school,Building Carbon Emissions,2024,Walker,201.0
+All,ghg-school,Building Carbon Emissions,2024,Warehouse,238.0
+All,ghg-school,Building Carbon Emissions,2024,Washington,371.0
+All,ghg-school,Building Carbon Emissions,2024,Willard,257.0
+All,ghg-school,Building Carbon Emissions,2025,Chute,289.0
+All,ghg-school,Building Carbon Emissions,2025,Dawes,248.0
+All,ghg-school,Building Carbon Emissions,2025,Dewey,285.0
+All,ghg-school,Building Carbon Emissions,2025,Haven,432.0
+All,ghg-school,Building Carbon Emissions,2025,Kingsley,246.0
+All,ghg-school,Building Carbon Emissions,2025,Lincoln,286.0
+All,ghg-school,Building Carbon Emissions,2025,Lincolnwood,218.0
+All,ghg-school,Building Carbon Emissions,2025,Nichols,340.0
+All,ghg-school,Building Carbon Emissions,2025,Oakton,302.0
+All,ghg-school,Building Carbon Emissions,2025,Orrington,184.0
+All,ghg-school,Building Carbon Emissions,2025,Park,158.0
+All,ghg-school,Building Carbon Emissions,2025,Walker,209.0
+All,ghg-school,Building Carbon Emissions,2025,Warehouse,274.0
+All,ghg-school,Building Carbon Emissions,2025,Washington,408.0
+All,ghg-school,Building Carbon Emissions,2025,Willard,260.0
+All,ghg-school,Building Carbon Emissions,2026,Chute,178.0
+All,ghg-school,Building Carbon Emissions,2026,Dawes,145.0
+All,ghg-school,Building Carbon Emissions,2026,Dewey,183.0
+All,ghg-school,Building Carbon Emissions,2026,Haven,246.0
+All,ghg-school,Building Carbon Emissions,2026,Kingsley,143.0
+All,ghg-school,Building Carbon Emissions,2026,Lincoln,168.0
+All,ghg-school,Building Carbon Emissions,2026,Lincolnwood,132.0
+All,ghg-school,Building Carbon Emissions,2026,Nichols,196.0
+All,ghg-school,Building Carbon Emissions,2026,Oakton,178.0
+All,ghg-school,Building Carbon Emissions,2026,Orrington,109.0
+All,ghg-school,Building Carbon Emissions,2026,Park,90.0
+All,ghg-school,Building Carbon Emissions,2026,Walker,135.0
+All,ghg-school,Building Carbon Emissions,2026,Warehouse,153.0
+All,ghg-school,Building Carbon Emissions,2026,Washington,256.0
+All,ghg-school,Building Carbon Emissions,2026,Willard,162.0
+All,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,822627.9049
+All,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,856603.1894
+All,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,660710.4189
+All,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,755717.1378
+All,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,818640.6027
+All,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,791621.9335
+All,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,835388.7711
+All,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,938234.3997
+All,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,582529.6365
+All,eui,Annual Building Energy Use Intensity (EUI),,2018,55.71565734496392
+All,eui,Annual Building Energy Use Intensity (EUI),,2019,62.61612004913124
+All,eui,Annual Building Energy Use Intensity (EUI),,2020,50.98881485755379
+All,eui,Annual Building Energy Use Intensity (EUI),,2021,57.94274065340458
+All,eui,Annual Building Energy Use Intensity (EUI),,2022,64.6333597227913
+All,eui,Annual Building Energy Use Intensity (EUI),,2023,52.56877454633973
+All,eui,Annual Building Energy Use Intensity (EUI),,2024,49.67838259371681
+All,eui,Annual Building Energy Use Intensity (EUI),,2025,56.89471501652419
+All,eui,Annual Building Energy Use Intensity (EUI),,2026,34.09402627610678
+All,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,169787.6642012454
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Chute,0.04
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Dawes,0.16
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Dewey,0.16
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Haven,0.16
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,King Arts,
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Kingsley,0.13
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Lincoln,0.3
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Lincolnwood,0.04
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Nichols,0.21
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Oakton,0.17
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Orrington,0.19
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Park,0.33
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Walker,0.19
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Warehouse,-0.02
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Washington,0.16
+All,cost-savings-school,Utility Savings per Sq Ft (2026 vs. 2018 usage at today's rates),,Willard,0.21
+Chute,global-use,Annual Utility Usage,Electric,2018,0.0
+Chute,global-use,Annual Utility Usage,Natural Gas,2018,5849.0
+Chute,global-use,Annual Utility Usage,Natural Gas,2019,5731.0
+Chute,global-use,Annual Utility Usage,Natural Gas,2020,4844.0
+Chute,global-use,Annual Utility Usage,Natural Gas,2021,5722.0
+Chute,global-use,Annual Utility Usage,Natural Gas,2022,6854.0
+Chute,global-use,Annual Utility Usage,Natural Gas,2023,5455.0
+Chute,global-use,Annual Utility Usage,Natural Gas,2024,4744.0
+Chute,global-use,Annual Utility Usage,Natural Gas,2025,5454.0
+Chute,global-use,Annual Utility Usage,Natural Gas,2026,3347.0
+Chute,ghg,Annual Carbon Emissions,Scope 1,2018,311.0
+Chute,ghg,Annual Carbon Emissions,Scope 1,2019,303.0
+Chute,ghg,Annual Carbon Emissions,Scope 1,2020,258.0
+Chute,ghg,Annual Carbon Emissions,Scope 1,2021,305.0
+Chute,ghg,Annual Carbon Emissions,Scope 1,2022,363.0
+Chute,ghg,Annual Carbon Emissions,Scope 1,2023,290.0
+Chute,ghg,Annual Carbon Emissions,Scope 1,2024,252.0
+Chute,ghg,Annual Carbon Emissions,Scope 1,2025,289.0
+Chute,ghg,Annual Carbon Emissions,Scope 1,2026,178.0
+Chute,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,33673.637
+Chute,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,32659.7409
+Chute,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,26345.2245
+Chute,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,30441.8096
+Chute,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,46064.3278
+Chute,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,36411.2218
+Chute,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,33561.8044
+Chute,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,38667.7529
+Chute,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,29982.0651
+Chute,eui,Annual Building Energy Use Intensity (EUI),,2018,51.80424816205778
+Chute,eui,Annual Building Energy Use Intensity (EUI),,2019,50.76583873053553
+Chute,eui,Annual Building Energy Use Intensity (EUI),,2020,42.90525047387908
+Chute,eui,Annual Building Energy Use Intensity (EUI),,2021,50.68427338836826
+Chute,eui,Annual Building Energy Use Intensity (EUI),,2022,60.714070187248666
+Chute,eui,Annual Building Energy Use Intensity (EUI),,2023,48.32119401583731
+Chute,eui,Annual Building Energy Use Intensity (EUI),,2024,42.01995891866995
+Chute,eui,Annual Building Energy Use Intensity (EUI),,2025,48.3086857163103
+Chute,eui,Annual Building Energy Use Intensity (EUI),,2026,29.64790427642651
+Chute,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,4989.275403297717
+Dawes,global-use,Annual Utility Usage,Electric,2018,971.0
+Dawes,global-use,Annual Utility Usage,Electric,2019,994.0
+Dawes,global-use,Annual Utility Usage,Electric,2020,635.0
+Dawes,global-use,Annual Utility Usage,Electric,2021,845.0
+Dawes,global-use,Annual Utility Usage,Electric,2022,940.0
+Dawes,global-use,Annual Utility Usage,Electric,2023,790.0
+Dawes,global-use,Annual Utility Usage,Electric,2024,761.0
+Dawes,global-use,Annual Utility Usage,Electric,2025,743.0
+Dawes,global-use,Annual Utility Usage,Electric,2026,447.0
+Dawes,global-use,Annual Utility Usage,Natural Gas,2018,3226.0
+Dawes,global-use,Annual Utility Usage,Natural Gas,2019,3498.0
+Dawes,global-use,Annual Utility Usage,Natural Gas,2020,3028.0
+Dawes,global-use,Annual Utility Usage,Natural Gas,2021,2838.0
+Dawes,global-use,Annual Utility Usage,Natural Gas,2022,3387.0
+Dawes,global-use,Annual Utility Usage,Natural Gas,2023,2775.0
+Dawes,global-use,Annual Utility Usage,Natural Gas,2024,2547.0
+Dawes,global-use,Annual Utility Usage,Natural Gas,2025,2968.0
+Dawes,global-use,Annual Utility Usage,Natural Gas,2026,1715.0
+Dawes,ghg,Annual Carbon Emissions,Scope 1,2018,144.0
+Dawes,ghg,Annual Carbon Emissions,Scope 1,2019,185.0
+Dawes,ghg,Annual Carbon Emissions,Scope 1,2020,161.0
+Dawes,ghg,Annual Carbon Emissions,Scope 1,2021,151.0
+Dawes,ghg,Annual Carbon Emissions,Scope 1,2022,179.0
+Dawes,ghg,Annual Carbon Emissions,Scope 1,2023,148.0
+Dawes,ghg,Annual Carbon Emissions,Scope 1,2024,135.0
+Dawes,ghg,Annual Carbon Emissions,Scope 1,2025,157.0
+Dawes,ghg,Annual Carbon Emissions,Scope 1,2026,91.0
+Dawes,ghg,Annual Carbon Emissions,Scope 2,2018,137.0
+Dawes,ghg,Annual Carbon Emissions,Scope 2,2019,142.0
+Dawes,ghg,Annual Carbon Emissions,Scope 2,2020,84.0
+Dawes,ghg,Annual Carbon Emissions,Scope 2,2021,118.0
+Dawes,ghg,Annual Carbon Emissions,Scope 2,2022,126.0
+Dawes,ghg,Annual Carbon Emissions,Scope 2,2023,96.0
+Dawes,ghg,Annual Carbon Emissions,Scope 2,2024,93.0
+Dawes,ghg,Annual Carbon Emissions,Scope 2,2025,90.0
+Dawes,ghg,Annual Carbon Emissions,Scope 2,2026,54.0
+Dawes,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,52007.0715
+Dawes,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,55458.0217
+Dawes,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,38830.8459
+Dawes,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,43704.0351
+Dawes,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,53075.6856
+Dawes,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,48733.3062
+Dawes,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,50708.4162
+Dawes,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,57662.5135
+Dawes,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,34897.6359
+Dawes,eui,Annual Building Energy Use Intensity (EUI),,2018,72.74071389948007
+Dawes,eui,Annual Building Energy Use Intensity (EUI),,2019,77.85196542461004
+Dawes,eui,Annual Building Energy Use Intensity (EUI),,2020,63.492327313691504
+Dawes,eui,Annual Building Energy Use Intensity (EUI),,2021,63.83092039861352
+Dawes,eui,Annual Building Energy Use Intensity (EUI),,2022,74.98954351819756
+Dawes,eui,Annual Building Energy Use Intensity (EUI),,2023,61.78353169844021
+Dawes,eui,Annual Building Energy Use Intensity (EUI),,2024,57.31648655112652
+Dawes,eui,Annual Building Energy Use Intensity (EUI),,2025,64.31915519930676
+Dawes,eui,Annual Building Energy Use Intensity (EUI),,2026,37.46990842287695
+Dawes,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,8943.933670231316
+Dewey,global-use,Annual Utility Usage,Electric,2018,1318.0
+Dewey,global-use,Annual Utility Usage,Electric,2019,1336.0
+Dewey,global-use,Annual Utility Usage,Electric,2020,895.0
+Dewey,global-use,Annual Utility Usage,Electric,2021,1176.0
+Dewey,global-use,Annual Utility Usage,Electric,2022,1473.0
+Dewey,global-use,Annual Utility Usage,Electric,2023,1308.0
+Dewey,global-use,Annual Utility Usage,Electric,2024,991.0
+Dewey,global-use,Annual Utility Usage,Electric,2025,1013.0
+Dewey,global-use,Annual Utility Usage,Electric,2026,637.0
+Dewey,global-use,Annual Utility Usage,Natural Gas,2018,3195.0
+Dewey,global-use,Annual Utility Usage,Natural Gas,2019,3407.0
+Dewey,global-use,Annual Utility Usage,Natural Gas,2020,2625.0
+Dewey,global-use,Annual Utility Usage,Natural Gas,2021,3120.0
+Dewey,global-use,Annual Utility Usage,Natural Gas,2022,3369.0
+Dewey,global-use,Annual Utility Usage,Natural Gas,2023,2506.0
+Dewey,global-use,Annual Utility Usage,Natural Gas,2024,2564.0
+Dewey,global-use,Annual Utility Usage,Natural Gas,2025,3056.0
+Dewey,global-use,Annual Utility Usage,Natural Gas,2026,1983.0
+Dewey,ghg,Annual Carbon Emissions,Scope 1,2018,170.0
+Dewey,ghg,Annual Carbon Emissions,Scope 1,2019,180.0
+Dewey,ghg,Annual Carbon Emissions,Scope 1,2020,140.0
+Dewey,ghg,Annual Carbon Emissions,Scope 1,2021,166.0
+Dewey,ghg,Annual Carbon Emissions,Scope 1,2022,178.0
+Dewey,ghg,Annual Carbon Emissions,Scope 1,2023,133.0
+Dewey,ghg,Annual Carbon Emissions,Scope 1,2024,136.0
+Dewey,ghg,Annual Carbon Emissions,Scope 1,2025,162.0
+Dewey,ghg,Annual Carbon Emissions,Scope 1,2026,105.0
+Dewey,ghg,Annual Carbon Emissions,Scope 2,2018,203.0
+Dewey,ghg,Annual Carbon Emissions,Scope 2,2019,190.0
+Dewey,ghg,Annual Carbon Emissions,Scope 2,2020,119.0
+Dewey,ghg,Annual Carbon Emissions,Scope 2,2021,163.0
+Dewey,ghg,Annual Carbon Emissions,Scope 2,2022,196.0
+Dewey,ghg,Annual Carbon Emissions,Scope 2,2023,159.0
+Dewey,ghg,Annual Carbon Emissions,Scope 2,2024,121.0
+Dewey,ghg,Annual Carbon Emissions,Scope 2,2025,123.0
+Dewey,ghg,Annual Carbon Emissions,Scope 2,2026,78.0
+Dewey,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,58404.1504
+Dewey,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,63754.0904
+Dewey,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,47565.2146
+Dewey,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,55449.5953
+Dewey,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,61663.747
+Dewey,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,59623.1192
+Dewey,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,59368.9734
+Dewey,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,69640.1403
+Dewey,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,45026.1536
+Dewey,eui,Annual Building Energy Use Intensity (EUI),,2018,69.24945588460949
+Dewey,eui,Annual Building Energy Use Intensity (EUI),,2019,72.7659534448366
+Dewey,eui,Annual Building Energy Use Intensity (EUI),,2020,54.003200368267606
+Dewey,eui,Annual Building Energy Use Intensity (EUI),,2021,65.92058115697407
+Dewey,eui,Annual Building Energy Use Intensity (EUI),,2022,74.3058262851005
+Dewey,eui,Annual Building Energy Use Intensity (EUI),,2023,58.51955207917754
+Dewey,eui,Annual Building Energy Use Intensity (EUI),,2024,54.54484815098972
+Dewey,eui,Annual Building Energy Use Intensity (EUI),,2025,62.43738701856682
+Dewey,eui,Annual Building Energy Use Intensity (EUI),,2026,40.21295547030843
+Dewey,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,10523.75666835782
+Haven,global-use,Annual Utility Usage,Electric,2018,2015.0
+Haven,global-use,Annual Utility Usage,Electric,2019,1961.0
+Haven,global-use,Annual Utility Usage,Electric,2020,1439.0
+Haven,global-use,Annual Utility Usage,Electric,2021,2283.0
+Haven,global-use,Annual Utility Usage,Electric,2022,2028.0
+Haven,global-use,Annual Utility Usage,Electric,2023,1585.0
+Haven,global-use,Annual Utility Usage,Electric,2024,1389.0
+Haven,global-use,Annual Utility Usage,Electric,2025,1402.0
+Haven,global-use,Annual Utility Usage,Electric,2026,797.0
+Haven,global-use,Annual Utility Usage,Natural Gas,2018,4701.0
+Haven,global-use,Annual Utility Usage,Natural Gas,2019,5229.0
+Haven,global-use,Annual Utility Usage,Natural Gas,2020,4383.0
+Haven,global-use,Annual Utility Usage,Natural Gas,2021,4560.0
+Haven,global-use,Annual Utility Usage,Natural Gas,2022,5109.0
+Haven,global-use,Annual Utility Usage,Natural Gas,2023,4117.0
+Haven,global-use,Annual Utility Usage,Natural Gas,2024,3940.0
+Haven,global-use,Annual Utility Usage,Natural Gas,2025,4934.0
+Haven,global-use,Annual Utility Usage,Natural Gas,2026,2803.0
+Haven,ghg,Annual Carbon Emissions,Scope 1,2018,197.0
+Haven,ghg,Annual Carbon Emissions,Scope 1,2019,277.0
+Haven,ghg,Annual Carbon Emissions,Scope 1,2020,233.0
+Haven,ghg,Annual Carbon Emissions,Scope 1,2021,243.0
+Haven,ghg,Annual Carbon Emissions,Scope 1,2022,270.0
+Haven,ghg,Annual Carbon Emissions,Scope 1,2023,219.0
+Haven,ghg,Annual Carbon Emissions,Scope 1,2024,210.0
+Haven,ghg,Annual Carbon Emissions,Scope 1,2025,261.0
+Haven,ghg,Annual Carbon Emissions,Scope 1,2026,149.0
+Haven,ghg,Annual Carbon Emissions,Scope 2,2018,287.0
+Haven,ghg,Annual Carbon Emissions,Scope 2,2019,280.0
+Haven,ghg,Annual Carbon Emissions,Scope 2,2020,190.0
+Haven,ghg,Annual Carbon Emissions,Scope 2,2021,319.0
+Haven,ghg,Annual Carbon Emissions,Scope 2,2022,272.0
+Haven,ghg,Annual Carbon Emissions,Scope 2,2023,193.0
+Haven,ghg,Annual Carbon Emissions,Scope 2,2024,169.0
+Haven,ghg,Annual Carbon Emissions,Scope 2,2025,171.0
+Haven,ghg,Annual Carbon Emissions,Scope 2,2026,97.0
+Haven,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,90024.6714
+Haven,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,94126.1332
+Haven,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,70784.762
+Haven,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,87824.4212
+Haven,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,87293.56139999999
+Haven,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,88033.7078
+Haven,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,83902.79579999999
+Haven,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,95501.8293
+Haven,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,56081.6512
+Haven,eui,Annual Building Energy Use Intensity (EUI),,2018,47.25726103691402
+Haven,eui,Annual Building Energy Use Intensity (EUI),,2019,50.59440043204751
+Haven,eui,Annual Building Energy Use Intensity (EUI),,2020,40.9675226297198
+Haven,eui,Annual Building Energy Use Intensity (EUI),,2021,48.15234329481965
+Haven,eui,Annual Building Energy Use Intensity (EUI),,2022,50.216517176351374
+Haven,eui,Annual Building Energy Use Intensity (EUI),,2023,40.12282511927045
+Haven,eui,Annual Building Energy Use Intensity (EUI),,2024,37.49491397751101
+Haven,eui,Annual Building Energy Use Intensity (EUI),,2025,44.583298534978965
+Haven,eui,Annual Building Energy Use Intensity (EUI),,2026,25.33050353941202
+Haven,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,22931.3765648443
+King Arts,global-use,Annual Utility Usage,Electric,2018,0.0
+King Arts,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,0.0999999999999999
+King Arts,eui,Annual Building Energy Use Intensity (EUI),,2018,3.4112495251e-05
+King Arts,cost-savings,Utility SavingsMoney saved by using less energy and water(2018 vs. 2018 usage at today's rates)Jan – Aug 2018 vs. same period 2018,,value,0.0
+Kingsley,global-use,Annual Utility Usage,Electric,2018,1212.0
+Kingsley,global-use,Annual Utility Usage,Electric,2019,1175.0
+Kingsley,global-use,Annual Utility Usage,Electric,2020,849.0
+Kingsley,global-use,Annual Utility Usage,Electric,2021,1134.0
+Kingsley,global-use,Annual Utility Usage,Electric,2022,1185.0
+Kingsley,global-use,Annual Utility Usage,Electric,2023,1143.0
+Kingsley,global-use,Annual Utility Usage,Electric,2024,996.0
+Kingsley,global-use,Annual Utility Usage,Electric,2025,1060.0
+Kingsley,global-use,Annual Utility Usage,Electric,2026,562.0
+Kingsley,global-use,Annual Utility Usage,Natural Gas,2018,1368.0
+Kingsley,global-use,Annual Utility Usage,Natural Gas,2019,1533.0
+Kingsley,global-use,Annual Utility Usage,Natural Gas,2020,1360.0
+Kingsley,global-use,Annual Utility Usage,Natural Gas,2021,1546.0
+Kingsley,global-use,Annual Utility Usage,Natural Gas,2022,1819.0
+Kingsley,global-use,Annual Utility Usage,Natural Gas,2023,1763.0
+Kingsley,global-use,Annual Utility Usage,Natural Gas,2024,1704.0
+Kingsley,global-use,Annual Utility Usage,Natural Gas,2025,2199.0
+Kingsley,global-use,Annual Utility Usage,Natural Gas,2026,1411.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 1,2018,58.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 1,2019,81.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 1,2020,72.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 1,2021,82.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 1,2022,96.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 1,2023,94.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 1,2024,91.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 1,2025,117.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 1,2026,75.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 2,2018,172.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 2,2019,168.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 2,2020,112.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 2,2021,158.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 2,2022,159.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 2,2023,139.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 2,2024,121.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 2,2025,129.0
+Kingsley,ghg,Annual Carbon Emissions,Scope 2,2026,68.0
+Kingsley,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,50682.0357
+Kingsley,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,53080.2888
+Kingsley,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,37985.9802
+Kingsley,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,44128.6035
+Kingsley,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,46130.3519
+Kingsley,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,53820.51
+Kingsley,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,56319.1767
+Kingsley,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,65299.619
+Kingsley,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,36936.3715
+Kingsley,eui,Annual Building Energy Use Intensity (EUI),,2018,48.28016974563423
+Kingsley,eui,Annual Building Energy Use Intensity (EUI),,2019,50.6890252306886
+Kingsley,eui,Annual Building Energy Use Intensity (EUI),,2020,41.35041999363617
+Kingsley,eui,Annual Building Energy Use Intensity (EUI),,2021,50.16110037995771
+Kingsley,eui,Annual Building Energy Use Intensity (EUI),,2022,56.23231085406255
+Kingsley,eui,Annual Building Energy Use Intensity (EUI),,2023,54.39698015984428
+Kingsley,eui,Annual Building Energy Use Intensity (EUI),,2024,50.52326819772774
+Kingsley,eui,Annual Building Energy Use Intensity (EUI),,2025,60.99595438635896
+Kingsley,eui,Annual Building Energy Use Intensity (EUI),,2026,36.92973906451794
+Kingsley,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,7143.176880027357
+Lincoln,global-use,Annual Utility Usage,Electric,2018,1380.0
+Lincoln,global-use,Annual Utility Usage,Electric,2019,1519.0
+Lincoln,global-use,Annual Utility Usage,Electric,2020,1185.0
+Lincoln,global-use,Annual Utility Usage,Electric,2021,1401.0
+Lincoln,global-use,Annual Utility Usage,Electric,2022,1439.0
+Lincoln,global-use,Annual Utility Usage,Electric,2023,1189.0
+Lincoln,global-use,Annual Utility Usage,Electric,2024,1087.0
+Lincoln,global-use,Annual Utility Usage,Electric,2025,1061.0
+Lincoln,global-use,Annual Utility Usage,Electric,2026,616.0
+Lincoln,global-use,Annual Utility Usage,Natural Gas,2018,3350.0
+Lincoln,global-use,Annual Utility Usage,Natural Gas,2019,3278.0
+Lincoln,global-use,Annual Utility Usage,Natural Gas,2020,2642.0
+Lincoln,global-use,Annual Utility Usage,Natural Gas,2021,2944.0
+Lincoln,global-use,Annual Utility Usage,Natural Gas,2022,3482.0
+Lincoln,global-use,Annual Utility Usage,Natural Gas,2023,2663.0
+Lincoln,global-use,Annual Utility Usage,Natural Gas,2024,2549.0
+Lincoln,global-use,Annual Utility Usage,Natural Gas,2025,2970.0
+Lincoln,global-use,Annual Utility Usage,Natural Gas,2026,1762.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 1,2018,136.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 1,2019,173.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 1,2020,140.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 1,2021,157.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 1,2022,184.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 1,2023,141.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 1,2024,136.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 1,2025,157.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 1,2026,93.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 2,2018,197.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 2,2019,217.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 2,2020,156.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 2,2021,195.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 2,2022,193.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 2,2023,145.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 2,2024,132.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 2,2025,129.0
+Lincoln,ghg,Annual Carbon Emissions,Scope 2,2026,75.0
+Lincoln,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,68185.7148
+Lincoln,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,72508.4089
+Lincoln,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,58148.3492
+Lincoln,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,69299.6816
+Lincoln,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,65060.3619
+Lincoln,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,65933.4778
+Lincoln,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,70107.5378
+Lincoln,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,79064.6475
+Lincoln,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,47858.507
+Lincoln,eui,Annual Building Energy Use Intensity (EUI),,2018,64.4131474597274
+Lincoln,eui,Annual Building Energy Use Intensity (EUI),,2019,65.3319745904653
+Lincoln,eui,Annual Building Energy Use Intensity (EUI),,2020,52.11617828887345
+Lincoln,eui,Annual Building Energy Use Intensity (EUI),,2021,59.16431312553617
+Lincoln,eui,Annual Building Energy Use Intensity (EUI),,2022,67.0059725615153
+Lincoln,eui,Annual Building Energy Use Intensity (EUI),,2023,52.443957010771136
+Lincoln,eui,Annual Building Energy Use Intensity (EUI),,2024,49.5144372727644
+Lincoln,eui,Annual Building Energy Use Intensity (EUI),,2025,54.88965121124229
+Lincoln,eui,Annual Building Energy Use Intensity (EUI),,2026,32.38779752713211
+Lincoln,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,22311.873967321968
+Lincolnwood,global-use,Annual Utility Usage,Electric,2018,844.0
+Lincolnwood,global-use,Annual Utility Usage,Electric,2019,822.0
+Lincolnwood,global-use,Annual Utility Usage,Electric,2020,574.0
+Lincolnwood,global-use,Annual Utility Usage,Electric,2021,744.0
+Lincolnwood,global-use,Annual Utility Usage,Electric,2022,737.0
+Lincolnwood,global-use,Annual Utility Usage,Electric,2023,634.0
+Lincolnwood,global-use,Annual Utility Usage,Electric,2024,670.0
+Lincolnwood,global-use,Annual Utility Usage,Electric,2025,690.0
+Lincolnwood,global-use,Annual Utility Usage,Electric,2026,411.0
+Lincolnwood,global-use,Annual Utility Usage,Natural Gas,2018,2476.0
+Lincolnwood,global-use,Annual Utility Usage,Natural Gas,2019,2406.0
+Lincolnwood,global-use,Annual Utility Usage,Natural Gas,2020,1963.0
+Lincolnwood,global-use,Annual Utility Usage,Natural Gas,2021,2245.0
+Lincolnwood,global-use,Annual Utility Usage,Natural Gas,2022,2733.0
+Lincolnwood,global-use,Annual Utility Usage,Natural Gas,2023,2122.0
+Lincolnwood,global-use,Annual Utility Usage,Natural Gas,2024,2172.0
+Lincolnwood,global-use,Annual Utility Usage,Natural Gas,2025,2519.0
+Lincolnwood,global-use,Annual Utility Usage,Natural Gas,2026,1545.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 1,2018,103.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 1,2019,127.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 1,2020,104.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 1,2021,120.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 1,2022,145.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 1,2023,113.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 1,2024,116.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 1,2025,133.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 1,2026,82.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 2,2018,130.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 2,2019,117.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 2,2020,77.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 2,2021,102.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 2,2022,98.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 2,2023,77.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 2,2024,82.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 2,2025,84.0
+Lincolnwood,ghg,Annual Carbon Emissions,Scope 2,2026,50.0
+Lincolnwood,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,41667.7115
+Lincolnwood,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,42876.0229
+Lincolnwood,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,30280.5005
+Lincolnwood,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,35132.3472
+Lincolnwood,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,41776.5734
+Lincolnwood,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,37192.0805
+Lincolnwood,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,44574.8028
+Lincolnwood,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,50292.7276
+Lincolnwood,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,33819.214
+Lincolnwood,eui,Annual Building Energy Use Intensity (EUI),,2018,54.38568448041416
+Lincolnwood,eui,Annual Building Energy Use Intensity (EUI),,2019,52.87181751011648
+Lincolnwood,eui,Annual Building Energy Use Intensity (EUI),,2020,41.5569531774767
+Lincolnwood,eui,Annual Building Energy Use Intensity (EUI),,2021,48.95451881583906
+Lincolnwood,eui,Annual Building Energy Use Intensity (EUI),,2022,56.84363847703927
+Lincolnwood,eui,Annual Building Energy Use Intensity (EUI),,2023,45.1535752715477
+Lincolnwood,eui,Annual Building Energy Use Intensity (EUI),,2024,46.56934366552533
+Lincolnwood,eui,Annual Building Energy Use Intensity (EUI),,2025,52.57768215403267
+Lincolnwood,eui,Annual Building Energy Use Intensity (EUI),,2026,32.05720334540212
+Lincolnwood,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,2365.3485599211563
+Nichols,global-use,Annual Utility Usage,Electric,2018,1783.0
+Nichols,global-use,Annual Utility Usage,Electric,2019,1801.0
+Nichols,global-use,Annual Utility Usage,Electric,2020,1308.0
+Nichols,global-use,Annual Utility Usage,Electric,2021,1635.0
+Nichols,global-use,Annual Utility Usage,Electric,2022,1615.0
+Nichols,global-use,Annual Utility Usage,Electric,2023,1437.0
+Nichols,global-use,Annual Utility Usage,Electric,2024,1396.0
+Nichols,global-use,Annual Utility Usage,Electric,2025,1361.0
+Nichols,global-use,Annual Utility Usage,Electric,2026,779.0
+Nichols,global-use,Annual Utility Usage,Natural Gas,2018,3672.0
+Nichols,global-use,Annual Utility Usage,Natural Gas,2019,3667.0
+Nichols,global-use,Annual Utility Usage,Natural Gas,2020,2925.0
+Nichols,global-use,Annual Utility Usage,Natural Gas,2021,3106.0
+Nichols,global-use,Annual Utility Usage,Natural Gas,2022,3586.0
+Nichols,global-use,Annual Utility Usage,Natural Gas,2023,2812.0
+Nichols,global-use,Annual Utility Usage,Natural Gas,2024,2766.0
+Nichols,global-use,Annual Utility Usage,Natural Gas,2025,3297.0
+Nichols,global-use,Annual Utility Usage,Natural Gas,2026,1899.0
+Nichols,ghg,Annual Carbon Emissions,Scope 1,2018,155.0
+Nichols,ghg,Annual Carbon Emissions,Scope 1,2019,194.0
+Nichols,ghg,Annual Carbon Emissions,Scope 1,2020,155.0
+Nichols,ghg,Annual Carbon Emissions,Scope 1,2021,166.0
+Nichols,ghg,Annual Carbon Emissions,Scope 1,2022,190.0
+Nichols,ghg,Annual Carbon Emissions,Scope 1,2023,150.0
+Nichols,ghg,Annual Carbon Emissions,Scope 1,2024,147.0
+Nichols,ghg,Annual Carbon Emissions,Scope 1,2025,175.0
+Nichols,ghg,Annual Carbon Emissions,Scope 1,2026,101.0
+Nichols,ghg,Annual Carbon Emissions,Scope 2,2018,275.0
+Nichols,ghg,Annual Carbon Emissions,Scope 2,2019,255.0
+Nichols,ghg,Annual Carbon Emissions,Scope 2,2020,174.0
+Nichols,ghg,Annual Carbon Emissions,Scope 2,2021,227.0
+Nichols,ghg,Annual Carbon Emissions,Scope 2,2022,215.0
+Nichols,ghg,Annual Carbon Emissions,Scope 2,2023,175.0
+Nichols,ghg,Annual Carbon Emissions,Scope 2,2024,170.0
+Nichols,ghg,Annual Carbon Emissions,Scope 2,2025,166.0
+Nichols,ghg,Annual Carbon Emissions,Scope 2,2026,95.0
+Nichols,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,75466.1409
+Nichols,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,77462.3081
+Nichols,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,57915.0853
+Nichols,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,65003.3539
+Nichols,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,68138.2996
+Nichols,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,68792.3755
+Nichols,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,76675.5106
+Nichols,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,82749.3471
+Nichols,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,47063.4747
+Nichols,eui,Annual Building Energy Use Intensity (EUI),,2018,55.7247847029258
+Nichols,eui,Annual Building Energy Use Intensity (EUI),,2019,55.85740860983981
+Nichols,eui,Annual Building Energy Use Intensity (EUI),,2020,43.24905575760052
+Nichols,eui,Annual Building Energy Use Intensity (EUI),,2021,48.43901173790454
+Nichols,eui,Annual Building Energy Use Intensity (EUI),,2022,53.13237109758092
+Nichols,eui,Annual Building Energy Use Intensity (EUI),,2023,43.40601703988231
+Nichols,eui,Annual Building Energy Use Intensity (EUI),,2024,42.52510876716248
+Nichols,eui,Annual Building Energy Use Intensity (EUI),,2025,47.5887279237496
+Nichols,eui,Annual Building Energy Use Intensity (EUI),,2026,27.362191637381496
+Nichols,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,20513.91686847213
+Oakton,global-use,Annual Utility Usage,Electric,2018,1517.0
+Oakton,global-use,Annual Utility Usage,Electric,2019,1499.0
+Oakton,global-use,Annual Utility Usage,Electric,2020,1325.0
+Oakton,global-use,Annual Utility Usage,Electric,2021,1578.0
+Oakton,global-use,Annual Utility Usage,Electric,2022,1570.0
+Oakton,global-use,Annual Utility Usage,Electric,2023,1137.0
+Oakton,global-use,Annual Utility Usage,Electric,2024,1015.0
+Oakton,global-use,Annual Utility Usage,Electric,2025,1038.0
+Oakton,global-use,Annual Utility Usage,Electric,2026,594.0
+Oakton,global-use,Annual Utility Usage,Natural Gas,2018,3369.0
+Oakton,global-use,Annual Utility Usage,Natural Gas,2019,3619.0
+Oakton,global-use,Annual Utility Usage,Natural Gas,2020,2916.0
+Oakton,global-use,Annual Utility Usage,Natural Gas,2021,3142.0
+Oakton,global-use,Annual Utility Usage,Natural Gas,2022,3498.0
+Oakton,global-use,Annual Utility Usage,Natural Gas,2023,2850.0
+Oakton,global-use,Annual Utility Usage,Natural Gas,2024,2676.0
+Oakton,global-use,Annual Utility Usage,Natural Gas,2025,3315.0
+Oakton,global-use,Annual Utility Usage,Natural Gas,2026,1999.0
+Oakton,ghg,Annual Carbon Emissions,Scope 1,2018,180.0
+Oakton,ghg,Annual Carbon Emissions,Scope 1,2019,191.0
+Oakton,ghg,Annual Carbon Emissions,Scope 1,2020,155.0
+Oakton,ghg,Annual Carbon Emissions,Scope 1,2021,168.0
+Oakton,ghg,Annual Carbon Emissions,Scope 1,2022,185.0
+Oakton,ghg,Annual Carbon Emissions,Scope 1,2023,152.0
+Oakton,ghg,Annual Carbon Emissions,Scope 1,2024,142.0
+Oakton,ghg,Annual Carbon Emissions,Scope 1,2025,176.0
+Oakton,ghg,Annual Carbon Emissions,Scope 1,2026,106.0
+Oakton,ghg,Annual Carbon Emissions,Scope 2,2018,213.0
+Oakton,ghg,Annual Carbon Emissions,Scope 2,2019,214.0
+Oakton,ghg,Annual Carbon Emissions,Scope 2,2020,175.0
+Oakton,ghg,Annual Carbon Emissions,Scope 2,2021,221.0
+Oakton,ghg,Annual Carbon Emissions,Scope 2,2022,210.0
+Oakton,ghg,Annual Carbon Emissions,Scope 2,2023,138.0
+Oakton,ghg,Annual Carbon Emissions,Scope 2,2024,124.0
+Oakton,ghg,Annual Carbon Emissions,Scope 2,2025,126.0
+Oakton,ghg,Annual Carbon Emissions,Scope 2,2026,72.0
+Oakton,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,63945.3547
+Oakton,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,66034.3483
+Oakton,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,54375.8099
+Oakton,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,60864.4788
+Oakton,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,65880.04669999999
+Oakton,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,56772.0793
+Oakton,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,58776.9801
+Oakton,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,66318.5828
+Oakton,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,40221.2776
+Oakton,eui,Annual Building Energy Use Intensity (EUI),,2018,51.17861332355714
+Oakton,eui,Annual Building Energy Use Intensity (EUI),,2019,53.613991274746
+Oakton,eui,Annual Building Energy Use Intensity (EUI),,2020,44.41508459201844
+Oakton,eui,Annual Building Energy Use Intensity (EUI),,2021,49.44400960511155
+Oakton,eui,Annual Building Energy Use Intensity (EUI),,2022,53.08503913271184
+Oakton,eui,Annual Building Energy Use Intensity (EUI),,2023,41.76135183827381
+Oakton,eui,Annual Building Energy Use Intensity (EUI),,2024,38.662507122656336
+Oakton,eui,Annual Building Energy Use Intensity (EUI),,2025,45.594146590552
+Oakton,eui,Annual Building Energy Use Intensity (EUI),,2026,27.160544747040955
+Oakton,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,16643.76850302129
+Orrington,global-use,Annual Utility Usage,Electric,2018,873.0
+Orrington,global-use,Annual Utility Usage,Electric,2019,848.0
+Orrington,global-use,Annual Utility Usage,Electric,2020,605.0
+Orrington,global-use,Annual Utility Usage,Electric,2021,773.0
+Orrington,global-use,Annual Utility Usage,Electric,2022,887.0
+Orrington,global-use,Annual Utility Usage,Electric,2023,739.0
+Orrington,global-use,Annual Utility Usage,Electric,2024,677.0
+Orrington,global-use,Annual Utility Usage,Electric,2025,677.0
+Orrington,global-use,Annual Utility Usage,Electric,2026,366.0
+Orrington,global-use,Annual Utility Usage,Natural Gas,2018,1980.0
+Orrington,global-use,Annual Utility Usage,Natural Gas,2019,2099.0
+Orrington,global-use,Annual Utility Usage,Natural Gas,2020,1793.0
+Orrington,global-use,Annual Utility Usage,Natural Gas,2021,1879.0
+Orrington,global-use,Annual Utility Usage,Natural Gas,2022,2313.0
+Orrington,global-use,Annual Utility Usage,Natural Gas,2023,1759.0
+Orrington,global-use,Annual Utility Usage,Natural Gas,2024,1555.0
+Orrington,global-use,Annual Utility Usage,Natural Gas,2025,1925.0
+Orrington,global-use,Annual Utility Usage,Natural Gas,2026,1211.0
+Orrington,ghg,Annual Carbon Emissions,Scope 1,2018,106.0
+Orrington,ghg,Annual Carbon Emissions,Scope 1,2019,111.0
+Orrington,ghg,Annual Carbon Emissions,Scope 1,2020,95.0
+Orrington,ghg,Annual Carbon Emissions,Scope 1,2021,100.0
+Orrington,ghg,Annual Carbon Emissions,Scope 1,2022,122.0
+Orrington,ghg,Annual Carbon Emissions,Scope 1,2023,93.0
+Orrington,ghg,Annual Carbon Emissions,Scope 1,2024,83.0
+Orrington,ghg,Annual Carbon Emissions,Scope 1,2025,102.0
+Orrington,ghg,Annual Carbon Emissions,Scope 1,2026,64.0
+Orrington,ghg,Annual Carbon Emissions,Scope 2,2018,125.0
+Orrington,ghg,Annual Carbon Emissions,Scope 2,2019,121.0
+Orrington,ghg,Annual Carbon Emissions,Scope 2,2020,80.0
+Orrington,ghg,Annual Carbon Emissions,Scope 2,2021,108.0
+Orrington,ghg,Annual Carbon Emissions,Scope 2,2022,119.0
+Orrington,ghg,Annual Carbon Emissions,Scope 2,2023,90.0
+Orrington,ghg,Annual Carbon Emissions,Scope 2,2024,83.0
+Orrington,ghg,Annual Carbon Emissions,Scope 2,2025,82.0
+Orrington,ghg,Annual Carbon Emissions,Scope 2,2026,44.0
+Orrington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,39942.3687
+Orrington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,40582.3591
+Orrington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,29179.8817
+Orrington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,34661.2783
+Orrington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,39236.6561
+Orrington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,37484.3038
+Orrington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,40849.0034
+Orrington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,44617.3348
+Orrington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,26372.1275
+Orrington,eui,Annual Building Energy Use Intensity (EUI),,2018,60.78287439541474
+Orrington,eui,Annual Building Energy Use Intensity (EUI),,2019,62.79763392495685
+Orrington,eui,Annual Building Energy Use Intensity (EUI),,2020,51.087214390727205
+Orrington,eui,Annual Building Energy Use Intensity (EUI),,2021,56.51244386678884
+Orrington,eui,Annual Building Energy Use Intensity (EUI),,2022,68.17613602369335
+Orrington,eui,Annual Building Energy Use Intensity (EUI),,2023,53.227669933735314
+Orrington,eui,Annual Building Energy Use Intensity (EUI),,2024,47.550946349050776
+Orrington,eui,Annual Building Energy Use Intensity (EUI),,2025,55.449907058999
+Orrington,eui,Annual Building Energy Use Intensity (EUI),,2026,33.60633584045341
+Orrington,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,9060.763344799892
+Park,global-use,Annual Utility Usage,Electric,2018,796.0
+Park,global-use,Annual Utility Usage,Electric,2019,765.0
+Park,global-use,Annual Utility Usage,Electric,2020,617.0
+Park,global-use,Annual Utility Usage,Electric,2021,749.0
+Park,global-use,Annual Utility Usage,Electric,2022,722.0
+Park,global-use,Annual Utility Usage,Electric,2023,607.0
+Park,global-use,Annual Utility Usage,Electric,2024,618.0
+Park,global-use,Annual Utility Usage,Electric,2025,649.0
+Park,global-use,Annual Utility Usage,Electric,2026,354.0
+Park,global-use,Annual Utility Usage,Natural Gas,2018,1938.0
+Park,global-use,Annual Utility Usage,Natural Gas,2019,1956.0
+Park,global-use,Annual Utility Usage,Natural Gas,2020,1739.0
+Park,global-use,Annual Utility Usage,Natural Gas,2021,1540.0
+Park,global-use,Annual Utility Usage,Natural Gas,2022,1596.0
+Park,global-use,Annual Utility Usage,Natural Gas,2023,1232.0
+Park,global-use,Annual Utility Usage,Natural Gas,2024,1183.0
+Park,global-use,Annual Utility Usage,Natural Gas,2025,1486.0
+Park,global-use,Annual Utility Usage,Natural Gas,2026,888.0
+Park,ghg,Annual Carbon Emissions,Scope 1,2018,83.0
+Park,ghg,Annual Carbon Emissions,Scope 1,2019,103.0
+Park,ghg,Annual Carbon Emissions,Scope 1,2020,92.0
+Park,ghg,Annual Carbon Emissions,Scope 1,2021,82.0
+Park,ghg,Annual Carbon Emissions,Scope 1,2022,84.0
+Park,ghg,Annual Carbon Emissions,Scope 1,2023,66.0
+Park,ghg,Annual Carbon Emissions,Scope 1,2024,63.0
+Park,ghg,Annual Carbon Emissions,Scope 1,2025,79.0
+Park,ghg,Annual Carbon Emissions,Scope 1,2026,47.0
+Park,ghg,Annual Carbon Emissions,Scope 2,2018,123.0
+Park,ghg,Annual Carbon Emissions,Scope 2,2019,109.0
+Park,ghg,Annual Carbon Emissions,Scope 2,2020,82.0
+Park,ghg,Annual Carbon Emissions,Scope 2,2021,104.0
+Park,ghg,Annual Carbon Emissions,Scope 2,2022,96.0
+Park,ghg,Annual Carbon Emissions,Scope 2,2023,74.0
+Park,ghg,Annual Carbon Emissions,Scope 2,2024,75.0
+Park,ghg,Annual Carbon Emissions,Scope 2,2025,79.0
+Park,ghg,Annual Carbon Emissions,Scope 2,2026,43.0
+Park,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,36192.5039
+Park,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,37772.8134
+Park,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,30515.2027
+Park,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,30809.8802
+Park,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,30413.3082
+Park,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,30200.9305
+Park,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,34308.16
+Park,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,40288.8958
+Park,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,23601.0681
+Park,eui,Annual Building Energy Use Intensity (EUI),,2018,77.30962001300648
+Park,eui,Annual Building Energy Use Intensity (EUI),,2019,76.92500636186276
+Park,eui,Annual Building Energy Use Intensity (EUI),,2020,66.62028161845788
+Park,eui,Annual Building Energy Use Intensity (EUI),,2021,64.69559366075721
+Park,eui,Annual Building Energy Use Intensity (EUI),,2022,65.52713266604462
+Park,eui,Annual Building Energy Use Intensity (EUI),,2023,52.01586852150309
+Park,eui,Annual Building Energy Use Intensity (EUI),,2024,50.91322294794583
+Park,eui,Annual Building Energy Use Intensity (EUI),,2025,60.37835236237169
+Park,eui,Annual Building Energy Use Intensity (EUI),,2026,35.12849681906862
+Park,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,11535.543429089788
+Walker,global-use,Annual Utility Usage,Electric,2018,1071.0
+Walker,global-use,Annual Utility Usage,Electric,2019,1066.0
+Walker,global-use,Annual Utility Usage,Electric,2020,756.0
+Walker,global-use,Annual Utility Usage,Electric,2021,1055.0
+Walker,global-use,Annual Utility Usage,Electric,2022,1074.0
+Walker,global-use,Annual Utility Usage,Electric,2023,721.0
+Walker,global-use,Annual Utility Usage,Electric,2024,717.0
+Walker,global-use,Annual Utility Usage,Electric,2025,552.0
+Walker,global-use,Annual Utility Usage,Electric,2026,451.0
+Walker,global-use,Annual Utility Usage,Natural Gas,2018,2178.0
+Walker,global-use,Annual Utility Usage,Natural Gas,2019,2379.0
+Walker,global-use,Annual Utility Usage,Natural Gas,2020,1933.0
+Walker,global-use,Annual Utility Usage,Natural Gas,2021,2228.0
+Walker,global-use,Annual Utility Usage,Natural Gas,2022,2802.0
+Walker,global-use,Annual Utility Usage,Natural Gas,2023,2242.0
+Walker,global-use,Annual Utility Usage,Natural Gas,2024,2140.0
+Walker,global-use,Annual Utility Usage,Natural Gas,2025,2675.0
+Walker,global-use,Annual Utility Usage,Natural Gas,2026,1516.0
+Walker,ghg,Annual Carbon Emissions,Scope 1,2018,91.0
+Walker,ghg,Annual Carbon Emissions,Scope 1,2019,126.0
+Walker,ghg,Annual Carbon Emissions,Scope 1,2020,103.0
+Walker,ghg,Annual Carbon Emissions,Scope 1,2021,119.0
+Walker,ghg,Annual Carbon Emissions,Scope 1,2022,148.0
+Walker,ghg,Annual Carbon Emissions,Scope 1,2023,119.0
+Walker,ghg,Annual Carbon Emissions,Scope 1,2024,114.0
+Walker,ghg,Annual Carbon Emissions,Scope 1,2025,142.0
+Walker,ghg,Annual Carbon Emissions,Scope 1,2026,80.0
+Walker,ghg,Annual Carbon Emissions,Scope 2,2018,165.0
+Walker,ghg,Annual Carbon Emissions,Scope 2,2019,151.0
+Walker,ghg,Annual Carbon Emissions,Scope 2,2020,101.0
+Walker,ghg,Annual Carbon Emissions,Scope 2,2021,146.0
+Walker,ghg,Annual Carbon Emissions,Scope 2,2022,143.0
+Walker,ghg,Annual Carbon Emissions,Scope 2,2023,88.0
+Walker,ghg,Annual Carbon Emissions,Scope 2,2024,87.0
+Walker,ghg,Annual Carbon Emissions,Scope 2,2025,67.0
+Walker,ghg,Annual Carbon Emissions,Scope 2,2026,55.0
+Walker,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,46354.4049
+Walker,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,50185.8941
+Walker,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,38974.0123
+Walker,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,43581.955
+Walker,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,48151.1912
+Walker,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,44614.7351
+Walker,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,47711.1515
+Walker,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,47939.5285
+Walker,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,33011.348
+Walker,eui,Annual Building Energy Use Intensity (EUI),,2018,63.178282955760814
+Walker,eui,Annual Building Energy Use Intensity (EUI),,2019,66.99037367039378
+Walker,eui,Annual Building Energy Use Intensity (EUI),,2020,52.29604556149732
+Walker,eui,Annual Building Energy Use Intensity (EUI),,2021,63.826102887700536
+Walker,eui,Annual Building Energy Use Intensity (EUI),,2022,75.37208849781236
+Walker,eui,Annual Building Energy Use Intensity (EUI),,2023,57.63648775887214
+Walker,eui,Annual Building Energy Use Intensity (EUI),,2024,55.55122856587263
+Walker,eui,Annual Building Energy Use Intensity (EUI),,2025,62.74618677685951
+Walker,eui,Annual Building Energy Use Intensity (EUI),,2026,38.243041652892565
+Walker,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,9709.698708395532
+Warehouse,global-use,Annual Utility Usage,Electric,2018,616.0
+Warehouse,global-use,Annual Utility Usage,Electric,2019,678.0
+Warehouse,global-use,Annual Utility Usage,Electric,2020,660.0
+Warehouse,global-use,Annual Utility Usage,Electric,2021,522.0
+Warehouse,global-use,Annual Utility Usage,Electric,2022,520.0
+Warehouse,global-use,Annual Utility Usage,Electric,2023,534.0
+Warehouse,global-use,Annual Utility Usage,Electric,2024,559.0
+Warehouse,global-use,Annual Utility Usage,Electric,2025,582.0
+Warehouse,global-use,Annual Utility Usage,Electric,2026,324.0
+Warehouse,global-use,Annual Utility Usage,Natural Gas,2018,2658.0
+Warehouse,global-use,Annual Utility Usage,Natural Gas,2019,3338.0
+Warehouse,global-use,Annual Utility Usage,Natural Gas,2020,2795.0
+Warehouse,global-use,Annual Utility Usage,Natural Gas,2021,3041.0
+Warehouse,global-use,Annual Utility Usage,Natural Gas,2022,3692.0
+Warehouse,global-use,Annual Utility Usage,Natural Gas,2023,3286.0
+Warehouse,global-use,Annual Utility Usage,Natural Gas,2024,3180.0
+Warehouse,global-use,Annual Utility Usage,Natural Gas,2025,3839.0
+Warehouse,global-use,Annual Utility Usage,Natural Gas,2026,2140.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 1,2018,142.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 1,2019,177.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 1,2020,148.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 1,2021,162.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 1,2022,196.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 1,2023,174.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 1,2024,170.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 1,2025,203.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 1,2026,114.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 2,2018,95.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 2,2019,96.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 2,2020,88.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 2,2021,73.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 2,2022,69.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 2,2023,65.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 2,2024,68.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 2,2025,71.0
+Warehouse,ghg,Annual Carbon Emissions,Scope 2,2026,40.0
+Warehouse,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,34584.635
+Warehouse,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,38679.3895
+Warehouse,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,35063.971
+Warehouse,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,34410.0969
+Warehouse,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,37692.8497
+Warehouse,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,38932.1613
+Warehouse,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,41441.7326
+Warehouse,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,48282.8516
+Warehouse,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,31315.082
+Warehouse,eui,Annual Building Energy Use Intensity (EUI),,2018,74.4238039090909
+Warehouse,eui,Annual Building Energy Use Intensity (EUI),,2019,91.27307504545456
+Warehouse,eui,Annual Building Energy Use Intensity (EUI),,2020,78.52483813636364
+Warehouse,eui,Annual Building Energy Use Intensity (EUI),,2021,80.96024888636363
+Warehouse,eui,Annual Building Energy Use Intensity (EUI),,2022,95.74678204545457
+Warehouse,eui,Annual Building Energy Use Intensity (EUI),,2023,86.83853313636364
+Warehouse,eui,Annual Building Energy Use Intensity (EUI),,2024,84.97384145454546
+Warehouse,eui,Annual Building Energy Use Intensity (EUI),,2025,100.46871793181818
+Warehouse,eui,Annual Building Energy Use Intensity (EUI),,2026,55.98553938636363
+Warehouse,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,-701.0032299318482
+Washington,global-use,Annual Utility Usage,Electric,2018,1615.0
+Washington,global-use,Annual Utility Usage,Electric,2019,1614.0
+Washington,global-use,Annual Utility Usage,Electric,2020,1061.0
+Washington,global-use,Annual Utility Usage,Electric,2021,1516.0
+Washington,global-use,Annual Utility Usage,Electric,2022,1568.0
+Washington,global-use,Annual Utility Usage,Electric,2023,1291.0
+Washington,global-use,Annual Utility Usage,Electric,2024,1324.0
+Washington,global-use,Annual Utility Usage,Electric,2025,1281.0
+Washington,global-use,Annual Utility Usage,Electric,2026,800.0
+Washington,global-use,Annual Utility Usage,Natural Gas,2018,5003.0
+Washington,global-use,Annual Utility Usage,Natural Gas,2019,4676.0
+Washington,global-use,Annual Utility Usage,Natural Gas,2020,4355.0
+Washington,global-use,Annual Utility Usage,Natural Gas,2021,4703.0
+Washington,global-use,Annual Utility Usage,Natural Gas,2022,5046.0
+Washington,global-use,Annual Utility Usage,Natural Gas,2023,4193.0
+Washington,global-use,Annual Utility Usage,Natural Gas,2024,3958.0
+Washington,global-use,Annual Utility Usage,Natural Gas,2025,4725.0
+Washington,global-use,Annual Utility Usage,Natural Gas,2026,3008.0
+Washington,ghg,Annual Carbon Emissions,Scope 1,2018,251.0
+Washington,ghg,Annual Carbon Emissions,Scope 1,2019,247.0
+Washington,ghg,Annual Carbon Emissions,Scope 1,2020,232.0
+Washington,ghg,Annual Carbon Emissions,Scope 1,2021,251.0
+Washington,ghg,Annual Carbon Emissions,Scope 1,2022,267.0
+Washington,ghg,Annual Carbon Emissions,Scope 1,2023,223.0
+Washington,ghg,Annual Carbon Emissions,Scope 1,2024,210.0
+Washington,ghg,Annual Carbon Emissions,Scope 1,2025,253.0
+Washington,ghg,Annual Carbon Emissions,Scope 1,2026,158.0
+Washington,ghg,Annual Carbon Emissions,Scope 2,2018,249.0
+Washington,ghg,Annual Carbon Emissions,Scope 2,2019,229.0
+Washington,ghg,Annual Carbon Emissions,Scope 2,2020,141.0
+Washington,ghg,Annual Carbon Emissions,Scope 2,2021,210.0
+Washington,ghg,Annual Carbon Emissions,Scope 2,2022,209.0
+Washington,ghg,Annual Carbon Emissions,Scope 2,2023,157.0
+Washington,ghg,Annual Carbon Emissions,Scope 2,2024,161.0
+Washington,ghg,Annual Carbon Emissions,Scope 2,2025,156.0
+Washington,ghg,Annual Carbon Emissions,Scope 2,2026,98.0
+Washington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,76544.1433
+Washington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,77987.8117
+Washington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,61725.7246
+Washington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,69661.842
+Washington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,73123.1592
+Washington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,73199.604
+Washington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,78990.5653
+Washington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,89559.0155
+Washington,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,57229.3975
+Washington,eui,Annual Building Energy Use Intensity (EUI),,2018,86.18381015130603
+Washington,eui,Annual Building Energy Use Intensity (EUI),,2019,81.90869190603922
+Washington,eui,Annual Building Energy Use Intensity (EUI),,2020,70.52037152009166
+Washington,eui,Annual Building Energy Use Intensity (EUI),,2021,80.98915575926456
+Washington,eui,Annual Building Energy Use Intensity (EUI),,2022,86.1152747858017
+Washington,eui,Annual Building Energy Use Intensity (EUI),,2023,71.40948977837965
+Washington,eui,Annual Building Energy Use Intensity (EUI),,2024,68.77963509466393
+Washington,eui,Annual Building Energy Use Intensity (EUI),,2025,78.20023376910858
+Washington,eui,Annual Building Energy Use Intensity (EUI),,2026,49.583704796999925
+Washington,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,12251.244615505197
+Willard,global-use,Annual Utility Usage,Electric,2018,1036.0
+Willard,global-use,Annual Utility Usage,Electric,2019,988.0
+Willard,global-use,Annual Utility Usage,Electric,2020,779.0
+Willard,global-use,Annual Utility Usage,Electric,2021,1010.0
+Willard,global-use,Annual Utility Usage,Electric,2022,997.0
+Willard,global-use,Annual Utility Usage,Electric,2023,905.0
+Willard,global-use,Annual Utility Usage,Electric,2024,967.0
+Willard,global-use,Annual Utility Usage,Electric,2025,881.0
+Willard,global-use,Annual Utility Usage,Electric,2026,562.0
+Willard,global-use,Annual Utility Usage,Natural Gas,2018,3529.0
+Willard,global-use,Annual Utility Usage,Natural Gas,2019,3511.0
+Willard,global-use,Annual Utility Usage,Natural Gas,2020,2891.0
+Willard,global-use,Annual Utility Usage,Natural Gas,2021,3330.0
+Willard,global-use,Annual Utility Usage,Natural Gas,2022,3524.0
+Willard,global-use,Annual Utility Usage,Natural Gas,2023,2782.0
+Willard,global-use,Annual Utility Usage,Natural Gas,2024,2625.0
+Willard,global-use,Annual Utility Usage,Natural Gas,2025,2884.0
+Willard,global-use,Annual Utility Usage,Natural Gas,2026,1767.0
+Willard,ghg,Annual Carbon Emissions,Scope 1,2018,190.0
+Willard,ghg,Annual Carbon Emissions,Scope 1,2019,185.0
+Willard,ghg,Annual Carbon Emissions,Scope 1,2020,153.0
+Willard,ghg,Annual Carbon Emissions,Scope 1,2021,178.0
+Willard,ghg,Annual Carbon Emissions,Scope 1,2022,185.0
+Willard,ghg,Annual Carbon Emissions,Scope 1,2023,148.0
+Willard,ghg,Annual Carbon Emissions,Scope 1,2024,140.0
+Willard,ghg,Annual Carbon Emissions,Scope 1,2025,153.0
+Willard,ghg,Annual Carbon Emissions,Scope 1,2026,94.0
+Willard,ghg,Annual Carbon Emissions,Scope 2,2018,160.0
+Willard,ghg,Annual Carbon Emissions,Scope 2,2019,140.0
+Willard,ghg,Annual Carbon Emissions,Scope 2,2020,104.0
+Willard,ghg,Annual Carbon Emissions,Scope 2,2021,140.0
+Willard,ghg,Annual Carbon Emissions,Scope 2,2022,133.0
+Willard,ghg,Annual Carbon Emissions,Scope 2,2023,110.0
+Willard,ghg,Annual Carbon Emissions,Scope 2,2024,118.0
+Willard,ghg,Annual Carbon Emissions,Scope 2,2025,107.0
+Willard,ghg,Annual Carbon Emissions,Scope 2,2026,69.0
+Willard,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2018,54953.2612
+Willard,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2019,53435.5584
+Willard,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2020,43019.8545
+Willard,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2021,50743.7592
+Willard,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2022,54940.483
+Willard,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2023,51878.3207
+Willard,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2024,58092.1605
+Willard,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2025,62349.61350000001
+Willard,cost,"Annual Cost (Electric, Natural Gas, Water)",directCost,2026,39114.2628
+Willard,eui,Annual Building Energy Use Intensity (EUI),,2018,72.89004029695857
+Willard,eui,Annual Building Energy Use Intensity (EUI),,2019,71.83281406561827
+Willard,eui,Annual Building Energy Use Intensity (EUI),,2020,58.58407609164205
+Willard,eui,Annual Building Energy Use Intensity (EUI),,2021,69.28723277720125
+Willard,eui,Annual Building Energy Use Intensity (EUI),,2022,72.18403675261435
+Willard,eui,Annual Building Energy Use Intensity (EUI),,2023,58.87234190149277
+Willard,eui,Annual Building Energy Use Intensity (EUI),,2024,57.35777870200367
+Willard,eui,Annual Building Energy Use Intensity (EUI),,2025,60.10416944200527
+Willard,eui,Annual Building Energy Use Intensity (EUI),,2026,37.1750960804662
+Willard,cost-savings,Utility SavingsMoney saved by using less energy and water(2026 vs. 2018 usage at today's rates)Jan – Aug 2026 vs. same period 2018,,value,13055.54462947772

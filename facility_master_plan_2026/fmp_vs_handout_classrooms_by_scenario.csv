@@ -1,0 +1,64 @@
+scenario,receiver,students_90,util_90,classes_needed_at_90pct,classrooms_handout_cordogan,classrooms_mfp,classrooms_mfp_incl_flex,fit_handout,fit_mfp,fit_mfp_incl_flex
+1. Close Dewey,Foster,437,76,21,24,,,fits,n/a,n/a
+1. Close Dewey,Lincoln,446,78,20,28,30.0,30.0,fits,fits,fits
+1. Close Dewey,Orrington,319,74,17,19,17.0,19.0,fits,full,fits
+2. Close Orrington,Willard,478,90,24,24,23.0,23.0,full,over,over
+3a. Close Lincolnwood (kept together),Orrington,506,117,23,19,17.0,19.0,over,over,over
+3b. Close Lincolnwood (split),Orrington,350,81,17,19,17.0,19.0,fits,full,fits
+3b. Close Lincolnwood (split),Willard,422,79,20,24,23.0,23.0,fits,fits,fits
+3c. Close Lincolnwood (kept together),Willard,536,101,25,24,23.0,23.0,over,over,over
+4. Close Oakton,Dawes,374,87,19,20,21.0,22.0,fits,fits,fits
+4. Close Oakton,Dewey,451,84,22,24,26.0,26.0,fits,fits,fits
+4. Close Oakton,Washington,466,88,24,24,27.0,27.0,full,fits,fits
+5. Close Dawes,Dewey,429,80,20,24,26.0,26.0,fits,fits,fits
+5. Close Dawes,Oakton,421,90,21,25,21.0,24.0,fits,full,fits
+5. Close Dawes,Washington,450,85,22,24,27.0,27.0,fits,fits,fits
+Dewey + Willard,Foster,437,76,21,24,,,fits,n/a,n/a
+Dewey + Willard,Lincoln,446,78,20,28,30.0,30.0,fits,fits,fits
+Dewey + Willard,Lincolnwood,396,92,19,19,18.0,20.0,full,over,fits
+Dewey + Willard,Orrington,462,107,23,19,17.0,19.0,over,over,over
+Dewey + Lincolnwood,Foster,437,76,21,24,,,fits,n/a,n/a
+Dewey + Lincolnwood,Lincoln,446,78,20,28,30.0,30.0,fits,fits,fits
+Dewey + Lincolnwood,Orrington,589,136,27,19,17.0,19.0,over,over,over
+Dewey + Orrington,Foster,427,74,21,24,,,fits,n/a,n/a
+Dewey + Orrington,Lincoln,437,76,20,28,30.0,30.0,fits,fits,fits
+Dewey + Orrington,Willard,581,109,26,24,23.0,23.0,over,over,over
+Washington + Willard,Dawes,385,89,19,20,21.0,22.0,fits,fits,fits
+Washington + Willard,Lincoln,507,88,24,28,30.0,30.0,fits,fits,fits
+Washington + Willard,Lincolnwood,396,92,19,19,18.0,20.0,full,over,fits
+Washington + Willard,Oakton,438,94,21,25,21.0,24.0,fits,full,fits
+Washington + Willard,Orrington,379,88,19,19,17.0,19.0,full,over,full
+Washington + Lincolnwood,Dawes,385,89,19,20,21.0,22.0,fits,fits,fits
+Washington + Lincolnwood,Lincoln,507,88,24,28,30.0,30.0,fits,fits,fits
+Washington + Lincolnwood,Oakton,438,94,21,25,21.0,24.0,fits,full,fits
+Washington + Lincolnwood,Orrington,506,117,23,19,17.0,19.0,over,over,over
+Washington + Orrington,Dawes,385,89,19,20,21.0,22.0,fits,fits,fits
+Washington + Orrington,Lincoln,507,88,24,28,30.0,30.0,fits,fits,fits
+Washington + Orrington,Oakton,438,94,21,25,21.0,24.0,fits,full,fits
+Washington + Orrington,Willard,478,90,24,24,23.0,23.0,full,over,over
+Oakton + Willard,Dawes,374,87,19,20,21.0,22.0,fits,fits,fits
+Oakton + Willard,Dewey,451,84,22,24,26.0,26.0,fits,fits,fits
+Oakton + Willard,Lincolnwood,396,92,19,19,18.0,20.0,full,over,fits
+Oakton + Willard,Orrington,379,88,19,19,17.0,19.0,full,over,full
+Oakton + Willard,Washington,466,88,24,24,27.0,27.0,full,fits,fits
+Oakton + Lincolnwood,Dawes,374,87,19,20,21.0,22.0,fits,fits,fits
+Oakton + Lincolnwood,Dewey,451,84,22,24,26.0,26.0,fits,fits,fits
+Oakton + Lincolnwood,Orrington,506,117,23,19,17.0,19.0,over,over,over
+Oakton + Lincolnwood,Washington,466,88,24,24,27.0,27.0,full,fits,fits
+Oakton + Orrington,Dawes,374,87,19,20,21.0,22.0,fits,fits,fits
+Oakton + Orrington,Dewey,451,84,22,24,26.0,26.0,fits,fits,fits
+Oakton + Orrington,Washington,466,88,24,24,27.0,27.0,full,fits,fits
+Oakton + Orrington,Willard,478,90,24,24,23.0,23.0,full,over,over
+Dawes + Willard,Dewey,429,80,20,24,26.0,26.0,fits,fits,fits
+Dawes + Willard,Lincolnwood,396,92,19,19,18.0,20.0,full,over,fits
+Dawes + Willard,Oakton,421,90,21,25,21.0,24.0,fits,full,fits
+Dawes + Willard,Orrington,379,88,19,19,17.0,19.0,full,over,full
+Dawes + Willard,Washington,450,85,22,24,27.0,27.0,fits,fits,fits
+Dawes + Lincolnwood,Dewey,429,80,20,24,26.0,26.0,fits,fits,fits
+Dawes + Lincolnwood,Oakton,421,90,21,25,21.0,24.0,fits,full,fits
+Dawes + Lincolnwood,Orrington,506,117,23,19,17.0,19.0,over,over,over
+Dawes + Lincolnwood,Washington,450,85,22,24,27.0,27.0,fits,fits,fits
+Dawes + Orrington,Dewey,429,80,20,24,26.0,26.0,fits,fits,fits
+Dawes + Orrington,Oakton,421,90,21,25,21.0,24.0,fits,full,fits
+Dawes + Orrington,Washington,450,85,22,24,27.0,27.0,fits,fits,fits
+Dawes + Orrington,Willard,478,90,24,24,23.0,23.0,full,over,over

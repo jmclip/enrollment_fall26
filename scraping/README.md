@@ -86,3 +86,11 @@ This is how the 2026-09-23 pull was actually done.
 ## Output format
 
 All dashboard CSVs are long/tidy: `school` (or `account`), `chart_id`, `chart_title`, `series`, `category`, `value`. Summary-count tables (for example "Students: 5462") become `category = Students`, `value = 5462`.
+
+## The 2026-10-01 pull (v2)
+
+The dashboard was pulled again on **October 1, 2026** for the v2 analysis. The scripting environment's network couldn't reach data.district65.net, so the same callbacks as `d65_scrape.py` were run from the dashboard page in a browser (`d65_scrape_browser.js`), saved as `data/dashboard_2026-10-01/d65_dashboard_all_long.csv` (SHA-256 `df94272048a38c97923d375fb598ff414e9c1695e5305dccd8a2afd712027264`), and turned into the tidy CSVs with `python3 scraping/build_from_long.py data/dashboard_2026-10-01`.
+
+- **Totals:** 5,415 students, 943 with IEPs, 1,428 incidents. Every school's IEP pie matched its enrollment, and schools sum to the district.
+- **Utility accounts:** 16 building accounts were offered on October 1 (18 on September 23).
+- The September 23 files in `data/` are unchanged.
